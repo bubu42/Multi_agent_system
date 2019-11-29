@@ -18,6 +18,8 @@ cst = "cst.txt"
 dom = "dom.txt"
 
 
+
+
 fVar = open(chemin+var, "r")
 fCtr = open(chemin+ctr, "r")
 fCst = open(chemin+cst, "r")
