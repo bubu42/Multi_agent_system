@@ -1,0 +1,94 @@
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. Use the option -license to display the license.
+
+Parsing the input problem file: xml/test.xml
+Parsing the input agent configuration file: frodo2/agents/MGM/MGMagentJaCoP.xml
+Setting up the agents...
+Constraint graph:
+graph {
+	node [shape = "circle"];
+	subgraph cluster_A1 {
+		label = A1;
+		var1 [style="filled"];
+	}
+	subgraph cluster_A2 {
+		label = A2;
+		var2 [style="filled"];
+	}
+	subgraph cluster_A3 {
+		label = A3;
+		var3 [style="filled"];
+	}
+	subgraph cluster_A4 {
+		label = A4;
+		var4 [style="filled"];
+	}
+
+
+	var4 -- var3;
+	var4 -- var2;
+	var4 -- var1;
+	var3 -- var2;
+	var3 -- var1;
+	var2 -- var1;
+}
+
+Starting the algorithm...
+var `var3' = 1
+var `var2' = 1
+var `var1' = 1
+var `var4' = 2
+Total cost of reported solution: infinity
+Algorithm finished in 121 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, MGM, improve]:	600
+	[ALL, MGM, improve]:	600
+	[ALL, MGM, improve]:	600
+	[ALL, MGM, improve]:	600
+	[ALL, MGM, ok]:	600
+	[ALL, MGM, ok]:	600
+	[ALL, MGM, ok]:	600
+	[ALL, MGM, ok]:	600
+	- Total:	4 800
+Number of messages sent (by agent): 
+	A1:	1 200
+	A2:	1 200
+	A3:	1 200
+	A4:	1 200
+Number of messages received (by agent): 
+	A1:	1 200
+	A2:	1 200
+	A3:	1 200
+	A4:	1 200
+Amount of information sent (by type, in bytes): 
+	[ALL, MGM, improve]:	12 573
+	[ALL, MGM, improve]:	12 573
+	[ALL, MGM, improve]:	12 573
+	[ALL, MGM, improve]:	12 573
+	[ALL, MGM, ok]:	12 618
+	[ALL, MGM, ok]:	12 618
+	[ALL, MGM, ok]:	12 618
+	[ALL, MGM, ok]:	12 618
+	- Total:	100 764
+Amount of information sent (by agent, in bytes): 
+	A1:	25 191
+	A2:	25 191
+	A3:	25 191
+	A4:	25 191
+Amount of information received (by agent, in bytes): 
+	A1:	25 191
+	A2:	25 191
+	A3:	25 191
+	A4:	25 191
+Size of the largest message sent (by type, in bytes): 
+	[ALL, MGM, improve]:	211
+	[ALL, MGM, improve]:	211
+	[ALL, MGM, improve]:	211
+	[ALL, MGM, improve]:	211
+	[ALL, MGM, ok]:	226
+	[ALL, MGM, ok]:	226
+	[ALL, MGM, ok]:	226
+	[ALL, MGM, ok]:	226
+	- Overall maximum:	226
