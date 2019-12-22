@@ -204,6 +204,10 @@ def xmlWriter(path):
 
     # write into file
     f.write(etree.tounicode(instance, pretty_print=True, method="xml"))
+    listCst = []
+    listCtr = []
+    listDom = []
+    listVar = []
     f.close()
 
     return path
@@ -218,8 +222,13 @@ def frodoRun(pathAbs):
         "java -cp frodo2/frodo2.17.1.jar frodo2.algorithms.AgentFactory " + path + " frodo2/agents/MGM/MGMagentJaCoP.xml > graph/" + ScenN + ".txt")
 
 
-listScen = ['scen01', 'scen02', 'scen03', 'scen04', 'scen05', 'scen06', 'scen07', 'scen08', 'scen09', 'scen10',
-            'scen11']
+listScen = [  # 'scen01',
+    'scen02'
+    , 'scen03',
+    #      'scen04',
+    'scen05']
+# , 'scen06', 'scen07', 'scen08', 'scen09', 'scen10',
+#       'scen11']
 
 for i in range(0, len(listScen)):
     path = "fichier/FullRLFAP/CELAR/" + listScen[i]
