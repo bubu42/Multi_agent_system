@@ -1,0 +1,3750 @@
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. Use the option -license to display the license.
+
+Parsing the input problem file: ../xml/scen06.xml
+Parsing the input agent configuration file: agents/DSA/DSAagentJaCoP.xml
+Setting up the agents...
+Constraint graph:
+graph {
+	node [shape = "circle"];
+	subgraph cluster_agent85 {
+		label = agent85;
+		var471 [style="filled"];
+	}
+	subgraph cluster_agent86 {
+		label = agent86;
+		var472 [style="filled"];
+	}
+	subgraph cluster_agent83 {
+		label = agent83;
+		var365 [style="filled"];
+	}
+	subgraph cluster_agent84 {
+		label = agent84;
+		var366 [style="filled"];
+	}
+	subgraph cluster_agent89 {
+		label = agent89;
+		var519 [style="filled"];
+	}
+	subgraph cluster_agent87 {
+		label = agent87;
+		var517 [style="filled"];
+	}
+	subgraph cluster_agent88 {
+		label = agent88;
+		var518 [style="filled"];
+	}
+	subgraph cluster_agent160 {
+		label = agent160;
+		var714 [style="filled"];
+	}
+	subgraph cluster_agent161 {
+		label = agent161;
+		var717 [style="filled"];
+	}
+	subgraph cluster_agent162 {
+		label = agent162;
+		var718 [style="filled"];
+	}
+	subgraph cluster_agent163 {
+		label = agent163;
+		var719 [style="filled"];
+	}
+	subgraph cluster_agent164 {
+		label = agent164;
+		var720 [style="filled"];
+	}
+	subgraph cluster_agent165 {
+		label = agent165;
+		var721 [style="filled"];
+	}
+	subgraph cluster_agent92 {
+		label = agent92;
+		var556 [style="filled"];
+	}
+	subgraph cluster_agent166 {
+		label = agent166;
+		var722 [style="filled"];
+	}
+	subgraph cluster_agent93 {
+		label = agent93;
+		var557 [style="filled"];
+	}
+	subgraph cluster_agent167 {
+		label = agent167;
+		var723 [style="filled"];
+	}
+	subgraph cluster_agent90 {
+		label = agent90;
+		var520 [style="filled"];
+	}
+	subgraph cluster_agent168 {
+		label = agent168;
+		var724 [style="filled"];
+	}
+	subgraph cluster_agent91 {
+		label = agent91;
+		var555 [style="filled"];
+	}
+	subgraph cluster_agent169 {
+		label = agent169;
+		var743 [style="filled"];
+	}
+	subgraph cluster_agent96 {
+		label = agent96;
+		var560 [style="filled"];
+	}
+	subgraph cluster_agent97 {
+		label = agent97;
+		var561 [style="filled"];
+	}
+	subgraph cluster_agent94 {
+		label = agent94;
+		var558 [style="filled"];
+	}
+	subgraph cluster_agent95 {
+		label = agent95;
+		var559 [style="filled"];
+	}
+	subgraph cluster_agent98 {
+		label = agent98;
+		var562 [style="filled"];
+	}
+	subgraph cluster_agent99 {
+		label = agent99;
+		var565 [style="filled"];
+	}
+	subgraph cluster_agent170 {
+		label = agent170;
+		var744 [style="filled"];
+	}
+	subgraph cluster_agent171 {
+		label = agent171;
+		var745 [style="filled"];
+	}
+	subgraph cluster_agent172 {
+		label = agent172;
+		var746 [style="filled"];
+	}
+	subgraph cluster_agent173 {
+		label = agent173;
+		var747 [style="filled"];
+	}
+	subgraph cluster_agent174 {
+		label = agent174;
+		var748 [style="filled"];
+	}
+	subgraph cluster_agent175 {
+		label = agent175;
+		var763 [style="filled"];
+	}
+	subgraph cluster_agent176 {
+		label = agent176;
+		var764 [style="filled"];
+	}
+	subgraph cluster_agent177 {
+		label = agent177;
+		var765 [style="filled"];
+	}
+	subgraph cluster_agent178 {
+		label = agent178;
+		var766 [style="filled"];
+	}
+	subgraph cluster_agent179 {
+		label = agent179;
+		var767 [style="filled"];
+	}
+	subgraph cluster_agent63 {
+		label = agent63;
+		var321 [style="filled"];
+	}
+	subgraph cluster_agent64 {
+		label = agent64;
+		var322 [style="filled"];
+	}
+	subgraph cluster_agent61 {
+		label = agent61;
+		var309 [style="filled"];
+	}
+	subgraph cluster_agent62 {
+		label = agent62;
+		var310 [style="filled"];
+	}
+	subgraph cluster_agent67 {
+		label = agent67;
+		var325 [style="filled"];
+	}
+	subgraph cluster_agent68 {
+		label = agent68;
+		var326 [style="filled"];
+	}
+	subgraph cluster_agent65 {
+		label = agent65;
+		var323 [style="filled"];
+	}
+	subgraph cluster_agent66 {
+		label = agent66;
+		var324 [style="filled"];
+	}
+	subgraph cluster_agent69 {
+		label = agent69;
+		var327 [style="filled"];
+	}
+	subgraph cluster_agent180 {
+		label = agent180;
+		var768 [style="filled"];
+	}
+	subgraph cluster_agent181 {
+		label = agent181;
+		var785 [style="filled"];
+	}
+	subgraph cluster_agent182 {
+		label = agent182;
+		var786 [style="filled"];
+	}
+	subgraph cluster_agent183 {
+		label = agent183;
+		var787 [style="filled"];
+	}
+	subgraph cluster_agent184 {
+		label = agent184;
+		var788 [style="filled"];
+	}
+	subgraph cluster_agent185 {
+		label = agent185;
+		var789 [style="filled"];
+	}
+	subgraph cluster_agent186 {
+		label = agent186;
+		var790 [style="filled"];
+	}
+	subgraph cluster_agent187 {
+		label = agent187;
+		var791 [style="filled"];
+	}
+	subgraph cluster_agent70 {
+		label = agent70;
+		var328 [style="filled"];
+	}
+	subgraph cluster_agent188 {
+		label = agent188;
+		var792 [style="filled"];
+	}
+	subgraph cluster_agent71 {
+		label = agent71;
+		var329 [style="filled"];
+	}
+	subgraph cluster_agent189 {
+		label = agent189;
+		var793 [style="filled"];
+	}
+	subgraph cluster_agent74 {
+		label = agent74;
+		var342 [style="filled"];
+	}
+	subgraph cluster_agent75 {
+		label = agent75;
+		var343 [style="filled"];
+	}
+	subgraph cluster_agent72 {
+		label = agent72;
+		var330 [style="filled"];
+	}
+	subgraph cluster_agent73 {
+		label = agent73;
+		var341 [style="filled"];
+	}
+	subgraph cluster_agent78 {
+		label = agent78;
+		var350 [style="filled"];
+	}
+	subgraph cluster_agent79 {
+		label = agent79;
+		var351 [style="filled"];
+	}
+	subgraph cluster_agent76 {
+		label = agent76;
+		var344 [style="filled"];
+	}
+	subgraph cluster_agent77 {
+		label = agent77;
+		var349 [style="filled"];
+	}
+	subgraph cluster_agent190 {
+		label = agent190;
+		var794 [style="filled"];
+	}
+	subgraph cluster_agent191 {
+		label = agent191;
+		var795 [style="filled"];
+	}
+	subgraph cluster_agent192 {
+		label = agent192;
+		var796 [style="filled"];
+	}
+	subgraph cluster_agent193 {
+		label = agent193;
+		var797 [style="filled"];
+	}
+	subgraph cluster_agent194 {
+		label = agent194;
+		var798 [style="filled"];
+	}
+	subgraph cluster_agent195 {
+		label = agent195;
+		var799 [style="filled"];
+	}
+	subgraph cluster_agent196 {
+		label = agent196;
+		var800 [style="filled"];
+	}
+	subgraph cluster_agent197 {
+		label = agent197;
+		var801 [style="filled"];
+	}
+	subgraph cluster_agent198 {
+		label = agent198;
+		var802 [style="filled"];
+	}
+	subgraph cluster_agent81 {
+		label = agent81;
+		var359 [style="filled"];
+	}
+	subgraph cluster_agent199 {
+		label = agent199;
+		var879 [style="filled"];
+	}
+	subgraph cluster_agent82 {
+		label = agent82;
+		var360 [style="filled"];
+	}
+	subgraph cluster_agent80 {
+		label = agent80;
+		var352 [style="filled"];
+	}
+	subgraph cluster_agent41 {
+		label = agent41;
+		var275 [style="filled"];
+	}
+	subgraph cluster_agent126 {
+		label = agent126;
+		var604 [style="filled"];
+	}
+	subgraph cluster_agent42 {
+		label = agent42;
+		var276 [style="filled"];
+	}
+	subgraph cluster_agent127 {
+		label = agent127;
+		var605 [style="filled"];
+	}
+	subgraph cluster_agent128 {
+		label = agent128;
+		var606 [style="filled"];
+	}
+	subgraph cluster_agent40 {
+		label = agent40;
+		var274 [style="filled"];
+	}
+	subgraph cluster_agent129 {
+		label = agent129;
+		var607 [style="filled"];
+	}
+	subgraph cluster_agent45 {
+		label = agent45;
+		var281 [style="filled"];
+	}
+	subgraph cluster_agent46 {
+		label = agent46;
+		var282 [style="filled"];
+	}
+	subgraph cluster_agent43 {
+		label = agent43;
+		var277 [style="filled"];
+	}
+	subgraph cluster_agent44 {
+		label = agent44;
+		var278 [style="filled"];
+	}
+	subgraph cluster_agent49 {
+		label = agent49;
+		var285 [style="filled"];
+	}
+	subgraph cluster_agent47 {
+		label = agent47;
+		var283 [style="filled"];
+	}
+	subgraph cluster_agent48 {
+		label = agent48;
+		var284 [style="filled"];
+	}
+	subgraph cluster_agent120 {
+		label = agent120;
+		var598 [style="filled"];
+	}
+	subgraph cluster_agent121 {
+		label = agent121;
+		var599 [style="filled"];
+	}
+	subgraph cluster_agent122 {
+		label = agent122;
+		var600 [style="filled"];
+	}
+	subgraph cluster_agent123 {
+		label = agent123;
+		var601 [style="filled"];
+	}
+	subgraph cluster_agent124 {
+		label = agent124;
+		var602 [style="filled"];
+	}
+	subgraph cluster_agent125 {
+		label = agent125;
+		var603 [style="filled"];
+	}
+	subgraph cluster_agent52 {
+		label = agent52;
+		var288 [style="filled"];
+	}
+	subgraph cluster_agent137 {
+		label = agent137;
+		var623 [style="filled"];
+	}
+	subgraph cluster_agent53 {
+		label = agent53;
+		var289 [style="filled"];
+	}
+	subgraph cluster_agent138 {
+		label = agent138;
+		var624 [style="filled"];
+	}
+	subgraph cluster_agent50 {
+		label = agent50;
+		var286 [style="filled"];
+	}
+	subgraph cluster_agent139 {
+		label = agent139;
+		var625 [style="filled"];
+	}
+	subgraph cluster_agent51 {
+		label = agent51;
+		var287 [style="filled"];
+	}
+	subgraph cluster_agent56 {
+		label = agent56;
+		var292 [style="filled"];
+	}
+	subgraph cluster_agent57 {
+		label = agent57;
+		var303 [style="filled"];
+	}
+	subgraph cluster_agent54 {
+		label = agent54;
+		var290 [style="filled"];
+	}
+	subgraph cluster_agent55 {
+		label = agent55;
+		var291 [style="filled"];
+	}
+	subgraph cluster_agent58 {
+		label = agent58;
+		var304 [style="filled"];
+	}
+	subgraph cluster_agent59 {
+		label = agent59;
+		var305 [style="filled"];
+	}
+	subgraph cluster_agent2 {
+		label = agent2;
+		var14 [style="filled"];
+	}
+	subgraph cluster_agent1 {
+		label = agent1;
+		var13 [style="filled"];
+	}
+	subgraph cluster_agent4 {
+		label = agent4;
+		var16 [style="filled"];
+	}
+	subgraph cluster_agent3 {
+		label = agent3;
+		var15 [style="filled"];
+	}
+	subgraph cluster_agent6 {
+		label = agent6;
+		var54 [style="filled"];
+	}
+	subgraph cluster_agent5 {
+		label = agent5;
+		var53 [style="filled"];
+	}
+	subgraph cluster_agent8 {
+		label = agent8;
+		var80 [style="filled"];
+	}
+	subgraph cluster_agent7 {
+		label = agent7;
+		var79 [style="filled"];
+	}
+	subgraph cluster_agent9 {
+		label = agent9;
+		var81 [style="filled"];
+	}
+	subgraph cluster_agent130 {
+		label = agent130;
+		var608 [style="filled"];
+	}
+	subgraph cluster_agent131 {
+		label = agent131;
+		var613 [style="filled"];
+	}
+	subgraph cluster_agent132 {
+		label = agent132;
+		var614 [style="filled"];
+	}
+	subgraph cluster_agent133 {
+		label = agent133;
+		var617 [style="filled"];
+	}
+	subgraph cluster_agent60 {
+		label = agent60;
+		var306 [style="filled"];
+	}
+	subgraph cluster_agent134 {
+		label = agent134;
+		var618 [style="filled"];
+	}
+	subgraph cluster_agent135 {
+		label = agent135;
+		var621 [style="filled"];
+	}
+	subgraph cluster_agent136 {
+		label = agent136;
+		var622 [style="filled"];
+	}
+	subgraph cluster_agent148 {
+		label = agent148;
+		var636 [style="filled"];
+	}
+	subgraph cluster_agent20 {
+		label = agent20;
+		var216 [style="filled"];
+	}
+	subgraph cluster_agent149 {
+		label = agent149;
+		var645 [style="filled"];
+	}
+	subgraph cluster_agent23 {
+		label = agent23;
+		var235 [style="filled"];
+	}
+	subgraph cluster_agent24 {
+		label = agent24;
+		var236 [style="filled"];
+	}
+	subgraph cluster_agent21 {
+		label = agent21;
+		var233 [style="filled"];
+	}
+	subgraph cluster_agent22 {
+		label = agent22;
+		var234 [style="filled"];
+	}
+	subgraph cluster_agent27 {
+		label = agent27;
+		var261 [style="filled"];
+	}
+	subgraph cluster_agent28 {
+		label = agent28;
+		var262 [style="filled"];
+	}
+	subgraph cluster_agent25 {
+		label = agent25;
+		var237 [style="filled"];
+	}
+	subgraph cluster_agent26 {
+		label = agent26;
+		var238 [style="filled"];
+	}
+	subgraph cluster_agent29 {
+		label = agent29;
+		var263 [style="filled"];
+	}
+	subgraph cluster_agent140 {
+		label = agent140;
+		var626 [style="filled"];
+	}
+	subgraph cluster_agent141 {
+		label = agent141;
+		var629 [style="filled"];
+	}
+	subgraph cluster_agent142 {
+		label = agent142;
+		var630 [style="filled"];
+	}
+	subgraph cluster_agent143 {
+		label = agent143;
+		var631 [style="filled"];
+	}
+	subgraph cluster_agent144 {
+		label = agent144;
+		var632 [style="filled"];
+	}
+	subgraph cluster_agent145 {
+		label = agent145;
+		var633 [style="filled"];
+	}
+	subgraph cluster_agent146 {
+		label = agent146;
+		var634 [style="filled"];
+	}
+	subgraph cluster_agent147 {
+		label = agent147;
+		var635 [style="filled"];
+	}
+	subgraph cluster_agent30 {
+		label = agent30;
+		var264 [style="filled"];
+	}
+	subgraph cluster_agent159 {
+		label = agent159;
+		var713 [style="filled"];
+	}
+	subgraph cluster_agent31 {
+		label = agent31;
+		var265 [style="filled"];
+	}
+	subgraph cluster_agent34 {
+		label = agent34;
+		var268 [style="filled"];
+	}
+	subgraph cluster_agent35 {
+		label = agent35;
+		var269 [style="filled"];
+	}
+	subgraph cluster_agent32 {
+		label = agent32;
+		var266 [style="filled"];
+	}
+	subgraph cluster_agent33 {
+		label = agent33;
+		var267 [style="filled"];
+	}
+	subgraph cluster_agent38 {
+		label = agent38;
+		var272 [style="filled"];
+	}
+	subgraph cluster_agent39 {
+		label = agent39;
+		var273 [style="filled"];
+	}
+	subgraph cluster_agent36 {
+		label = agent36;
+		var270 [style="filled"];
+	}
+	subgraph cluster_agent37 {
+		label = agent37;
+		var271 [style="filled"];
+	}
+	subgraph cluster_agent150 {
+		label = agent150;
+		var646 [style="filled"];
+	}
+	subgraph cluster_agent151 {
+		label = agent151;
+		var651 [style="filled"];
+	}
+	subgraph cluster_agent152 {
+		label = agent152;
+		var652 [style="filled"];
+	}
+	subgraph cluster_agent153 {
+		label = agent153;
+		var661 [style="filled"];
+	}
+	subgraph cluster_agent154 {
+		label = agent154;
+		var662 [style="filled"];
+	}
+	subgraph cluster_agent155 {
+		label = agent155;
+		var663 [style="filled"];
+	}
+	subgraph cluster_agent156 {
+		label = agent156;
+		var664 [style="filled"];
+	}
+	subgraph cluster_agent157 {
+		label = agent157;
+		var665 [style="filled"];
+	}
+	subgraph cluster_agent158 {
+		label = agent158;
+		var666 [style="filled"];
+	}
+	subgraph cluster_agent200 {
+		label = agent200;
+		var880 [style="filled"];
+	}
+	subgraph cluster_agent12 {
+		label = agent12;
+		var84 [style="filled"];
+	}
+	subgraph cluster_agent13 {
+		label = agent13;
+		var85 [style="filled"];
+	}
+	subgraph cluster_agent10 {
+		label = agent10;
+		var82 [style="filled"];
+	}
+	subgraph cluster_agent11 {
+		label = agent11;
+		var83 [style="filled"];
+	}
+	subgraph cluster_agent16 {
+		label = agent16;
+		var144 [style="filled"];
+	}
+	subgraph cluster_agent17 {
+		label = agent17;
+		var145 [style="filled"];
+	}
+	subgraph cluster_agent14 {
+		label = agent14;
+		var86 [style="filled"];
+	}
+	subgraph cluster_agent15 {
+		label = agent15;
+		var143 [style="filled"];
+	}
+	subgraph cluster_agent18 {
+		label = agent18;
+		var146 [style="filled"];
+	}
+	subgraph cluster_agent19 {
+		label = agent19;
+		var215 [style="filled"];
+	}
+	subgraph cluster_agent104 {
+		label = agent104;
+		var580 [style="filled"];
+	}
+	subgraph cluster_agent105 {
+		label = agent105;
+		var583 [style="filled"];
+	}
+	subgraph cluster_agent106 {
+		label = agent106;
+		var584 [style="filled"];
+	}
+	subgraph cluster_agent107 {
+		label = agent107;
+		var585 [style="filled"];
+	}
+	subgraph cluster_agent108 {
+		label = agent108;
+		var586 [style="filled"];
+	}
+	subgraph cluster_agent109 {
+		label = agent109;
+		var587 [style="filled"];
+	}
+	subgraph cluster_agent100 {
+		label = agent100;
+		var566 [style="filled"];
+	}
+	subgraph cluster_agent101 {
+		label = agent101;
+		var577 [style="filled"];
+	}
+	subgraph cluster_agent102 {
+		label = agent102;
+		var578 [style="filled"];
+	}
+	subgraph cluster_agent103 {
+		label = agent103;
+		var579 [style="filled"];
+	}
+	subgraph cluster_agent115 {
+		label = agent115;
+		var593 [style="filled"];
+	}
+	subgraph cluster_agent116 {
+		label = agent116;
+		var594 [style="filled"];
+	}
+	subgraph cluster_agent117 {
+		label = agent117;
+		var595 [style="filled"];
+	}
+	subgraph cluster_agent118 {
+		label = agent118;
+		var596 [style="filled"];
+	}
+	subgraph cluster_agent119 {
+		label = agent119;
+		var597 [style="filled"];
+	}
+	subgraph cluster_agent110 {
+		label = agent110;
+		var588 [style="filled"];
+	}
+	subgraph cluster_agent111 {
+		label = agent111;
+		var589 [style="filled"];
+	}
+	subgraph cluster_agent112 {
+		label = agent112;
+		var590 [style="filled"];
+	}
+	subgraph cluster_agent113 {
+		label = agent113;
+		var591 [style="filled"];
+	}
+	subgraph cluster_agent114 {
+		label = agent114;
+		var592 [style="filled"];
+	}
+
+
+	var303 -- var237;
+	var303 -- var286;
+	var303 -- var285;
+	var303 -- var238;
+	var666 -- var16;
+	var666 -- var13;
+	var666 -- var14;
+	var666 -- var15;
+	var666 -- var600;
+	var666 -- var324;
+	var666 -- var599;
+	var666 -- var665;
+	var666 -- var323;
+	var666 -- var598;
+	var666 -- var322;
+	var666 -- var597;
+	var666 -- var321;
+	var666 -- var594;
+	var666 -- var593;
+	var666 -- var614;
+	var666 -- var558;
+	var666 -- var613;
+	var666 -- var557;
+	var787 -- var271;
+	var787 -- var556;
+	var787 -- var269;
+	var787 -- var555;
+	var787 -- var720;
+	var787 -- var276;
+	var787 -- var274;
+	var787 -- var608;
+	var787 -- var718;
+	var787 -- var607;
+	var665 -- var16;
+	var665 -- var13;
+	var665 -- var14;
+	var665 -- var15;
+	var665 -- var600;
+	var665 -- var324;
+	var665 -- var599;
+	var665 -- var323;
+	var665 -- var598;
+	var665 -- var322;
+	var665 -- var597;
+	var665 -- var321;
+	var665 -- var594;
+	var665 -- var593;
+	var665 -- var614;
+	var665 -- var558;
+	var665 -- var613;
+	var665 -- var557;
+	var786 -- var666;
+	var786 -- var665;
+	var786 -- var598;
+	var786 -- var785;
+	var786 -- var597;
+	var786 -- var594;
+	var786 -- var593;
+	var786 -- var614;
+	var786 -- var558;
+	var786 -- var613;
+	var786 -- var767;
+	var786 -- var557;
+	var664 -- var663;
+	var785 -- var666;
+	var785 -- var665;
+	var785 -- var598;
+	var785 -- var597;
+	var785 -- var594;
+	var785 -- var593;
+	var785 -- var614;
+	var785 -- var768;
+	var785 -- var558;
+	var785 -- var613;
+	var785 -- var767;
+	var785 -- var557;
+	var662 -- var646;
+	var662 -- var645;
+	var662 -- var661;
+	var661 -- var646;
+	var661 -- var645;
+	var309 -- var306;
+	var309 -- var305;
+	var309 -- var238;
+	var309 -- var304;
+	var309 -- var237;
+	var309 -- var303;
+	var309 -- var286;
+	var309 -- var285;
+	var306 -- var305;
+	var306 -- var238;
+	var306 -- var304;
+	var306 -- var237;
+	var306 -- var303;
+	var306 -- var286;
+	var306 -- var285;
+	var305 -- var237;
+	var305 -- var303;
+	var305 -- var286;
+	var305 -- var285;
+	var305 -- var238;
+	var305 -- var304;
+	var789 -- var768;
+	var789 -- var788;
+	var789 -- var787;
+	var304 -- var238;
+	var304 -- var237;
+	var304 -- var303;
+	var304 -- var286;
+	var304 -- var285;
+	var788 -- var556;
+	var788 -- var721;
+	var788 -- var787;
+	var788 -- var555;
+	var788 -- var145;
+	var788 -- var143;
+	var788 -- var608;
+	var788 -- var607;
+	var788 -- var768;
+	var788 -- var723;
+	var652 -- var651;
+	var765 -- var748;
+	var765 -- var747;
+	var765 -- var614;
+	var765 -- var613;
+	var764 -- var328;
+	var764 -- var327;
+	var764 -- var216;
+	var764 -- var326;
+	var764 -- var744;
+	var764 -- var325;
+	var764 -- var743;
+	var764 -- var763;
+	var764 -- var264;
+	var764 -- var263;
+	var763 -- var328;
+	var763 -- var327;
+	var763 -- var326;
+	var763 -- var744;
+	var763 -- var215;
+	var763 -- var325;
+	var763 -- var743;
+	var763 -- var264;
+	var763 -- var263;
+	var520 -- var519;
+	var880 -- var80;
+	var880 -- var879;
+	var768 -- var600;
+	var768 -- var666;
+	var768 -- var324;
+	var768 -- var665;
+	var768 -- var323;
+	var768 -- var565;
+	var768 -- var322;
+	var768 -- var586;
+	var768 -- var321;
+	var768 -- var629;
+	var768 -- var747;
+	var768 -- var746;
+	var768 -- var767;
+	var768 -- var16;
+	var768 -- var13;
+	var768 -- var290;
+	var768 -- var14;
+	var768 -- var15;
+	var768 -- var599;
+	var768 -- var598;
+	var768 -- var631;
+	var768 -- var597;
+	var768 -- var630;
+	var768 -- var594;
+	var768 -- var593;
+	var768 -- var614;
+	var768 -- var558;
+	var768 -- var613;
+	var768 -- var557;
+	var646 -- var645;
+	var646 -- var268;
+	var646 -- var267;
+	var646 -- var266;
+	var646 -- var265;
+	var767 -- var600;
+	var767 -- var666;
+	var767 -- var765;
+	var767 -- var324;
+	var767 -- var665;
+	var767 -- var323;
+	var767 -- var565;
+	var767 -- var587;
+	var767 -- var322;
+	var767 -- var586;
+	var767 -- var321;
+	var767 -- var747;
+	var767 -- var746;
+	var767 -- var745;
+	var767 -- var16;
+	var767 -- var591;
+	var767 -- var13;
+	var767 -- var290;
+	var767 -- var14;
+	var767 -- var15;
+	var767 -- var633;
+	var767 -- var599;
+	var767 -- var632;
+	var767 -- var631;
+	var767 -- var597;
+	var767 -- var594;
+	var767 -- var593;
+	var767 -- var614;
+	var767 -- var636;
+	var767 -- var558;
+	var767 -- var557;
+	var767 -- var634;
+	var645 -- var566;
+	var645 -- var268;
+	var645 -- var267;
+	var645 -- var266;
+	var645 -- var265;
+	var766 -- var748;
+	var766 -- var747;
+	var766 -- var614;
+	var766 -- var613;
+	var766 -- var765;
+	var633 -- var592;
+	var633 -- var591;
+	var633 -- var329;
+	var633 -- var330;
+	var633 -- var352;
+	var633 -- var351;
+	var632 -- var629;
+	var632 -- var631;
+	var632 -- var630;
+	var632 -- var594;
+	var632 -- var593;
+	var631 -- var629;
+	var631 -- var323;
+	var631 -- var630;
+	var631 -- var321;
+	var631 -- var594;
+	var631 -- var593;
+	var630 -- var272;
+	var630 -- var629;
+	var630 -- var271;
+	var630 -- var270;
+	var630 -- var292;
+	var630 -- var291;
+	var630 -- var269;
+	var518 -- var350;
+	var518 -- var237;
+	var518 -- var303;
+	var518 -- var310;
+	var518 -- var286;
+	var518 -- var285;
+	var518 -- var309;
+	var518 -- var517;
+	var518 -- var306;
+	var518 -- var305;
+	var518 -- var349;
+	var518 -- var238;
+	var518 -- var304;
+	var517 -- var350;
+	var517 -- var237;
+	var517 -- var303;
+	var517 -- var310;
+	var517 -- var286;
+	var517 -- var285;
+	var517 -- var309;
+	var517 -- var306;
+	var517 -- var305;
+	var517 -- var349;
+	var517 -- var238;
+	var517 -- var304;
+	var636 -- var559;
+	var636 -- var602;
+	var636 -- var635;
+	var636 -- var601;
+	var636 -- var634;
+	var636 -- var633;
+	var636 -- var566;
+	var636 -- var565;
+	var636 -- var560;
+	var635 -- var559;
+	var635 -- var602;
+	var635 -- var601;
+	var635 -- var634;
+	var635 -- var633;
+	var635 -- var566;
+	var635 -- var565;
+	var635 -- var330;
+	var635 -- var560;
+	var634 -- var592;
+	var634 -- var591;
+	var634 -- var329;
+	var634 -- var633;
+	var634 -- var330;
+	var634 -- var352;
+	var634 -- var351;
+	var622 -- var350;
+	var622 -- var592;
+	var622 -- var580;
+	var622 -- var591;
+	var622 -- var578;
+	var622 -- var577;
+	var622 -- var621;
+	var622 -- var234;
+	var622 -- var233;
+	var622 -- var562;
+	var622 -- var561;
+	var622 -- var349;
+	var622 -- var579;
+	var743 -- var325;
+	var743 -- var664;
+	var743 -- var663;
+	var743 -- var264;
+	var743 -- var263;
+	var743 -- var328;
+	var743 -- var327;
+	var743 -- var326;
+	var621 -- var350;
+	var621 -- var592;
+	var621 -- var580;
+	var621 -- var591;
+	var621 -- var578;
+	var621 -- var577;
+	var621 -- var234;
+	var621 -- var233;
+	var621 -- var562;
+	var621 -- var561;
+	var621 -- var349;
+	var621 -- var579;
+	var629 -- var272;
+	var629 -- var271;
+	var629 -- var270;
+	var629 -- var292;
+	var629 -- var291;
+	var629 -- var269;
+	var748 -- var743;
+	var748 -- var664;
+	var748 -- var663;
+	var748 -- var747;
+	var748 -- var614;
+	var748 -- var613;
+	var748 -- var744;
+	var626 -- var580;
+	var626 -- var625;
+	var626 -- var624;
+	var626 -- var579;
+	var626 -- var623;
+	var626 -- var622;
+	var626 -- var621;
+	var747 -- var743;
+	var747 -- var664;
+	var747 -- var663;
+	var747 -- var614;
+	var747 -- var613;
+	var747 -- var744;
+	var625 -- var580;
+	var625 -- var624;
+	var625 -- var579;
+	var625 -- var623;
+	var625 -- var622;
+	var625 -- var621;
+	var746 -- var745;
+	var746 -- var600;
+	var746 -- var566;
+	var746 -- var588;
+	var746 -- var599;
+	var746 -- var565;
+	var746 -- var587;
+	var746 -- var586;
+	var746 -- var585;
+	var624 -- var623;
+	var745 -- var600;
+	var745 -- var566;
+	var745 -- var588;
+	var745 -- var599;
+	var745 -- var565;
+	var745 -- var587;
+	var745 -- var586;
+	var745 -- var585;
+	var744 -- var325;
+	var744 -- var743;
+	var744 -- var664;
+	var744 -- var663;
+	var744 -- var264;
+	var744 -- var263;
+	var744 -- var328;
+	var744 -- var327;
+	var744 -- var326;
+	var292 -- var272;
+	var292 -- var271;
+	var292 -- var270;
+	var292 -- var291;
+	var292 -- var290;
+	var292 -- var269;
+	var292 -- var289;
+	var291 -- var272;
+	var291 -- var271;
+	var291 -- var270;
+	var291 -- var290;
+	var291 -- var269;
+	var291 -- var289;
+	var290 -- var289;
+	var54 -- var53;
+	var618 -- var590;
+	var618 -- var617;
+	var618 -- var305;
+	var618 -- var303;
+	var618 -- var589;
+	var618 -- var596;
+	var618 -- var595;
+	var617 -- var590;
+	var617 -- var589;
+	var617 -- var596;
+	var617 -- var595;
+	var614 -- var598;
+	var614 -- var597;
+	var614 -- var594;
+	var614 -- var593;
+	var614 -- var558;
+	var614 -- var613;
+	var614 -- var557;
+	var613 -- var598;
+	var613 -- var597;
+	var613 -- var594;
+	var613 -- var593;
+	var613 -- var558;
+	var613 -- var557;
+	var284 -- var283;
+	var284 -- var282;
+	var284 -- var281;
+	var284 -- var146;
+	var284 -- var278;
+	var284 -- var145;
+	var284 -- var277;
+	var284 -- var144;
+	var284 -- var143;
+	var283 -- var282;
+	var283 -- var281;
+	var283 -- var146;
+	var283 -- var278;
+	var283 -- var145;
+	var283 -- var277;
+	var283 -- var144;
+	var283 -- var143;
+	var282 -- var281;
+	var282 -- var146;
+	var282 -- var278;
+	var282 -- var145;
+	var282 -- var277;
+	var282 -- var144;
+	var282 -- var143;
+	var281 -- var146;
+	var281 -- var278;
+	var281 -- var145;
+	var281 -- var277;
+	var281 -- var144;
+	var281 -- var143;
+	var85 -- var748;
+	var85 -- var747;
+	var85 -- var614;
+	var85 -- var613;
+	var85 -- var766;
+	var85 -- var765;
+	var85 -- var83;
+	var85 -- var84;
+	var600 -- var16;
+	var600 -- var13;
+	var600 -- var14;
+	var600 -- var15;
+	var600 -- var324;
+	var600 -- var599;
+	var600 -- var323;
+	var600 -- var322;
+	var600 -- var321;
+	var600 -- var558;
+	var600 -- var557;
+	var721 -- var284;
+	var721 -- var283;
+	var721 -- var282;
+	var721 -- var281;
+	var721 -- var720;
+	var721 -- var146;
+	var721 -- var344;
+	var721 -- var145;
+	var721 -- var343;
+	var721 -- var144;
+	var721 -- var342;
+	var721 -- var143;
+	var721 -- var341;
+	var721 -- var273;
+	var721 -- var278;
+	var721 -- var277;
+	var721 -- var276;
+	var721 -- var275;
+	var721 -- var274;
+	var721 -- var718;
+	var721 -- var717;
+	var721 -- var714;
+	var721 -- var713;
+	var721 -- var719;
+	var86 -- var748;
+	var86 -- var747;
+	var86 -- var614;
+	var86 -- var613;
+	var86 -- var766;
+	var86 -- var85;
+	var86 -- var765;
+	var86 -- var785;
+	var86 -- var83;
+	var86 -- var84;
+	var720 -- var269;
+	var720 -- var146;
+	var720 -- var145;
+	var720 -- var144;
+	var720 -- var584;
+	var720 -- var143;
+	var720 -- var583;
+	var720 -- var608;
+	var720 -- var607;
+	var720 -- var273;
+	var720 -- var272;
+	var720 -- var271;
+	var720 -- var270;
+	var720 -- var556;
+	var720 -- var555;
+	var720 -- var278;
+	var720 -- var277;
+	var720 -- var276;
+	var720 -- var275;
+	var720 -- var274;
+	var720 -- var718;
+	var720 -- var717;
+	var720 -- var714;
+	var720 -- var713;
+	var720 -- var719;
+	var81 -- var80;
+	var81 -- var79;
+	var81 -- var289;
+	var288 -- var287;
+	var82 -- var80;
+	var82 -- var79;
+	var82 -- var290;
+	var82 -- var81;
+	var83 -- var748;
+	var83 -- var747;
+	var83 -- var614;
+	var83 -- var613;
+	var83 -- var766;
+	var83 -- var765;
+	var286 -- var238;
+	var286 -- var237;
+	var286 -- var285;
+	var84 -- var748;
+	var84 -- var747;
+	var84 -- var614;
+	var84 -- var613;
+	var84 -- var766;
+	var84 -- var765;
+	var84 -- var785;
+	var84 -- var83;
+	var285 -- var238;
+	var285 -- var237;
+	var608 -- var272;
+	var608 -- var271;
+	var608 -- var270;
+	var608 -- var556;
+	var608 -- var269;
+	var608 -- var555;
+	var608 -- var276;
+	var608 -- var584;
+	var608 -- var583;
+	var608 -- var274;
+	var608 -- var607;
+	var607 -- var273;
+	var607 -- var556;
+	var607 -- var555;
+	var607 -- var278;
+	var607 -- var276;
+	var607 -- var584;
+	var607 -- var275;
+	var607 -- var583;
+	var607 -- var274;
+	var606 -- var471;
+	var606 -- var605;
+	var606 -- var287;
+	var606 -- var562;
+	var606 -- var561;
+	var606 -- var472;
+	var605 -- var471;
+	var605 -- var288;
+	var605 -- var562;
+	var605 -- var561;
+	var605 -- var472;
+	var604 -- var262;
+	var604 -- var559;
+	var604 -- var603;
+	var604 -- var268;
+	var604 -- var267;
+	var604 -- var266;
+	var604 -- var265;
+	var604 -- var560;
+	var603 -- var559;
+	var603 -- var268;
+	var603 -- var267;
+	var603 -- var266;
+	var603 -- var265;
+	var603 -- var560;
+	var724 -- var284;
+	var724 -- var283;
+	var724 -- var282;
+	var724 -- var281;
+	var724 -- var721;
+	var724 -- var720;
+	var724 -- var146;
+	var724 -- var344;
+	var724 -- var145;
+	var724 -- var343;
+	var724 -- var144;
+	var724 -- var342;
+	var724 -- var143;
+	var724 -- var341;
+	var724 -- var723;
+	var724 -- var722;
+	var724 -- var273;
+	var724 -- var278;
+	var724 -- var277;
+	var724 -- var276;
+	var724 -- var275;
+	var724 -- var274;
+	var724 -- var718;
+	var724 -- var717;
+	var724 -- var714;
+	var724 -- var713;
+	var724 -- var719;
+	var602 -- var559;
+	var602 -- var601;
+	var602 -- var566;
+	var602 -- var565;
+	var602 -- var596;
+	var602 -- var595;
+	var602 -- var560;
+	var723 -- var284;
+	var723 -- var283;
+	var723 -- var282;
+	var723 -- var281;
+	var723 -- var721;
+	var723 -- var720;
+	var723 -- var146;
+	var723 -- var344;
+	var723 -- var145;
+	var723 -- var343;
+	var723 -- var144;
+	var723 -- var342;
+	var723 -- var143;
+	var723 -- var341;
+	var723 -- var722;
+	var723 -- var273;
+	var723 -- var278;
+	var723 -- var277;
+	var723 -- var276;
+	var723 -- var275;
+	var723 -- var274;
+	var723 -- var718;
+	var723 -- var717;
+	var723 -- var714;
+	var723 -- var713;
+	var723 -- var719;
+	var601 -- var559;
+	var601 -- var566;
+	var601 -- var565;
+	var601 -- var596;
+	var601 -- var595;
+	var601 -- var330;
+	var601 -- var560;
+	var722 -- var284;
+	var722 -- var283;
+	var722 -- var282;
+	var722 -- var281;
+	var722 -- var721;
+	var722 -- var720;
+	var722 -- var146;
+	var722 -- var344;
+	var722 -- var145;
+	var722 -- var343;
+	var722 -- var144;
+	var722 -- var342;
+	var722 -- var143;
+	var722 -- var341;
+	var722 -- var273;
+	var722 -- var278;
+	var722 -- var277;
+	var722 -- var276;
+	var722 -- var275;
+	var722 -- var274;
+	var722 -- var718;
+	var722 -- var717;
+	var722 -- var714;
+	var722 -- var713;
+	var722 -- var719;
+	var273 -- var269;
+	var273 -- var146;
+	var273 -- var145;
+	var273 -- var144;
+	var273 -- var143;
+	var273 -- var272;
+	var273 -- var271;
+	var273 -- var270;
+	var272 -- var269;
+	var272 -- var271;
+	var272 -- var270;
+	var271 -- var269;
+	var271 -- var270;
+	var270 -- var269;
+	var79 -- var53;
+	var278 -- var269;
+	var278 -- var146;
+	var278 -- var145;
+	var278 -- var144;
+	var278 -- var143;
+	var278 -- var273;
+	var278 -- var272;
+	var278 -- var271;
+	var278 -- var270;
+	var278 -- var277;
+	var278 -- var276;
+	var278 -- var275;
+	var278 -- var274;
+	var277 -- var269;
+	var277 -- var146;
+	var277 -- var145;
+	var277 -- var144;
+	var277 -- var143;
+	var277 -- var273;
+	var277 -- var272;
+	var277 -- var271;
+	var277 -- var270;
+	var277 -- var276;
+	var277 -- var275;
+	var277 -- var274;
+	var276 -- var269;
+	var276 -- var146;
+	var276 -- var145;
+	var276 -- var144;
+	var276 -- var143;
+	var276 -- var273;
+	var276 -- var272;
+	var276 -- var271;
+	var276 -- var270;
+	var276 -- var275;
+	var276 -- var274;
+	var275 -- var269;
+	var275 -- var146;
+	var275 -- var145;
+	var275 -- var144;
+	var275 -- var143;
+	var275 -- var273;
+	var275 -- var272;
+	var275 -- var271;
+	var275 -- var270;
+	var275 -- var274;
+	var274 -- var269;
+	var274 -- var146;
+	var274 -- var145;
+	var274 -- var144;
+	var274 -- var143;
+	var274 -- var273;
+	var274 -- var272;
+	var274 -- var271;
+	var274 -- var270;
+	var718 -- var269;
+	var718 -- var146;
+	var718 -- var145;
+	var718 -- var144;
+	var718 -- var584;
+	var718 -- var143;
+	var718 -- var583;
+	var718 -- var608;
+	var718 -- var607;
+	var718 -- var273;
+	var718 -- var272;
+	var718 -- var271;
+	var718 -- var270;
+	var718 -- var556;
+	var718 -- var555;
+	var718 -- var278;
+	var718 -- var277;
+	var718 -- var276;
+	var718 -- var275;
+	var718 -- var274;
+	var718 -- var717;
+	var718 -- var714;
+	var718 -- var713;
+	var717 -- var269;
+	var717 -- var146;
+	var717 -- var145;
+	var717 -- var144;
+	var717 -- var584;
+	var717 -- var143;
+	var717 -- var583;
+	var717 -- var607;
+	var717 -- var273;
+	var717 -- var272;
+	var717 -- var271;
+	var717 -- var270;
+	var717 -- var556;
+	var717 -- var555;
+	var717 -- var278;
+	var717 -- var277;
+	var717 -- var276;
+	var717 -- var275;
+	var717 -- var274;
+	var717 -- var714;
+	var717 -- var713;
+	var80 -- var790;
+	var80 -- var79;
+	var80 -- var53;
+	var80 -- var651;
+	var714 -- var284;
+	var714 -- var283;
+	var714 -- var282;
+	var714 -- var281;
+	var714 -- var269;
+	var714 -- var146;
+	var714 -- var344;
+	var714 -- var145;
+	var714 -- var343;
+	var714 -- var144;
+	var714 -- var342;
+	var714 -- var584;
+	var714 -- var143;
+	var714 -- var341;
+	var714 -- var583;
+	var714 -- var607;
+	var714 -- var273;
+	var714 -- var272;
+	var714 -- var271;
+	var714 -- var270;
+	var714 -- var556;
+	var714 -- var555;
+	var714 -- var278;
+	var714 -- var277;
+	var714 -- var276;
+	var714 -- var275;
+	var714 -- var274;
+	var714 -- var713;
+	var713 -- var284;
+	var713 -- var283;
+	var713 -- var282;
+	var713 -- var281;
+	var713 -- var269;
+	var713 -- var146;
+	var713 -- var344;
+	var713 -- var145;
+	var713 -- var343;
+	var713 -- var144;
+	var713 -- var342;
+	var713 -- var584;
+	var713 -- var143;
+	var713 -- var341;
+	var713 -- var583;
+	var713 -- var273;
+	var713 -- var272;
+	var713 -- var271;
+	var713 -- var270;
+	var713 -- var556;
+	var713 -- var555;
+	var713 -- var278;
+	var713 -- var277;
+	var713 -- var276;
+	var713 -- var275;
+	var713 -- var274;
+	var719 -- var269;
+	var719 -- var146;
+	var719 -- var145;
+	var719 -- var144;
+	var719 -- var584;
+	var719 -- var143;
+	var719 -- var583;
+	var719 -- var607;
+	var719 -- var273;
+	var719 -- var272;
+	var719 -- var271;
+	var719 -- var270;
+	var719 -- var556;
+	var719 -- var555;
+	var719 -- var278;
+	var719 -- var277;
+	var719 -- var276;
+	var719 -- var275;
+	var719 -- var274;
+	var719 -- var718;
+	var719 -- var717;
+	var719 -- var714;
+	var719 -- var713;
+	var262 -- var261;
+	var268 -- var267;
+	var268 -- var266;
+	var268 -- var265;
+	var146 -- var145;
+	var146 -- var144;
+	var146 -- var143;
+	var267 -- var266;
+	var267 -- var265;
+	var145 -- var144;
+	var145 -- var143;
+	var266 -- var265;
+	var144 -- var143;
+	var264 -- var215;
+	var264 -- var263;
+	var264 -- var216;
+	var263 -- var215;
+	var263 -- var216;
+	var16 -- var13;
+	var16 -- var14;
+	var16 -- var15;
+	var14 -- var13;
+	var15 -- var13;
+	var15 -- var14;
+	var360 -- var327;
+	var360 -- var216;
+	var360 -- var359;
+	var360 -- var325;
+	var360 -- var263;
+	var366 -- var360;
+	var366 -- var327;
+	var366 -- var216;
+	var366 -- var359;
+	var366 -- var215;
+	var366 -- var325;
+	var366 -- var365;
+	var366 -- var263;
+	var365 -- var360;
+	var365 -- var328;
+	var365 -- var326;
+	var365 -- var359;
+	var802 -- var350;
+	var802 -- var592;
+	var802 -- var591;
+	var802 -- var578;
+	var802 -- var622;
+	var802 -- var577;
+	var802 -- var621;
+	var802 -- var234;
+	var802 -- var233;
+	var802 -- var562;
+	var802 -- var561;
+	var802 -- var768;
+	var802 -- var801;
+	var802 -- var349;
+	var802 -- var767;
+	var802 -- var800;
+	var802 -- var799;
+	var801 -- var350;
+	var801 -- var592;
+	var801 -- var591;
+	var801 -- var578;
+	var801 -- var622;
+	var801 -- var577;
+	var801 -- var621;
+	var801 -- var234;
+	var801 -- var233;
+	var801 -- var562;
+	var801 -- var561;
+	var801 -- var349;
+	var801 -- var800;
+	var801 -- var799;
+	var800 -- var768;
+	var800 -- var767;
+	var800 -- var579;
+	var800 -- var799;
+	var800 -- var798;
+	var800 -- var797;
+	var350 -- var237;
+	var350 -- var234;
+	var350 -- var233;
+	var350 -- var349;
+	var350 -- var238;
+	var471 -- var288;
+	var592 -- var350;
+	var592 -- var591;
+	var592 -- var578;
+	var592 -- var577;
+	var592 -- var234;
+	var592 -- var233;
+	var592 -- var562;
+	var592 -- var330;
+	var592 -- var352;
+	var592 -- var561;
+	var592 -- var351;
+	var592 -- var329;
+	var592 -- var349;
+	var591 -- var350;
+	var591 -- var578;
+	var591 -- var577;
+	var591 -- var234;
+	var591 -- var233;
+	var591 -- var562;
+	var591 -- var330;
+	var591 -- var352;
+	var591 -- var561;
+	var591 -- var351;
+	var591 -- var329;
+	var591 -- var349;
+	var590 -- var589;
+	var236 -- var235;
+	var236 -- var234;
+	var236 -- var233;
+	var599 -- var16;
+	var599 -- var13;
+	var599 -- var14;
+	var599 -- var15;
+	var599 -- var324;
+	var599 -- var323;
+	var599 -- var322;
+	var599 -- var321;
+	var599 -- var558;
+	var599 -- var557;
+	var235 -- var234;
+	var235 -- var233;
+	var598 -- var520;
+	var598 -- var597;
+	var598 -- var594;
+	var598 -- var593;
+	var598 -- var519;
+	var598 -- var558;
+	var598 -- var557;
+	var234 -- var233;
+	var597 -- var520;
+	var597 -- var594;
+	var597 -- var593;
+	var597 -- var519;
+	var597 -- var558;
+	var597 -- var557;
+	var596 -- var590;
+	var596 -- var589;
+	var596 -- var595;
+	var595 -- var590;
+	var595 -- var589;
+	var352 -- var329;
+	var352 -- var236;
+	var352 -- var235;
+	var352 -- var330;
+	var352 -- var351;
+	var594 -- var323;
+	var594 -- var321;
+	var594 -- var593;
+	var594 -- var558;
+	var594 -- var557;
+	var351 -- var329;
+	var351 -- var236;
+	var351 -- var235;
+	var351 -- var330;
+	var472 -- var471;
+	var472 -- var287;
+	var593 -- var558;
+	var593 -- var557;
+	var238 -- var237;
+	var359 -- var216;
+	var359 -- var215;
+	var359 -- var264;
+	var580 -- var579;
+	var588 -- var566;
+	var588 -- var565;
+	var588 -- var587;
+	var588 -- var586;
+	var588 -- var585;
+	var587 -- var566;
+	var587 -- var565;
+	var587 -- var586;
+	var587 -- var585;
+	var344 -- var284;
+	var344 -- var283;
+	var344 -- var282;
+	var344 -- var281;
+	var344 -- var146;
+	var344 -- var278;
+	var344 -- var145;
+	var344 -- var277;
+	var344 -- var343;
+	var344 -- var144;
+	var344 -- var342;
+	var344 -- var143;
+	var344 -- var341;
+	var586 -- var566;
+	var586 -- var268;
+	var586 -- var565;
+	var586 -- var266;
+	var586 -- var585;
+	var343 -- var284;
+	var343 -- var283;
+	var343 -- var282;
+	var343 -- var281;
+	var343 -- var146;
+	var343 -- var278;
+	var343 -- var145;
+	var343 -- var277;
+	var343 -- var144;
+	var343 -- var342;
+	var343 -- var143;
+	var343 -- var341;
+	var585 -- var566;
+	var585 -- var565;
+	var342 -- var284;
+	var342 -- var283;
+	var342 -- var282;
+	var342 -- var281;
+	var342 -- var146;
+	var342 -- var278;
+	var342 -- var145;
+	var342 -- var277;
+	var342 -- var144;
+	var342 -- var143;
+	var342 -- var341;
+	var584 -- var273;
+	var584 -- var284;
+	var584 -- var272;
+	var584 -- var271;
+	var584 -- var270;
+	var584 -- var556;
+	var584 -- var269;
+	var584 -- var555;
+	var584 -- var278;
+	var584 -- var277;
+	var584 -- var276;
+	var584 -- var275;
+	var584 -- var583;
+	var584 -- var274;
+	var341 -- var284;
+	var341 -- var283;
+	var341 -- var282;
+	var341 -- var281;
+	var341 -- var146;
+	var341 -- var278;
+	var341 -- var145;
+	var341 -- var277;
+	var341 -- var144;
+	var341 -- var143;
+	var583 -- var273;
+	var583 -- var272;
+	var583 -- var271;
+	var583 -- var270;
+	var583 -- var556;
+	var583 -- var269;
+	var583 -- var555;
+	var583 -- var278;
+	var583 -- var277;
+	var583 -- var276;
+	var583 -- var275;
+	var583 -- var274;
+	var349 -- var237;
+	var349 -- var234;
+	var349 -- var233;
+	var349 -- var238;
+	var578 -- var350;
+	var578 -- var577;
+	var578 -- var234;
+	var578 -- var233;
+	var578 -- var562;
+	var578 -- var561;
+	var578 -- var349;
+	var577 -- var350;
+	var577 -- var234;
+	var577 -- var233;
+	var577 -- var562;
+	var577 -- var561;
+	var577 -- var349;
+	var330 -- var329;
+	var216 -- var215;
+	var325 -- var215;
+	var325 -- var264;
+	var325 -- var263;
+	var325 -- var216;
+	var324 -- var16;
+	var324 -- var13;
+	var324 -- var14;
+	var324 -- var15;
+	var324 -- var323;
+	var324 -- var322;
+	var324 -- var321;
+	var566 -- var565;
+	var566 -- var330;
+	var566 -- var560;
+	var566 -- var559;
+	var323 -- var16;
+	var323 -- var13;
+	var323 -- var14;
+	var323 -- var15;
+	var323 -- var322;
+	var323 -- var321;
+	var565 -- var560;
+	var565 -- var559;
+	var322 -- var16;
+	var322 -- var13;
+	var322 -- var14;
+	var322 -- var15;
+	var322 -- var321;
+	var321 -- var16;
+	var321 -- var13;
+	var321 -- var14;
+	var321 -- var15;
+	var562 -- var350;
+	var562 -- var234;
+	var562 -- var233;
+	var562 -- var561;
+	var562 -- var349;
+	var561 -- var350;
+	var561 -- var234;
+	var561 -- var233;
+	var561 -- var349;
+	var560 -- var268;
+	var560 -- var267;
+	var560 -- var266;
+	var560 -- var265;
+	var560 -- var559;
+	var328 -- var215;
+	var328 -- var325;
+	var328 -- var264;
+	var328 -- var263;
+	var328 -- var327;
+	var328 -- var216;
+	var328 -- var326;
+	var327 -- var215;
+	var327 -- var325;
+	var327 -- var264;
+	var327 -- var263;
+	var327 -- var216;
+	var327 -- var326;
+	var326 -- var215;
+	var326 -- var325;
+	var326 -- var264;
+	var326 -- var263;
+	var326 -- var216;
+	var790 -- var768;
+	var790 -- var767;
+	var790 -- var789;
+	var790 -- var788;
+	var790 -- var787;
+	var790 -- var289;
+	var556 -- var273;
+	var556 -- var272;
+	var556 -- var271;
+	var556 -- var270;
+	var556 -- var269;
+	var556 -- var555;
+	var556 -- var278;
+	var556 -- var277;
+	var556 -- var276;
+	var556 -- var275;
+	var556 -- var274;
+	var798 -- var768;
+	var798 -- var797;
+	var798 -- var796;
+	var798 -- var795;
+	var555 -- var273;
+	var555 -- var272;
+	var555 -- var271;
+	var555 -- var270;
+	var555 -- var269;
+	var555 -- var278;
+	var555 -- var277;
+	var555 -- var276;
+	var555 -- var275;
+	var555 -- var274;
+	var797 -- var796;
+	var797 -- var795;
+	var796 -- var795;
+	var796 -- var794;
+	var796 -- var793;
+	var795 -- var767;
+	var795 -- var794;
+	var795 -- var793;
+	var310 -- var309;
+	var310 -- var306;
+	var310 -- var305;
+	var310 -- var238;
+	var310 -- var304;
+	var310 -- var237;
+	var310 -- var303;
+	var310 -- var286;
+	var310 -- var285;
+	var794 -- var767;
+	var794 -- var793;
+	var794 -- var792;
+	var794 -- var791;
+	var793 -- var768;
+	var793 -- var767;
+	var793 -- var792;
+	var793 -- var791;
+	var792 -- var790;
+	var792 -- var768;
+	var792 -- var767;
+	var792 -- var789;
+	var792 -- var791;
+	var791 -- var790;
+	var791 -- var767;
+	var791 -- var789;
+	var559 -- var268;
+	var559 -- var267;
+	var559 -- var266;
+	var559 -- var265;
+	var558 -- var16;
+	var558 -- var13;
+	var558 -- var14;
+	var558 -- var15;
+	var558 -- var324;
+	var558 -- var323;
+	var558 -- var322;
+	var558 -- var321;
+	var558 -- var557;
+	var557 -- var16;
+	var557 -- var13;
+	var557 -- var14;
+	var557 -- var15;
+	var557 -- var324;
+	var557 -- var323;
+	var557 -- var322;
+	var557 -- var321;
+	var799 -- var768;
+	var799 -- var767;
+	var799 -- var798;
+	var799 -- var797;
+}
+
+Starting the algorithm...
+var `var261' = 352
+var `var879' = 484
+var `var652' = 30
+var `var54' = 498
+var `var589' = 498
+var `var590' = 736
+var `var617' = 338
+var `var618' = 100
+var `var662' = 484
+var `var661' = 722
+var `var262' = 114
+var `var287' = 44
+var `var288' = 282
+var `var472' = 722
+var `var471' = 484
+var `var623' = 86
+var `var624' = 324
+var `var359' = 694
+var `var365' = 44
+var `var360' = 456
+var `var366' = 282
+var `var215' = 512
+var `var216' = 750
+var `var285' = 394
+var `var286' = 156
+var `var309' = 58
+var `var303' = 792
+var `var304' = 554
+var `var310' = 296
+var `var305' = 680
+var `var306' = 442
+var `var880' = 722
+var `var651' = 268
+var `var53' = 736
+var `var79' = 58
+var `var81' = 338
+var `var595' = 128
+var `var596' = 366
+var `var763' = 680
+var `var764' = 442
+var `var328' = 722
+var `var264' = 414
+var `var326' = 338
+var `var327' = 484
+var `var263' = 652
+var `var325' = 100
+var `var646' = 366
+var `var603' = 30
+var `var604' = 268
+var `var267' = 268
+var `var265' = 778
+var `var645' = 128
+var `var583' = 310
+var `var584' = 72
+var `var235' = 128
+var `var236' = 366
+var `var606' = 540
+var `var605' = 778
+var `var580' = 114
+var `var625' = 456
+var `var626' = 694
+var `var518' = 456
+var `var237' = 352
+var `var238' = 114
+var `var517' = 694
+var `var281' = 394
+var `var343' = 254
+var `var341' = 338
+var `var282' = 156
+var `var283' = 680
+var `var342' = 100
+var `var344' = 16
+var `var284' = 442
+var `var724' = 554
+var `var146' = 86
+var `var144' = 736
+var `var275' = 554
+var `var719' = 30
+var `var717' = 254
+var `var718' = 16
+var `var722' = 310
+var `var276' = 792
+var `var273' = 296
+var `var720' = 268
+var `var274' = 58
+var `var277' = 750
+var `var713' = 338
+var `var278' = 512
+var `var714' = 100
+var `var269' = 16
+var `var272' = 296
+var `var271' = 58
+var `var270' = 254
+var `var608' = 86
+var `var607' = 324
+var `var555' = 778
+var `var556' = 540
+var `var143' = 498
+var `var721' = 72
+var `var723' = 792
+var `var145' = 324
+var `var796' = 72
+var `var82' = 100
+var `var797' = 512
+var `var579' = 352
+var `var292' = 72
+var `var291' = 310
+var `var289' = 526
+var `var80' = 296
+var `var787' = 540
+var `var664' = 44
+var `var663' = 282
+var `var519' = 30
+var `var520' = 268
+var `var602' = 778
+var `var601' = 540
+var `var635' = 44
+var `var559' = 352
+var `var743' = 750
+var `var560' = 114
+var `var744' = 512
+var `var588' = 442
+var `var585' = 128
+var `var268' = 30
+var `var266' = 540
+var `var566' = 694
+var `var352' = 114
+var `var329' = 366
+var `var330' = 128
+var `var561' = 666
+var `var562' = 428
+var `var801' = 268
+var `var233' = 114
+var `var577' = 352
+var `var234' = 352
+var `var350' = 282
+var `var349' = 44
+var `var621' = 324
+var `var622' = 86
+var `var578' = 114
+var `var351' = 352
+var `var592' = 680
+var `var83' = 498
+var `var85' = 72
+var `var766' = 778
+var `var748' = 100
+var `var84' = 736
+var `var86' = 310
+var `var789' = 680
+var `var798' = 750
+var `var629' = 380
+var `var630' = 142
+var `var598' = 540
+var `var788' = 778
+var `var613' = 142
+var `var794' = 540
+var `var632' = 456
+var `var792' = 142
+var `var791' = 380
+var `var799' = 72
+var `var793' = 778
+var `var800' = 310
+var `var290' = 764
+var `var795' = 310
+var `var631' = 694
+var `var790' = 442
+var `var587' = 680
+var `var636' = 282
+var `var745' = 268
+var `var746' = 30
+var `var633' = 470
+var `var634' = 708
+var `var586' = 366
+var `var765' = 540
+var `var786' = 352
+var `var597' = 778
+var `var747' = 338
+var `var565' = 456
+var `var593' = 540
+var `var802' = 30
+var `var16' = 778
+var `var594' = 778
+var `var600' = 750
+var `var785' = 114
+var `var15' = 540
+var `var322' = 324
+var `var324' = 428
+var `var599' = 512
+var `var13' = 254
+var `var14' = 16
+var `var591' = 442
+var `var321' = 86
+var `var323' = 666
+var `var614' = 380
+var `var558' = 750
+var `var557' = 512
+var `var665' = 310
+var `var666' = 72
+var `var768' = 470
+var `var767' = 708
+Total cost of reported solution: 8505
+Algorithm finished in 39,746 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, DSA, VALUE]:	8,756
+	[ALL, DSA, VALUE]:	7,761
+	[ALL, DSA, VALUE]:	4,577
+	[ALL, DSA, VALUE]:	4,577
+	[ALL, DSA, VALUE]:	4,577
+	[ALL, DSA, VALUE]:	4,577
+	[ALL, DSA, VALUE]:	4,179
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,980
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,388
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,592
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	1,592
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	3,980
+	[ALL, DSA, VALUE]:	2,388
+	[ALL, DSA, VALUE]:	2,786
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	5,572
+	[ALL, DSA, VALUE]:	5,572
+	[ALL, DSA, VALUE]:	5,572
+	[ALL, DSA, VALUE]:	5,572
+	[ALL, DSA, VALUE]:	4,577
+	[ALL, DSA, VALUE]:	4,577
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	4,776
+	[ALL, DSA, VALUE]:	4,975
+	[ALL, DSA, VALUE]:	4,776
+	[ALL, DSA, VALUE]:	4,975
+	[ALL, DSA, VALUE]:	7,164
+	[ALL, DSA, VALUE]:	7,164
+	[ALL, DSA, VALUE]:	6,965
+	[ALL, DSA, VALUE]:	6,965
+	[ALL, DSA, VALUE]:	5,970
+	[ALL, DSA, VALUE]:	5,970
+	[ALL, DSA, VALUE]:	5,572
+	[ALL, DSA, VALUE]:	5,970
+	[ALL, DSA, VALUE]:	5,373
+	[ALL, DSA, VALUE]:	5,970
+	[ALL, DSA, VALUE]:	5,572
+	[ALL, DSA, VALUE]:	5,572
+	[ALL, DSA, VALUE]:	5,572
+	[ALL, DSA, VALUE]:	5,373
+	[ALL, DSA, VALUE]:	5,373
+	[ALL, DSA, VALUE]:	5,373
+	[ALL, DSA, VALUE]:	3,980
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	4,378
+	[ALL, DSA, VALUE]:	4,179
+	[ALL, DSA, VALUE]:	1,592
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,592
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	2,388
+	[ALL, DSA, VALUE]:	2,388
+	[ALL, DSA, VALUE]:	2,388
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	398
+	[ALL, DSA, VALUE]:	398
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	2,388
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	2,388
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,592
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	398
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	199
+	[ALL, DSA, VALUE]:	199
+	[ALL, DSA, VALUE]:	199
+	[ALL, DSA, VALUE]:	199
+	- Total:	526,156
+Number of messages sent (by agent): 
+	agent1:	2,985
+	agent10:	796
+	agent100:	2,985
+	agent101:	2,587
+	agent102:	2,587
+	agent103:	1,194
+	agent104:	995
+	agent105:	4,179
+	agent106:	4,378
+	agent107:	1,393
+	agent108:	2,189
+	agent109:	1,592
+	agent11:	1,791
+	agent110:	1,393
+	agent111:	995
+	agent112:	995
+	agent113:	3,980
+	agent114:	3,781
+	agent115:	2,985
+	agent116:	3,383
+	agent117:	1,393
+	agent118:	1,393
+	agent119:	2,985
+	agent12:	1,990
+	agent120:	2,786
+	agent121:	3,383
+	agent122:	3,383
+	agent123:	1,990
+	agent124:	1,791
+	agent125:	1,393
+	agent126:	1,592
+	agent127:	1,194
+	agent128:	1,194
+	agent129:	3,383
+	agent13:	1,791
+	agent130:	2,985
+	agent131:	3,980
+	agent132:	4,179
+	agent133:	995
+	agent134:	1,393
+	agent135:	3,383
+	agent136:	3,383
+	agent137:	597
+	agent138:	597
+	agent139:	1,393
+	agent14:	1,990
+	agent140:	1,393
+	agent141:	1,990
+	agent142:	1,990
+	agent143:	1,791
+	agent144:	1,194
+	agent145:	1,990
+	agent146:	1,990
+	agent147:	1,990
+	agent148:	1,990
+	agent149:	1,592
+	agent15:	5,572
+	agent150:	1,393
+	agent151:	398
+	agent152:	199
+	agent153:	597
+	agent154:	597
+	agent155:	995
+	agent156:	995
+	agent157:	4,577
+	agent158:	4,577
+	agent159:	6,965
+	agent16:	5,373
+	agent160:	7,164
+	agent161:	5,572
+	agent162:	5,970
+	agent163:	5,572
+	agent164:	5,970
+	agent165:	5,572
+	agent166:	5,373
+	agent167:	5,572
+	agent168:	5,373
+	agent169:	2,587
+	agent17:	5,572
+	agent170:	2,587
+	agent171:	1,990
+	agent172:	2,189
+	agent173:	2,985
+	agent174:	2,587
+	agent175:	1,990
+	agent176:	1,990
+	agent177:	1,990
+	agent178:	1,791
+	agent179:	8,756
+	agent18:	5,373
+	agent180:	7,761
+	agent181:	2,985
+	agent182:	2,388
+	agent183:	2,587
+	agent184:	2,388
+	agent185:	1,194
+	agent186:	1,791
+	agent187:	1,194
+	agent188:	1,393
+	agent189:	1,393
+	agent19:	1,990
+	agent190:	1,194
+	agent191:	1,194
+	agent192:	995
+	agent193:	995
+	agent194:	1,194
+	agent195:	1,393
+	agent196:	1,592
+	agent197:	2,985
+	agent198:	3,383
+	agent199:	199
+	agent2:	2,985
+	agent20:	2,189
+	agent200:	398
+	agent21:	2,985
+	agent22:	2,985
+	agent23:	995
+	agent24:	995
+	agent25:	2,587
+	agent26:	2,587
+	agent27:	199
+	agent28:	398
+	agent29:	2,587
+	agent3:	2,985
+	agent30:	2,388
+	agent31:	1,791
+	agent32:	1,990
+	agent33:	1,791
+	agent34:	1,990
+	agent35:	4,975
+	agent36:	4,776
+	agent37:	4,975
+	agent38:	4,776
+	agent39:	5,572
+	agent4:	2,985
+	agent40:	5,970
+	agent41:	5,572
+	agent42:	5,970
+	agent43:	6,965
+	agent44:	7,164
+	agent45:	3,781
+	agent46:	3,781
+	agent47:	3,781
+	agent48:	3,980
+	agent49:	2,189
+	agent5:	597
+	agent50:	2,189
+	agent51:	597
+	agent52:	597
+	agent53:	995
+	agent54:	1,194
+	agent55:	1,791
+	agent56:	1,791
+	agent57:	2,388
+	agent58:	2,189
+	agent59:	2,388
+	agent6:	199
+	agent60:	2,189
+	agent61:	2,189
+	agent62:	2,189
+	agent63:	3,383
+	agent64:	2,985
+	agent65:	3,383
+	agent66:	2,985
+	agent67:	2,587
+	agent68:	2,388
+	agent69:	2,587
+	agent7:	796
+	agent70:	2,388
+	agent71:	1,393
+	agent72:	1,990
+	agent73:	3,781
+	agent74:	3,781
+	agent75:	3,781
+	agent76:	3,781
+	agent77:	3,383
+	agent78:	3,383
+	agent79:	1,791
+	agent8:	1,393
+	agent80:	1,791
+	agent81:	1,194
+	agent82:	1,393
+	agent83:	995
+	agent84:	1,592
+	agent85:	796
+	agent86:	796
+	agent87:	2,587
+	agent88:	2,587
+	agent89:	597
+	agent9:	796
+	agent90:	597
+	agent91:	4,577
+	agent92:	4,577
+	agent93:	4,577
+	agent94:	4,577
+	agent95:	2,587
+	agent96:	2,587
+	agent97:	2,985
+	agent98:	2,985
+	agent99:	2,985
+Number of messages received (by agent): 
+	agent1:	2,985
+	agent10:	796
+	agent100:	2,985
+	agent101:	2,587
+	agent102:	2,587
+	agent103:	1,194
+	agent104:	995
+	agent105:	4,179
+	agent106:	4,378
+	agent107:	1,393
+	agent108:	2,189
+	agent109:	1,592
+	agent11:	1,791
+	agent110:	1,393
+	agent111:	995
+	agent112:	995
+	agent113:	3,980
+	agent114:	3,781
+	agent115:	2,985
+	agent116:	3,383
+	agent117:	1,393
+	agent118:	1,393
+	agent119:	2,985
+	agent12:	1,990
+	agent120:	2,786
+	agent121:	3,383
+	agent122:	3,383
+	agent123:	1,990
+	agent124:	1,791
+	agent125:	1,393
+	agent126:	1,592
+	agent127:	1,194
+	agent128:	1,194
+	agent129:	3,383
+	agent13:	1,791
+	agent130:	2,985
+	agent131:	3,980
+	agent132:	4,179
+	agent133:	995
+	agent134:	1,393
+	agent135:	3,383
+	agent136:	3,383
+	agent137:	597
+	agent138:	597
+	agent139:	1,393
+	agent14:	1,990
+	agent140:	1,393
+	agent141:	1,990
+	agent142:	1,990
+	agent143:	1,791
+	agent144:	1,194
+	agent145:	1,990
+	agent146:	1,990
+	agent147:	1,990
+	agent148:	1,990
+	agent149:	1,592
+	agent15:	5,572
+	agent150:	1,393
+	agent151:	398
+	agent152:	199
+	agent153:	597
+	agent154:	597
+	agent155:	995
+	agent156:	995
+	agent157:	4,577
+	agent158:	4,577
+	agent159:	6,965
+	agent16:	5,373
+	agent160:	7,164
+	agent161:	5,572
+	agent162:	5,970
+	agent163:	5,572
+	agent164:	5,970
+	agent165:	5,572
+	agent166:	5,373
+	agent167:	5,572
+	agent168:	5,373
+	agent169:	2,587
+	agent17:	5,572
+	agent170:	2,587
+	agent171:	1,990
+	agent172:	2,189
+	agent173:	2,985
+	agent174:	2,587
+	agent175:	1,990
+	agent176:	1,990
+	agent177:	1,990
+	agent178:	1,791
+	agent179:	8,756
+	agent18:	5,373
+	agent180:	7,761
+	agent181:	2,985
+	agent182:	2,388
+	agent183:	2,587
+	agent184:	2,388
+	agent185:	1,194
+	agent186:	1,791
+	agent187:	1,194
+	agent188:	1,393
+	agent189:	1,393
+	agent19:	1,990
+	agent190:	1,194
+	agent191:	1,194
+	agent192:	995
+	agent193:	995
+	agent194:	1,194
+	agent195:	1,393
+	agent196:	1,592
+	agent197:	2,985
+	agent198:	3,383
+	agent199:	199
+	agent2:	2,985
+	agent20:	2,189
+	agent200:	398
+	agent21:	2,985
+	agent22:	2,985
+	agent23:	995
+	agent24:	995
+	agent25:	2,587
+	agent26:	2,587
+	agent27:	199
+	agent28:	398
+	agent29:	2,587
+	agent3:	2,985
+	agent30:	2,388
+	agent31:	1,791
+	agent32:	1,990
+	agent33:	1,791
+	agent34:	1,990
+	agent35:	4,975
+	agent36:	4,776
+	agent37:	4,975
+	agent38:	4,776
+	agent39:	5,572
+	agent4:	2,985
+	agent40:	5,970
+	agent41:	5,572
+	agent42:	5,970
+	agent43:	6,965
+	agent44:	7,164
+	agent45:	3,781
+	agent46:	3,781
+	agent47:	3,781
+	agent48:	3,980
+	agent49:	2,189
+	agent5:	597
+	agent50:	2,189
+	agent51:	597
+	agent52:	597
+	agent53:	995
+	agent54:	1,194
+	agent55:	1,791
+	agent56:	1,791
+	agent57:	2,388
+	agent58:	2,189
+	agent59:	2,388
+	agent6:	199
+	agent60:	2,189
+	agent61:	2,189
+	agent62:	2,189
+	agent63:	3,383
+	agent64:	2,985
+	agent65:	3,383
+	agent66:	2,985
+	agent67:	2,587
+	agent68:	2,388
+	agent69:	2,587
+	agent7:	796
+	agent70:	2,388
+	agent71:	1,393
+	agent72:	1,990
+	agent73:	3,781
+	agent74:	3,781
+	agent75:	3,781
+	agent76:	3,781
+	agent77:	3,383
+	agent78:	3,383
+	agent79:	1,791
+	agent8:	1,393
+	agent80:	1,791
+	agent81:	1,194
+	agent82:	1,393
+	agent83:	995
+	agent84:	1,592
+	agent85:	796
+	agent86:	796
+	agent87:	2,587
+	agent88:	2,587
+	agent89:	597
+	agent9:	796
+	agent90:	597
+	agent91:	4,577
+	agent92:	4,577
+	agent93:	4,577
+	agent94:	4,577
+	agent95:	2,587
+	agent96:	2,587
+	agent97:	2,985
+	agent98:	2,985
+	agent99:	2,985
+Amount of information sent (by type, in bytes): 
+	[ALL, DSA, VALUE]:	185,148
+	[ALL, DSA, VALUE]:	163,640
+	[ALL, DSA, VALUE]:	96,504
+	[ALL, DSA, VALUE]:	96,780
+	[ALL, DSA, VALUE]:	96,504
+	[ALL, DSA, VALUE]:	96,780
+	[ALL, DSA, VALUE]:	88,364
+	[ALL, DSA, VALUE]:	71,328
+	[ALL, DSA, VALUE]:	71,328
+	[ALL, DSA, VALUE]:	83,920
+	[ALL, DSA, VALUE]:	62,922
+	[ALL, DSA, VALUE]:	63,087
+	[ALL, DSA, VALUE]:	71,532
+	[ALL, DSA, VALUE]:	63,116
+	[ALL, DSA, VALUE]:	62,936
+	[ALL, DSA, VALUE]:	63,132
+	[ALL, DSA, VALUE]:	63,118
+	[ALL, DSA, VALUE]:	71,328
+	[ALL, DSA, VALUE]:	71,536
+	[ALL, DSA, VALUE]:	63,087
+	[ALL, DSA, VALUE]:	71,332
+	[ALL, DSA, VALUE]:	62,940
+	[ALL, DSA, VALUE]:	63,120
+	[ALL, DSA, VALUE]:	63,116
+	[ALL, DSA, VALUE]:	62,940
+	[ALL, DSA, VALUE]:	50,496
+	[ALL, DSA, VALUE]:	42,076
+	[ALL, DSA, VALUE]:	46,332
+	[ALL, DSA, VALUE]:	41,960
+	[ALL, DSA, VALUE]:	42,080
+	[ALL, DSA, VALUE]:	46,288
+	[ALL, DSA, VALUE]:	41,960
+	[ALL, DSA, VALUE]:	42,080
+	[ALL, DSA, VALUE]:	33,664
+	[ALL, DSA, VALUE]:	37,763
+	[ALL, DSA, VALUE]:	37,908
+	[ALL, DSA, VALUE]:	25,248
+	[ALL, DSA, VALUE]:	25,175
+	[ALL, DSA, VALUE]:	33,568
+	[ALL, DSA, VALUE]:	29,456
+	[ALL, DSA, VALUE]:	29,372
+	[ALL, DSA, VALUE]:	25,248
+	[ALL, DSA, VALUE]:	29,456
+	[ALL, DSA, VALUE]:	25,248
+	[ALL, DSA, VALUE]:	25,248
+	[ALL, DSA, VALUE]:	84,156
+	[ALL, DSA, VALUE]:	50,544
+	[ALL, DSA, VALUE]:	58,744
+	[ALL, DSA, VALUE]:	42,080
+	[ALL, DSA, VALUE]:	42,080
+	[ALL, DSA, VALUE]:	25,248
+	[ALL, DSA, VALUE]:	25,248
+	[ALL, DSA, VALUE]:	41,947
+	[ALL, DSA, VALUE]:	42,057
+	[ALL, DSA, VALUE]:	54,804
+	[ALL, DSA, VALUE]:	37,760
+	[ALL, DSA, VALUE]:	37,851
+	[ALL, DSA, VALUE]:	37,878
+	[ALL, DSA, VALUE]:	79,952
+	[ALL, DSA, VALUE]:	37,764
+	[ALL, DSA, VALUE]:	54,756
+	[ALL, DSA, VALUE]:	71,332
+	[ALL, DSA, VALUE]:	71,536
+	[ALL, DSA, VALUE]:	71,536
+	[ALL, DSA, VALUE]:	71,332
+	[ALL, DSA, VALUE]:	54,808
+	[ALL, DSA, VALUE]:	63,120
+	[ALL, DSA, VALUE]:	62,940
+	[ALL, DSA, VALUE]:	63,120
+	[ALL, DSA, VALUE]:	63,180
+	[ALL, DSA, VALUE]:	63,240
+	[ALL, DSA, VALUE]:	42,080
+	[ALL, DSA, VALUE]:	29,456
+	[ALL, DSA, VALUE]:	37,872
+	[ALL, DSA, VALUE]:	62,940
+	[ALL, DSA, VALUE]:	42,120
+	[ALL, DSA, VALUE]:	41,960
+	[ALL, DSA, VALUE]:	29,456
+	[ALL, DSA, VALUE]:	29,484
+	[ALL, DSA, VALUE]:	54,704
+	[ALL, DSA, VALUE]:	54,704
+	[ALL, DSA, VALUE]:	54,756
+	[ALL, DSA, VALUE]:	54,548
+	[ALL, DSA, VALUE]:	41,960
+	[ALL, DSA, VALUE]:	42,160
+	[ALL, DSA, VALUE]:	37,908
+	[ALL, DSA, VALUE]:	12,588
+	[ALL, DSA, VALUE]:	12,624
+	[ALL, DSA, VALUE]:	21,040
+	[ALL, DSA, VALUE]:	20,980
+	[ALL, DSA, VALUE]:	54,756
+	[ALL, DSA, VALUE]:	29,459
+	[ALL, DSA, VALUE]:	21,039
+	[ALL, DSA, VALUE]:	37,764
+	[ALL, DSA, VALUE]:	37,872
+	[ALL, DSA, VALUE]:	25,248
+	[ALL, DSA, VALUE]:	21,060
+	[ALL, DSA, VALUE]:	16,833
+	[ALL, DSA, VALUE]:	20,980
+	[ALL, DSA, VALUE]:	117,488
+	[ALL, DSA, VALUE]:	117,488
+	[ALL, DSA, VALUE]:	117,824
+	[ALL, DSA, VALUE]:	117,824
+	[ALL, DSA, VALUE]:	96,784
+	[ALL, DSA, VALUE]:	96,508
+	[ALL, DSA, VALUE]:	71,604
+	[ALL, DSA, VALUE]:	63,120
+	[ALL, DSA, VALUE]:	100,704
+	[ALL, DSA, VALUE]:	105,200
+	[ALL, DSA, VALUE]:	100,992
+	[ALL, DSA, VALUE]:	105,300
+	[ALL, DSA, VALUE]:	151,056
+	[ALL, DSA, VALUE]:	151,488
+	[ALL, DSA, VALUE]:	147,280
+	[ALL, DSA, VALUE]:	146,860
+	[ALL, DSA, VALUE]:	126,240
+	[ALL, DSA, VALUE]:	126,240
+	[ALL, DSA, VALUE]:	117,488
+	[ALL, DSA, VALUE]:	126,360
+	[ALL, DSA, VALUE]:	113,724
+	[ALL, DSA, VALUE]:	126,240
+	[ALL, DSA, VALUE]:	117,488
+	[ALL, DSA, VALUE]:	117,824
+	[ALL, DSA, VALUE]:	118,048
+	[ALL, DSA, VALUE]:	113,292
+	[ALL, DSA, VALUE]:	113,616
+	[ALL, DSA, VALUE]:	113,292
+	[ALL, DSA, VALUE]:	84,240
+	[ALL, DSA, VALUE]:	79,952
+	[ALL, DSA, VALUE]:	79,952
+	[ALL, DSA, VALUE]:	79,952
+	[ALL, DSA, VALUE]:	79,724
+	[ALL, DSA, VALUE]:	79,724
+	[ALL, DSA, VALUE]:	80,028
+	[ALL, DSA, VALUE]:	79,952
+	[ALL, DSA, VALUE]:	54,756
+	[ALL, DSA, VALUE]:	54,548
+	[ALL, DSA, VALUE]:	54,704
+	[ALL, DSA, VALUE]:	54,704
+	[ALL, DSA, VALUE]:	29,372
+	[ALL, DSA, VALUE]:	29,372
+	[ALL, DSA, VALUE]:	20,980
+	[ALL, DSA, VALUE]:	25,248
+	[ALL, DSA, VALUE]:	25,272
+	[ALL, DSA, VALUE]:	20,980
+	[ALL, DSA, VALUE]:	21,040
+	[ALL, DSA, VALUE]:	92,576
+	[ALL, DSA, VALUE]:	88,368
+	[ALL, DSA, VALUE]:	33,664
+	[ALL, DSA, VALUE]:	37,872
+	[ALL, DSA, VALUE]:	37,872
+	[ALL, DSA, VALUE]:	33,664
+	[ALL, DSA, VALUE]:	29,484
+	[ALL, DSA, VALUE]:	29,372
+	[ALL, DSA, VALUE]:	54,548
+	[ALL, DSA, VALUE]:	54,756
+	[ALL, DSA, VALUE]:	54,756
+	[ALL, DSA, VALUE]:	50,496
+	[ALL, DSA, VALUE]:	50,496
+	[ALL, DSA, VALUE]:	50,496
+	[ALL, DSA, VALUE]:	41,960
+	[ALL, DSA, VALUE]:	42,080
+	[ALL, DSA, VALUE]:	29,456
+	[ALL, DSA, VALUE]:	29,372
+	[ALL, DSA, VALUE]:	16,821
+	[ALL, DSA, VALUE]:	16,820
+	[ALL, DSA, VALUE]:	12,615
+	[ALL, DSA, VALUE]:	8,391
+	[ALL, DSA, VALUE]:	8,415
+	[ALL, DSA, VALUE]:	46,288
+	[ALL, DSA, VALUE]:	50,544
+	[ALL, DSA, VALUE]:	46,156
+	[ALL, DSA, VALUE]:	46,288
+	[ALL, DSA, VALUE]:	50,496
+	[ALL, DSA, VALUE]:	46,288
+	[ALL, DSA, VALUE]:	46,288
+	[ALL, DSA, VALUE]:	46,156
+	[ALL, DSA, VALUE]:	46,288
+	[ALL, DSA, VALUE]:	41,960
+	[ALL, DSA, VALUE]:	33,664
+	[ALL, DSA, VALUE]:	29,372
+	[ALL, DSA, VALUE]:	21,060
+	[ALL, DSA, VALUE]:	25,248
+	[ALL, DSA, VALUE]:	12,588
+	[ALL, DSA, VALUE]:	12,624
+	[ALL, DSA, VALUE]:	16,784
+	[ALL, DSA, VALUE]:	16,784
+	[ALL, DSA, VALUE]:	12,624
+	[ALL, DSA, VALUE]:	12,588
+	[ALL, DSA, VALUE]:	8,416
+	[ALL, DSA, VALUE]:	12,624
+	[ALL, DSA, VALUE]:	12,624
+	[ALL, DSA, VALUE]:	29,456
+	[ALL, DSA, VALUE]:	21,040
+	[ALL, DSA, VALUE]:	21,040
+	[ALL, DSA, VALUE]:	21,040
+	[ALL, DSA, VALUE]:	4,205
+	[ALL, DSA, VALUE]:	4,208
+	[ALL, DSA, VALUE]:	4,196
+	[ALL, DSA, VALUE]:	4,196
+	- Total:	11,116,883
+Amount of information sent (by agent, in bytes): 
+	agent1:	63,087
+	agent10:	16,833
+	agent100:	62,940
+	agent101:	54,808
+	agent102:	54,756
+	agent103:	25,248
+	agent104:	20,980
+	agent105:	88,368
+	agent106:	92,576
+	agent107:	29,456
+	agent108:	46,332
+	agent109:	33,664
+	agent11:	37,878
+	agent110:	29,484
+	agent111:	21,040
+	agent112:	21,040
+	agent113:	83,920
+	agent114:	79,952
+	agent115:	62,940
+	agent116:	71,536
+	agent117:	29,372
+	agent118:	29,456
+	agent119:	62,940
+	agent12:	42,057
+	agent120:	58,744
+	agent121:	71,532
+	agent122:	71,328
+	agent123:	42,160
+	agent124:	37,908
+	agent125:	29,484
+	agent126:	33,664
+	agent127:	25,248
+	agent128:	25,272
+	agent129:	71,604
+	agent13:	37,851
+	agent130:	63,120
+	agent131:	84,156
+	agent132:	88,364
+	agent133:	21,040
+	agent134:	29,456
+	agent135:	71,536
+	agent136:	71,332
+	agent137:	12,588
+	agent138:	12,624
+	agent139:	29,372
+	agent14:	41,947
+	agent140:	29,372
+	agent141:	42,080
+	agent142:	42,080
+	agent143:	37,908
+	agent144:	25,248
+	agent145:	42,080
+	agent146:	41,960
+	agent147:	41,960
+	agent148:	42,080
+	agent149:	33,664
+	agent15:	117,824
+	agent150:	29,372
+	agent151:	8,391
+	agent152:	4,208
+	agent153:	12,624
+	agent154:	12,624
+	agent155:	21,040
+	agent156:	20,980
+	agent157:	96,780
+	agent158:	96,504
+	agent159:	147,280
+	agent16:	113,292
+	agent160:	151,056
+	agent161:	117,488
+	agent162:	126,240
+	agent163:	117,824
+	agent164:	126,240
+	agent165:	117,824
+	agent166:	113,724
+	agent167:	117,488
+	agent168:	113,292
+	agent169:	54,756
+	agent17:	117,488
+	agent170:	54,704
+	agent171:	41,960
+	agent172:	46,288
+	agent173:	63,116
+	agent174:	54,804
+	agent175:	42,080
+	agent176:	41,960
+	agent177:	42,076
+	agent178:	37,760
+	agent179:	185,148
+	agent18:	113,616
+	agent180:	163,640
+	agent181:	63,118
+	agent182:	50,496
+	agent183:	54,756
+	agent184:	50,544
+	agent185:	25,248
+	agent186:	37,763
+	agent187:	25,248
+	agent188:	29,456
+	agent189:	29,372
+	agent19:	41,960
+	agent190:	25,248
+	agent191:	25,248
+	agent192:	20,980
+	agent193:	21,060
+	agent194:	25,248
+	agent195:	29,456
+	agent196:	33,568
+	agent197:	63,120
+	agent198:	71,332
+	agent199:	4,196
+	agent2:	62,922
+	agent20:	46,288
+	agent200:	8,415
+	agent21:	62,940
+	agent22:	63,120
+	agent23:	21,040
+	agent24:	20,980
+	agent25:	54,704
+	agent26:	54,548
+	agent27:	4,196
+	agent28:	8,416
+	agent29:	54,756
+	agent3:	63,132
+	agent30:	50,496
+	agent31:	37,872
+	agent32:	42,120
+	agent33:	37,872
+	agent34:	41,960
+	agent35:	105,300
+	agent36:	100,992
+	agent37:	105,200
+	agent38:	100,704
+	agent39:	117,488
+	agent4:	63,087
+	agent40:	126,240
+	agent41:	118,048
+	agent42:	126,360
+	agent43:	146,860
+	agent44:	151,488
+	agent45:	79,952
+	agent46:	79,724
+	agent47:	79,952
+	agent48:	84,240
+	agent49:	46,156
+	agent5:	12,615
+	agent50:	46,288
+	agent51:	12,588
+	agent52:	12,624
+	agent53:	21,039
+	agent54:	25,175
+	agent55:	37,764
+	agent56:	37,872
+	agent57:	50,496
+	agent58:	46,288
+	agent59:	50,544
+	agent6:	4,205
+	agent60:	46,288
+	agent61:	46,288
+	agent62:	46,156
+	agent63:	71,328
+	agent64:	62,936
+	agent65:	71,328
+	agent66:	63,116
+	agent67:	54,548
+	agent68:	50,496
+	agent69:	54,756
+	agent7:	16,820
+	agent70:	50,496
+	agent71:	29,456
+	agent72:	42,080
+	agent73:	79,724
+	agent74:	79,952
+	agent75:	80,028
+	agent76:	79,952
+	agent77:	71,536
+	agent78:	71,332
+	agent79:	37,764
+	agent8:	29,459
+	agent80:	37,872
+	agent81:	25,248
+	agent82:	29,372
+	agent83:	21,060
+	agent84:	33,664
+	agent85:	16,784
+	agent86:	16,784
+	agent87:	54,756
+	agent88:	54,704
+	agent89:	12,624
+	agent9:	16,821
+	agent90:	12,588
+	agent91:	96,508
+	agent92:	96,784
+	agent93:	96,504
+	agent94:	96,780
+	agent95:	54,548
+	agent96:	54,704
+	agent97:	63,240
+	agent98:	63,180
+	agent99:	63,120
+Amount of information received (by agent, in bytes): 
+	agent1:	63,007
+	agent10:	16,813
+	agent100:	63,104
+	agent101:	54,660
+	agent102:	54,664
+	agent103:	25,188
+	agent104:	21,004
+	agent105:	88,316
+	agent106:	92,528
+	agent107:	29,440
+	agent108:	46,248
+	agent109:	33,648
+	agent11:	37,842
+	agent110:	29,436
+	agent111:	21,028
+	agent112:	21,028
+	agent113:	84,112
+	agent114:	79,892
+	agent115:	63,064
+	agent116:	71,444
+	agent117:	29,468
+	agent118:	29,456
+	agent119:	63,048
+	agent12:	42,052
+	agent120:	58,840
+	agent121:	71,424
+	agent122:	71,436
+	agent123:	42,036
+	agent124:	37,832
+	agent125:	29,436
+	agent126:	33,648
+	agent127:	25,240
+	agent128:	25,224
+	agent129:	71,508
+	agent13:	37,845
+	agent130:	63,116
+	agent131:	84,068
+	agent132:	88,276
+	agent133:	21,028
+	agent134:	29,448
+	agent135:	71,464
+	agent136:	71,476
+	agent137:	12,600
+	agent138:	12,588
+	agent139:	29,408
+	agent14:	42,063
+	agent140:	29,408
+	agent141:	42,052
+	agent142:	42,052
+	agent143:	37,824
+	agent144:	25,240
+	agent145:	42,032
+	agent146:	42,044
+	agent147:	42,056
+	agent148:	42,044
+	agent149:	33,632
+	agent15:	117,732
+	agent150:	29,448
+	agent151:	8,417
+	agent152:	4,196
+	agent153:	12,612
+	agent154:	12,612
+	agent155:	21,040
+	agent156:	21,052
+	agent157:	96,648
+	agent158:	96,660
+	agent159:	147,164
+	agent16:	113,532
+	agent160:	151,388
+	agent161:	117,740
+	agent162:	126,148
+	agent163:	117,728
+	agent164:	126,148
+	agent165:	117,732
+	agent166:	113,516
+	agent167:	117,744
+	agent168:	113,532
+	agent169:	54,684
+	agent17:	117,744
+	agent170:	54,688
+	agent171:	42,064
+	agent172:	46,248
+	agent173:	63,080
+	agent174:	54,668
+	agent175:	42,056
+	agent176:	42,080
+	agent177:	42,060
+	agent178:	37,864
+	agent179:	184,940
+	agent18:	113,520
+	agent180:	163,940
+	agent181:	63,033
+	agent182:	50,436
+	agent183:	54,696
+	agent184:	50,444
+	agent185:	25,232
+	agent186:	37,869
+	agent187:	25,224
+	agent188:	29,420
+	agent189:	29,432
+	agent19:	42,076
+	agent190:	25,224
+	agent191:	25,228
+	agent192:	21,032
+	agent193:	21,016
+	agent194:	25,216
+	agent195:	29,424
+	agent196:	33,644
+	agent197:	63,072
+	agent198:	71,488
+	agent199:	4,208
+	agent2:	63,018
+	agent20:	46,248
+	agent200:	8,405
+	agent21:	63,084
+	agent22:	63,072
+	agent23:	21,004
+	agent24:	21,016
+	agent25:	54,664
+	agent26:	54,676
+	agent27:	4,208
+	agent28:	8,404
+	agent29:	54,664
+	agent3:	63,004
+	agent30:	50,472
+	agent31:	37,844
+	agent32:	42,052
+	agent33:	37,844
+	agent34:	42,068
+	agent35:	105,132
+	agent36:	100,924
+	agent37:	105,136
+	agent38:	100,936
+	agent39:	117,740
+	agent4:	63,007
+	agent40:	126,148
+	agent41:	117,720
+	agent42:	126,144
+	agent43:	147,176
+	agent44:	151,376
+	agent45:	79,868
+	agent46:	79,880
+	agent47:	79,868
+	agent48:	84,072
+	agent49:	46,272
+	agent5:	12,618
+	agent50:	46,260
+	agent51:	12,616
+	agent52:	12,600
+	agent53:	21,002
+	agent54:	25,225
+	agent55:	37,852
+	agent56:	37,840
+	agent57:	50,468
+	agent58:	46,260
+	agent59:	50,464
+	agent6:	4,205
+	agent60:	46,260
+	agent61:	46,260
+	agent62:	46,272
+	agent63:	71,452
+	agent64:	63,032
+	agent65:	71,452
+	agent66:	63,020
+	agent67:	54,680
+	agent68:	50,476
+	agent69:	54,664
+	agent7:	16,826
+	agent70:	50,476
+	agent71:	29,420
+	agent72:	42,028
+	agent73:	79,880
+	agent74:	79,868
+	agent75:	79,864
+	agent76:	79,868
+	agent77:	71,492
+	agent78:	71,504
+	agent79:	37,836
+	agent8:	29,420
+	agent80:	37,824
+	agent81:	25,228
+	agent82:	29,456
+	agent83:	21,028
+	agent84:	33,640
+	agent85:	16,824
+	agent86:	16,812
+	agent87:	54,660
+	agent88:	54,664
+	agent89:	12,588
+	agent9:	16,828
+	agent90:	12,600
+	agent91:	96,752
+	agent92:	96,740
+	agent93:	96,660
+	agent94:	96,648
+	agent95:	54,688
+	agent96:	54,676
+	agent97:	63,080
+	agent98:	63,084
+	agent99:	63,080
+Size of the largest message sent (by type, in bytes): 
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	235
+	[ALL, DSA, VALUE]:	235
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	235
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	235
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	235
+	[ALL, DSA, VALUE]:	235
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	235
+	[ALL, DSA, VALUE]:	235
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	235
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	235
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	235
+	[ALL, DSA, VALUE]:	234
+	[ALL, DSA, VALUE]:	234
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	234
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	[ALL, DSA, VALUE]:	236
+	- Overall maximum:	236
