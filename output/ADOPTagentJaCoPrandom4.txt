@@ -1,0 +1,150 @@
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. Use the option -license to display the license.
+
+Parsing the input problem file: ./xml//random.xml
+Parsing the input agent configuration file: ./frodo2/agents/ADOPT/ADOPTagentJaCoP.xml
+Setting up the agents...
+Constraint graph:
+graph {
+	node [shape = "circle"];
+	subgraph cluster_agent2 {
+		label = agent2;
+		var2 [style="filled"];
+	}
+	subgraph cluster_agent1 {
+		label = agent1;
+		var1 [style="filled"];
+	}
+	subgraph cluster_agent4 {
+		label = agent4;
+		var4 [style="filled"];
+	}
+	subgraph cluster_agent3 {
+		label = agent3;
+		var3 [style="filled"];
+	}
+
+
+	var4 -- var2;
+	var4 -- var1;
+	var3 -- var2;
+	var3 -- var1;
+	var2 -- var1;
+}
+
+Starting the algorithm...
+Chosen DFS tree:
+digraph {
+	node [shape = "circle"];
+
+	var4 [style="filled"];
+	var1 -> var4;
+	var2 -> var4 [style = "dashed" arrowhead = "none" weight="0.5"];
+
+	var3 [style="filled"];
+	var1 -> var3;
+	var2 -> var3 [style = "dashed" arrowhead = "none" weight="0.5"];
+
+	var2 [style="filled"];
+
+	var1 [style="filled"];
+	var2 -> var1;
+
+}
+var `var2' = 704
+var `var1' = 71
+var `var4' = 778
+var `var3' = 647
+Total cost of reported solution: 3
+Algorithm finished in 136 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, ADOPT, COST]:	131
+	[ALL, ADOPT, COST]:	136
+	[ALL, ADOPT, COST]:	278
+	[ALL, ADOPT, Preprocessing, Heuristics]:	1
+	[ALL, ADOPT, Preprocessing, Heuristics]:	1
+	[ALL, ADOPT, Preprocessing, Heuristics]:	1
+	[ALL, ADOPT, TERMINATE]:	2
+	[ALL, ADOPT, TERMINATE]:	1
+	[ALL, ADOPT, VALUE]:	560
+	[ALL, ADOPT, VALUE]:	129
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	3
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	3
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	4
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	1
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	2
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	2
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	2
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	3
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	3
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	2
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	1
+	- Total:	1 266
+Number of messages sent (by agent): 
+	agent1:	850
+	agent2:	137
+	agent3:	137
+	agent4:	142
+Number of messages received (by agent): 
+	agent1:	320
+	agent2:	288
+	agent3:	329
+	agent4:	329
+Amount of information sent (by type, in bytes): 
+	[ALL, ADOPT, COST]:	7 802
+	[ALL, ADOPT, COST]:	8 097
+	[ALL, ADOPT, COST]:	11 813
+	[ALL, ADOPT, Preprocessing, Heuristics]:	644
+	[ALL, ADOPT, Preprocessing, Heuristics]:	628
+	[ALL, ADOPT, Preprocessing, Heuristics]:	628
+	[ALL, ADOPT, TERMINATE]:	186
+	[ALL, ADOPT, TERMINATE]:	75
+	[ALL, ADOPT, VALUE]:	15 030
+	[ALL, ADOPT, VALUE]:	3 414
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	410
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	404
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	568
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	168
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	668
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	838
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	838
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	1 257
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	1 257
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	166
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	83
+	- Total:	54 974
+Amount of information sent (by agent, in bytes): 
+	agent1:	29 648
+	agent2:	5 665
+	agent3:	9 694
+	agent4:	9 967
+Amount of information received (by agent, in bytes): 
+	agent1:	20 429
+	agent2:	14 383
+	agent3:	10 005
+	agent4:	10 157
+Size of the largest message sent (by type, in bytes): 
+	[ALL, ADOPT, COST]:	85
+	[ALL, ADOPT, COST]:	85
+	[ALL, ADOPT, COST]:	85
+	[ALL, ADOPT, Preprocessing, Heuristics]:	644
+	[ALL, ADOPT, Preprocessing, Heuristics]:	628
+	[ALL, ADOPT, Preprocessing, Heuristics]:	628
+	[ALL, ADOPT, TERMINATE]:	93
+	[ALL, ADOPT, TERMINATE]:	75
+	[ALL, ADOPT, VALUE]:	136
+	[ALL, ADOPT, VALUE]:	136
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	178
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	175
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	172
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	168
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	334
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	419
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	419
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	419
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	419
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	83
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	83
+	- Overall maximum:	644

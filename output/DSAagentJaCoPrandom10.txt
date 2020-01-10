@@ -1,0 +1,181 @@
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. Use the option -license to display the license.
+
+Parsing the input problem file: ./xml/random.xml
+Parsing the input agent configuration file: ./frodo2/agents/DSA/DSAagentJaCoP.xml
+Setting up the agents...
+Constraint graph:
+graph {
+	node [shape = "circle"];
+	subgraph cluster_agent6 {
+		label = agent6;
+		var6 [style="filled"];
+	}
+	subgraph cluster_agent5 {
+		label = agent5;
+		var5 [style="filled"];
+	}
+	subgraph cluster_agent8 {
+		label = agent8;
+		var8 [style="filled"];
+	}
+	subgraph cluster_agent7 {
+		label = agent7;
+		var7 [style="filled"];
+	}
+	subgraph cluster_agent9 {
+		label = agent9;
+		var9 [style="filled"];
+	}
+	subgraph cluster_agent10 {
+		label = agent10;
+		var10 [style="filled"];
+	}
+	subgraph cluster_agent2 {
+		label = agent2;
+		var2 [style="filled"];
+	}
+	subgraph cluster_agent1 {
+		label = agent1;
+		var1 [style="filled"];
+	}
+	subgraph cluster_agent4 {
+		label = agent4;
+		var4 [style="filled"];
+	}
+	subgraph cluster_agent3 {
+		label = agent3;
+		var3 [style="filled"];
+	}
+
+
+	var9 -- var8;
+	var9 -- var7;
+	var9 -- var6;
+	var9 -- var5;
+	var9 -- var4;
+	var9 -- var3;
+	var9 -- var2;
+	var9 -- var1;
+	var8 -- var7;
+	var8 -- var5;
+	var8 -- var1;
+	var7 -- var6;
+	var7 -- var5;
+	var7 -- var4;
+	var7 -- var3;
+	var7 -- var2;
+	var7 -- var1;
+	var6 -- var5;
+	var6 -- var4;
+	var6 -- var3;
+	var6 -- var2;
+	var6 -- var1;
+	var5 -- var4;
+	var5 -- var3;
+	var5 -- var2;
+	var5 -- var1;
+	var4 -- var3;
+	var4 -- var2;
+	var4 -- var1;
+	var10 -- var1;
+	var3 -- var2;
+	var3 -- var1;
+	var2 -- var1;
+}
+
+Starting the algorithm...
+var `var10' = 235
+var `var9' = 86
+var `var8' = 402
+var `var2' = 677
+var `var3' = 107
+var `var6' = 42
+var `var4' = 49
+var `var7' = 679
+var `var1' = 320
+var `var5' = 791
+Total cost of reported solution: 25
+Algorithm finished in 664 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, DSA, VALUE]:	1 592
+	[ALL, DSA, VALUE]:	1 791
+	[ALL, DSA, VALUE]:	1 592
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	1 393
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	1 592
+	[ALL, DSA, VALUE]:	199
+	- Total:	13 134
+Number of messages sent (by agent): 
+	agent1:	1 791
+	agent10:	199
+	agent2:	1 393
+	agent3:	1 393
+	agent4:	1 393
+	agent5:	1 592
+	agent6:	1 393
+	agent7:	1 592
+	agent8:	796
+	agent9:	1 592
+Number of messages received (by agent): 
+	agent1:	1 791
+	agent10:	199
+	agent2:	1 393
+	agent3:	1 393
+	agent4:	1 393
+	agent5:	1 592
+	agent6:	1 393
+	agent7:	1 592
+	agent8:	796
+	agent9:	1 592
+Amount of information sent (by type, in bytes): 
+	[ALL, DSA, VALUE]:	33 616
+	[ALL, DSA, VALUE]:	37 909
+	[ALL, DSA, VALUE]:	33 616
+	[ALL, DSA, VALUE]:	29 344
+	[ALL, DSA, VALUE]:	29 414
+	[ALL, DSA, VALUE]:	29 484
+	[ALL, DSA, VALUE]:	29 344
+	[ALL, DSA, VALUE]:	16 808
+	[ALL, DSA, VALUE]:	33 536
+	[ALL, DSA, VALUE]:	4 193
+	- Total:	277 264
+Amount of information sent (by agent, in bytes): 
+	agent1:	37 909
+	agent10:	4 193
+	agent2:	29 344
+	agent3:	29 484
+	agent4:	29 344
+	agent5:	33 616
+	agent6:	29 414
+	agent7:	33 616
+	agent8:	16 808
+	agent9:	33 536
+Amount of information received (by agent, in bytes): 
+	agent1:	37 789
+	agent10:	4 213
+	agent2:	29 414
+	agent3:	29 394
+	agent4:	29 414
+	agent5:	33 606
+	agent6:	29 404
+	agent7:	33 606
+	agent8:	16 808
+	agent9:	33 616
+Size of the largest message sent (by type, in bytes): 
+	[ALL, DSA, VALUE]:	232
+	[ALL, DSA, VALUE]:	233
+	[ALL, DSA, VALUE]:	232
+	[ALL, DSA, VALUE]:	232
+	[ALL, DSA, VALUE]:	232
+	[ALL, DSA, VALUE]:	232
+	[ALL, DSA, VALUE]:	232
+	[ALL, DSA, VALUE]:	232
+	[ALL, DSA, VALUE]:	232
+	[ALL, DSA, VALUE]:	233
+	- Overall maximum:	233

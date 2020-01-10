@@ -1,0 +1,135 @@
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. Use the option -license to display the license.
+
+Parsing the input problem file: ./xml//random.xml
+Parsing the input agent configuration file: ./frodo2/agents/DPOP/DPOPagentJaCoP.xml
+Setting up the agents...
+Constraint graph:
+graph {
+	node [shape = "circle"];
+	subgraph cluster_agent2 {
+		label = agent2;
+		var2 [style="filled"];
+	}
+	subgraph cluster_agent1 {
+		label = agent1;
+		var1 [style="filled"];
+	}
+	subgraph cluster_agent4 {
+		label = agent4;
+		var4 [style="filled"];
+	}
+	subgraph cluster_agent3 {
+		label = agent3;
+		var3 [style="filled"];
+	}
+
+
+	var4 -- var2;
+	var4 -- var1;
+	var3 -- var2;
+	var3 -- var1;
+	var2 -- var1;
+}
+
+Starting the algorithm...
+Chosen DFS tree:
+digraph {
+	node [shape = "circle"];
+
+	var4 [style="filled"];
+	var1 -> var4;
+	var2 -> var4 [style = "dashed" arrowhead = "none" weight="0.5"];
+
+	var3 [style="filled"];
+	var1 -> var3;
+	var2 -> var3 [style = "dashed" arrowhead = "none" weight="0.5"];
+
+	var2 [style="filled"];
+
+	var1 [style="filled"];
+	var2 -> var1;
+
+}
+var `var2' = 71
+var `var1' = 71
+var `var3' = 566
+var `var4' = 308
+Total cost of reported solution: 3
+Algorithm finished in 74 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, DPOP, UTILpropagation, UTIL]:	1
+	[ALL, DPOP, UTILpropagation, UTIL]:	1
+	[ALL, DPOP, UTILpropagation, UTIL]:	1
+	[ALL, DPOP, VALUEpropagation, VALUE]:	2
+	[ALL, DPOP, VALUEpropagation, VALUE]:	1
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	3
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	3
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	4
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	1
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	2
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	2
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	2
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	3
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	3
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	2
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	1
+	- Total:	32
+Number of messages sent (by agent): 
+	agent1:	12
+	agent2:	8
+	agent3:	6
+	agent4:	6
+Number of messages received (by agent): 
+	agent1:	10
+	agent2:	10
+	agent3:	6
+	agent4:	6
+Amount of information sent (by type, in bytes): 
+	[ALL, DPOP, UTILpropagation, UTIL]:	856
+	[ALL, DPOP, UTILpropagation, UTIL]:	856
+	[ALL, DPOP, UTILpropagation, UTIL]:	435
+	[ALL, DPOP, VALUEpropagation, VALUE]:	488
+	[ALL, DPOP, VALUEpropagation, VALUE]:	224
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	404
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	410
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	568
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	168
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	668
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	838
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	838
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	1 257
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	1 257
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	166
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	83
+	- Total:	9 516
+Amount of information sent (by agent, in bytes): 
+	agent1:	2 914
+	agent2:	2 400
+	agent3:	2 104
+	agent4:	2 098
+Amount of information received (by agent, in bytes): 
+	agent1:	3 797
+	agent2:	2 377
+	agent3:	1 671
+	agent4:	1 671
+Size of the largest message sent (by type, in bytes): 
+	[ALL, DPOP, UTILpropagation, UTIL]:	856
+	[ALL, DPOP, UTILpropagation, UTIL]:	856
+	[ALL, DPOP, UTILpropagation, UTIL]:	435
+	[ALL, DPOP, VALUEpropagation, VALUE]:	244
+	[ALL, DPOP, VALUEpropagation, VALUE]:	224
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	175
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	178
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	172
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	168
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	334
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	419
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	419
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	419
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	419
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	83
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	83
+	- Overall maximum:	856

@@ -25,7 +25,6 @@ How to contact the authors:
 Thomas Leaute and Boi Faltings. Protecting privacy through distributed computation in multi-agent decision making. 
 Journal of Artificial Intelligence Research (JAIR), 47:649-695, August 2013.
 """
-
 # Add the FRODO benchmarks folder to the Python path and import the frodo2 module
 import sys
 

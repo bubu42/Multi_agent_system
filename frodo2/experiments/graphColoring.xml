@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="src/frodo2/algorithms/XCSPschemaJaCoP.xsd">
+    <presentation name="graphColoring_1578144391255" maxConstraintArity="2" maximize="false" format="XCSP 2.1_FRODO">
+        <stats name="number of nodes">10</stats>
+        <stats name="target density">0.4</stats>
+        <stats name="true average density">0.4</stats>
+        <stats name="target unary tightness">0.0</stats>
+        <stats name="true average unary tightness">0.0</stats>
+        <stats name="number of colors">3</stats>
+        <stats name="number of uncontrollable nodes">0</stats>
+        <stats name="number of disconnected components">1</stats>
+        <stats name="max degree">5</stats>
+    </presentation>
+    <agents nbAgents="10">
+        <agent name="a_x0"/>
+        <agent name="a_x1"/>
+        <agent name="a_x2"/>
+        <agent name="a_x3"/>
+        <agent name="a_x4"/>
+        <agent name="a_x5"/>
+        <agent name="a_x6"/>
+        <agent name="a_x7"/>
+        <agent name="a_x8"/>
+        <agent name="a_x9"/>
+    </agents>
+    <domains nbDomains="1">
+        <domain name="colors" nbValues="3">1..3</domain>
+    </domains>
+    <variables nbVariables="10">
+        <variable name="x0" domain="colors" agent="a_x0"/>
+        <variable name="x1" domain="colors" agent="a_x1"/>
+        <variable name="x2" domain="colors" agent="a_x2"/>
+        <variable name="x3" domain="colors" agent="a_x3"/>
+        <variable name="x4" domain="colors" agent="a_x4"/>
+        <variable name="x5" domain="colors" agent="a_x5"/>
+        <variable name="x6" domain="colors" agent="a_x6"/>
+        <variable name="x7" domain="colors" agent="a_x7"/>
+        <variable name="x8" domain="colors" agent="a_x8"/>
+        <variable name="x9" domain="colors" agent="a_x9"/>
+    </variables>
+    <predicates nbPredicates="1">
+        <predicate name="neq">
+            <parameters>int X int Y</parameters>
+            <expression>
+                <functional>ne(X, Y)</functional>
+            </expression>
+        </predicate>
+    </predicates>
+    <constraints nbConstraints="18">
+        <constraint name="x1_neq_x6" scope="x1 x6" arity="2" reference="neq">
+            <parameters>x1 x6</parameters>
+        </constraint>
+        <constraint name="x8_neq_x9" scope="x8 x9" arity="2" reference="neq">
+            <parameters>x8 x9</parameters>
+        </constraint>
+        <constraint name="x4_neq_x8" scope="x4 x8" arity="2" reference="neq">
+            <parameters>x4 x8</parameters>
+        </constraint>
+        <constraint name="x0_neq_x8" scope="x0 x8" arity="2" reference="neq">
+            <parameters>x0 x8</parameters>
+        </constraint>
+        <constraint name="x4_neq_x5" scope="x4 x5" arity="2" reference="neq">
+            <parameters>x4 x5</parameters>
+        </constraint>
+        <constraint name="x1_neq_x8" scope="x1 x8" arity="2" reference="neq">
+            <parameters>x1 x8</parameters>
+        </constraint>
+        <constraint name="x0_neq_x1" scope="x0 x1" arity="2" reference="neq">
+            <parameters>x0 x1</parameters>
+        </constraint>
+        <constraint name="x6_neq_x9" scope="x6 x9" arity="2" reference="neq">
+            <parameters>x6 x9</parameters>
+        </constraint>
+        <constraint name="x3_neq_x6" scope="x3 x6" arity="2" reference="neq">
+            <parameters>x3 x6</parameters>
+        </constraint>
+        <constraint name="x6_neq_x7" scope="x6 x7" arity="2" reference="neq">
+            <parameters>x6 x7</parameters>
+        </constraint>
+        <constraint name="x3_neq_x9" scope="x3 x9" arity="2" reference="neq">
+            <parameters>x3 x9</parameters>
+        </constraint>
+        <constraint name="x7_neq_x8" scope="x7 x8" arity="2" reference="neq">
+            <parameters>x7 x8</parameters>
+        </constraint>
+        <constraint name="x1_neq_x2" scope="x1 x2" arity="2" reference="neq">
+            <parameters>x1 x2</parameters>
+        </constraint>
+        <constraint name="x4_neq_x7" scope="x4 x7" arity="2" reference="neq">
+            <parameters>x4 x7</parameters>
+        </constraint>
+        <constraint name="x3_neq_x5" scope="x3 x5" arity="2" reference="neq">
+            <parameters>x3 x5</parameters>
+        </constraint>
+        <constraint name="x0_neq_x4" scope="x0 x4" arity="2" reference="neq">
+            <parameters>x0 x4</parameters>
+        </constraint>
+        <constraint name="x5_neq_x7" scope="x5 x7" arity="2" reference="neq">
+            <parameters>x5 x7</parameters>
+        </constraint>
+        <constraint name="x2_neq_x6" scope="x2 x6" arity="2" reference="neq">
+            <parameters>x2 x6</parameters>
+        </constraint>
+    </constraints>
+</instance>

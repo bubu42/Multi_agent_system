@@ -1,0 +1,503 @@
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. Use the option -license to display the license.
+
+Parsing the input problem file: ./xml/random.xml
+Parsing the input agent configuration file: ./frodo2/agents/MGM/MGMagentJaCoP.xml
+Setting up the agents...
+Constraint graph:
+graph {
+	node [shape = "circle"];
+	subgraph cluster_agent20 {
+		label = agent20;
+		var20 [style="filled"];
+	}
+	subgraph cluster_agent12 {
+		label = agent12;
+		var12 [style="filled"];
+	}
+	subgraph cluster_agent13 {
+		label = agent13;
+		var13 [style="filled"];
+	}
+	subgraph cluster_agent10 {
+		label = agent10;
+		var10 [style="filled"];
+	}
+	subgraph cluster_agent11 {
+		label = agent11;
+		var11 [style="filled"];
+	}
+	subgraph cluster_agent16 {
+		label = agent16;
+		var16 [style="filled"];
+	}
+	subgraph cluster_agent17 {
+		label = agent17;
+		var17 [style="filled"];
+	}
+	subgraph cluster_agent14 {
+		label = agent14;
+		var14 [style="filled"];
+	}
+	subgraph cluster_agent15 {
+		label = agent15;
+		var15 [style="filled"];
+	}
+	subgraph cluster_agent2 {
+		label = agent2;
+		var2 [style="filled"];
+	}
+	subgraph cluster_agent1 {
+		label = agent1;
+		var1 [style="filled"];
+	}
+	subgraph cluster_agent4 {
+		label = agent4;
+		var4 [style="filled"];
+	}
+	subgraph cluster_agent18 {
+		label = agent18;
+		var18 [style="filled"];
+	}
+	subgraph cluster_agent3 {
+		label = agent3;
+		var3 [style="filled"];
+	}
+	subgraph cluster_agent19 {
+		label = agent19;
+		var19 [style="filled"];
+	}
+	subgraph cluster_agent6 {
+		label = agent6;
+		var6 [style="filled"];
+	}
+	subgraph cluster_agent5 {
+		label = agent5;
+		var5 [style="filled"];
+	}
+	subgraph cluster_agent8 {
+		label = agent8;
+		var8 [style="filled"];
+	}
+	subgraph cluster_agent7 {
+		label = agent7;
+		var7 [style="filled"];
+	}
+	subgraph cluster_agent9 {
+		label = agent9;
+		var9 [style="filled"];
+	}
+
+
+	var16 -- var12;
+	var16 -- var13;
+	var16 -- var14;
+	var16 -- var15;
+	var16 -- var10;
+	var16 -- var11;
+	var16 -- var1;
+	var17 -- var16;
+	var17 -- var12;
+	var17 -- var13;
+	var17 -- var14;
+	var17 -- var10;
+	var17 -- var11;
+	var17 -- var1;
+	var18 -- var16;
+	var18 -- var12;
+	var18 -- var13;
+	var18 -- var14;
+	var18 -- var10;
+	var18 -- var11;
+	var18 -- var1;
+	var19 -- var16;
+	var19 -- var12;
+	var19 -- var13;
+	var19 -- var14;
+	var19 -- var15;
+	var19 -- var10;
+	var19 -- var11;
+	var19 -- var1;
+	var12 -- var10;
+	var12 -- var11;
+	var12 -- var1;
+	var9 -- var16;
+	var9 -- var17;
+	var9 -- var18;
+	var9 -- var19;
+	var9 -- var12;
+	var9 -- var13;
+	var9 -- var8;
+	var9 -- var14;
+	var9 -- var7;
+	var9 -- var15;
+	var9 -- var20;
+	var9 -- var10;
+	var9 -- var11;
+	var9 -- var6;
+	var9 -- var5;
+	var9 -- var4;
+	var9 -- var3;
+	var9 -- var2;
+	var9 -- var1;
+	var13 -- var12;
+	var13 -- var10;
+	var13 -- var11;
+	var13 -- var1;
+	var8 -- var16;
+	var8 -- var17;
+	var8 -- var18;
+	var8 -- var19;
+	var8 -- var12;
+	var8 -- var13;
+	var8 -- var14;
+	var8 -- var7;
+	var8 -- var15;
+	var8 -- var20;
+	var8 -- var10;
+	var8 -- var11;
+	var8 -- var6;
+	var8 -- var5;
+	var8 -- var4;
+	var8 -- var3;
+	var8 -- var2;
+	var8 -- var1;
+	var14 -- var12;
+	var14 -- var13;
+	var14 -- var10;
+	var14 -- var11;
+	var14 -- var1;
+	var7 -- var16;
+	var7 -- var17;
+	var7 -- var18;
+	var7 -- var19;
+	var7 -- var12;
+	var7 -- var13;
+	var7 -- var14;
+	var7 -- var15;
+	var7 -- var20;
+	var7 -- var10;
+	var7 -- var11;
+	var7 -- var5;
+	var7 -- var2;
+	var7 -- var1;
+	var15 -- var12;
+	var15 -- var13;
+	var15 -- var14;
+	var15 -- var10;
+	var15 -- var11;
+	var15 -- var1;
+	var20 -- var12;
+	var20 -- var13;
+	var20 -- var14;
+	var20 -- var10;
+	var20 -- var11;
+	var20 -- var2;
+	var20 -- var1;
+	var10 -- var1;
+	var11 -- var10;
+	var11 -- var1;
+	var6 -- var16;
+	var6 -- var17;
+	var6 -- var18;
+	var6 -- var19;
+	var6 -- var12;
+	var6 -- var13;
+	var6 -- var14;
+	var6 -- var15;
+	var6 -- var20;
+	var6 -- var10;
+	var6 -- var11;
+	var6 -- var5;
+	var6 -- var4;
+	var6 -- var1;
+	var5 -- var16;
+	var5 -- var17;
+	var5 -- var18;
+	var5 -- var19;
+	var5 -- var12;
+	var5 -- var13;
+	var5 -- var14;
+	var5 -- var15;
+	var5 -- var20;
+	var5 -- var10;
+	var5 -- var11;
+	var5 -- var4;
+	var5 -- var3;
+	var5 -- var2;
+	var5 -- var1;
+	var4 -- var16;
+	var4 -- var17;
+	var4 -- var18;
+	var4 -- var19;
+	var4 -- var12;
+	var4 -- var13;
+	var4 -- var14;
+	var4 -- var15;
+	var4 -- var20;
+	var4 -- var10;
+	var4 -- var11;
+	var4 -- var3;
+	var4 -- var2;
+	var4 -- var1;
+	var3 -- var16;
+	var3 -- var17;
+	var3 -- var18;
+	var3 -- var19;
+	var3 -- var12;
+	var3 -- var13;
+	var3 -- var14;
+	var3 -- var15;
+	var3 -- var20;
+	var3 -- var10;
+	var3 -- var11;
+	var3 -- var2;
+	var3 -- var1;
+	var2 -- var16;
+	var2 -- var17;
+	var2 -- var18;
+	var2 -- var19;
+	var2 -- var12;
+	var2 -- var13;
+	var2 -- var14;
+	var2 -- var15;
+	var2 -- var10;
+	var2 -- var11;
+	var2 -- var1;
+}
+
+Starting the algorithm...
+var `var20' = 130
+var `var17' = 134
+var `var19' = 675
+var `var12' = 789
+var `var9' = 788
+var `var14' = 629
+var `var18' = 33
+var `var7' = 436
+var `var15' = 40
+var `var13' = 278
+var `var8' = 620
+var `var6' = 256
+var `var5' = 372
+var `var11' = 483
+var `var10' = 29
+var `var1' = 620
+var `var2' = 278
+var `var4' = 102
+var `var3' = 28
+var `var16' = 757
+Total cost of reported solution: 109
+Algorithm finished in 4 163 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, MGM, improve]:	3 600
+	[ALL, MGM, improve]:	3 000
+	[ALL, MGM, improve]:	3 800
+	[ALL, MGM, improve]:	3 600
+	[ALL, MGM, improve]:	3 600
+	[ALL, MGM, improve]:	3 400
+	[ALL, MGM, improve]:	3 800
+	[ALL, MGM, improve]:	3 800
+	[ALL, MGM, improve]:	3 800
+	[ALL, MGM, improve]:	3 200
+	[ALL, MGM, improve]:	3 800
+	[ALL, MGM, improve]:	3 200
+	[ALL, MGM, improve]:	3 800
+	[ALL, MGM, improve]:	3 200
+	[ALL, MGM, improve]:	3 200
+	[ALL, MGM, improve]:	3 000
+	[ALL, MGM, improve]:	3 800
+	[ALL, MGM, improve]:	3 800
+	[ALL, MGM, improve]:	3 800
+	[ALL, MGM, improve]:	2 800
+	[ALL, MGM, ok]:	3 600
+	[ALL, MGM, ok]:	3 000
+	[ALL, MGM, ok]:	3 800
+	[ALL, MGM, ok]:	3 600
+	[ALL, MGM, ok]:	3 600
+	[ALL, MGM, ok]:	3 400
+	[ALL, MGM, ok]:	3 800
+	[ALL, MGM, ok]:	3 800
+	[ALL, MGM, ok]:	3 800
+	[ALL, MGM, ok]:	3 200
+	[ALL, MGM, ok]:	3 800
+	[ALL, MGM, ok]:	3 200
+	[ALL, MGM, ok]:	3 800
+	[ALL, MGM, ok]:	3 200
+	[ALL, MGM, ok]:	3 200
+	[ALL, MGM, ok]:	3 000
+	[ALL, MGM, ok]:	3 800
+	[ALL, MGM, ok]:	3 800
+	[ALL, MGM, ok]:	3 800
+	[ALL, MGM, ok]:	2 800
+	- Total:	140 000
+Number of messages sent (by agent): 
+	agent1:	7 600
+	agent10:	7 600
+	agent11:	7 600
+	agent12:	7 600
+	agent13:	7 600
+	agent14:	7 600
+	agent15:	6 400
+	agent16:	7 200
+	agent17:	6 000
+	agent18:	6 000
+	agent19:	6 400
+	agent2:	7 200
+	agent20:	5 600
+	agent3:	6 800
+	agent4:	7 200
+	agent5:	7 600
+	agent6:	6 400
+	agent7:	6 400
+	agent8:	7 600
+	agent9:	7 600
+Number of messages received (by agent): 
+	agent1:	7 600
+	agent10:	7 600
+	agent11:	7 600
+	agent12:	7 600
+	agent13:	7 600
+	agent14:	7 600
+	agent15:	6 400
+	agent16:	7 200
+	agent17:	6 000
+	agent18:	6 000
+	agent19:	6 400
+	agent2:	7 200
+	agent20:	5 600
+	agent3:	6 800
+	agent4:	7 200
+	agent5:	7 600
+	agent6:	6 400
+	agent7:	6 400
+	agent8:	7 600
+	agent9:	7 600
+Amount of information sent (by type, in bytes): 
+	[ALL, MGM, improve]:	149 508
+	[ALL, MGM, improve]:	124 590
+	[ALL, MGM, improve]:	157 814
+	[ALL, MGM, improve]:	149 508
+	[ALL, MGM, improve]:	149 508
+	[ALL, MGM, improve]:	141 202
+	[ALL, MGM, improve]:	157 814
+	[ALL, MGM, improve]:	157 814
+	[ALL, MGM, improve]:	157 814
+	[ALL, MGM, improve]:	132 896
+	[ALL, MGM, improve]:	157 814
+	[ALL, MGM, improve]:	132 896
+	[ALL, MGM, improve]:	157 814
+	[ALL, MGM, improve]:	132 896
+	[ALL, MGM, improve]:	132 896
+	[ALL, MGM, improve]:	124 590
+	[ALL, MGM, improve]:	157 814
+	[ALL, MGM, improve]:	157 814
+	[ALL, MGM, improve]:	157 814
+	[ALL, MGM, improve]:	116 284
+	[ALL, MGM, ok]:	75 735
+	[ALL, MGM, ok]:	63 231
+	[ALL, MGM, ok]:	80 077
+	[ALL, MGM, ok]:	75 719
+	[ALL, MGM, ok]:	75 863
+	[ALL, MGM, ok]:	71 513
+	[ALL, MGM, ok]:	80 095
+	[ALL, MGM, ok]:	79 943
+	[ALL, MGM, ok]:	79 925
+	[ALL, MGM, ok]:	67 307
+	[ALL, MGM, ok]:	79 925
+	[ALL, MGM, ok]:	67 435
+	[ALL, MGM, ok]:	80 247
+	[ALL, MGM, ok]:	67 319
+	[ALL, MGM, ok]:	67 319
+	[ALL, MGM, ok]:	63 231
+	[ALL, MGM, ok]:	80 095
+	[ALL, MGM, ok]:	80 077
+	[ALL, MGM, ok]:	80 095
+	[ALL, MGM, ok]:	58 903
+	- Total:	4 381 154
+Amount of information sent (by agent, in bytes): 
+	agent1:	237 739
+	agent10:	237 909
+	agent11:	238 061
+	agent12:	237 909
+	agent13:	237 757
+	agent14:	237 909
+	agent15:	200 215
+	agent16:	225 243
+	agent17:	187 821
+	agent18:	187 821
+	agent19:	200 215
+	agent2:	225 227
+	agent20:	175 187
+	agent3:	212 715
+	agent4:	225 371
+	agent5:	237 891
+	agent6:	200 203
+	agent7:	200 331
+	agent8:	237 739
+	agent9:	237 891
+Amount of information received (by agent, in bytes): 
+	agent1:	237 827
+	agent10:	237 837
+	agent11:	237 829
+	agent12:	237 837
+	agent13:	237 845
+	agent14:	237 837
+	agent15:	200 287
+	agent16:	225 331
+	agent17:	187 773
+	agent18:	187 773
+	agent19:	200 287
+	agent2:	225 315
+	agent20:	175 259
+	agent3:	212 795
+	agent4:	225 299
+	agent5:	237 819
+	agent6:	200 283
+	agent7:	200 275
+	agent8:	237 827
+	agent9:	237 819
+Size of the largest message sent (by type, in bytes): 
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, ok]:	228
+	[ALL, MGM, ok]:	228
+	[ALL, MGM, ok]:	227
+	[ALL, MGM, ok]:	227
+	[ALL, MGM, ok]:	227
+	[ALL, MGM, ok]:	227
+	[ALL, MGM, ok]:	228
+	[ALL, MGM, ok]:	228
+	[ALL, MGM, ok]:	227
+	[ALL, MGM, ok]:	227
+	[ALL, MGM, ok]:	227
+	[ALL, MGM, ok]:	227
+	[ALL, MGM, ok]:	228
+	[ALL, MGM, ok]:	228
+	[ALL, MGM, ok]:	228
+	[ALL, MGM, ok]:	228
+	[ALL, MGM, ok]:	228
+	[ALL, MGM, ok]:	227
+	[ALL, MGM, ok]:	228
+	[ALL, MGM, ok]:	228
+	- Overall maximum:	228

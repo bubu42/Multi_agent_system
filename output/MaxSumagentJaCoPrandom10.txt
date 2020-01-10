@@ -1,0 +1,1207 @@
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. Use the option -license to display the license.
+
+Parsing the input problem file: ./xml/random.xml
+Parsing the input agent configuration file: ./frodo2/agents/MaxSum/MaxSumagentJaCoP.xml
+Setting up the agents...
+Constraint graph:
+graph {
+	node [shape = "circle"];
+	subgraph cluster_agent6 {
+		label = agent6;
+		var6 [style="filled"];
+	}
+	subgraph cluster_agent5 {
+		label = agent5;
+		var5 [style="filled"];
+	}
+	subgraph cluster_agent8 {
+		label = agent8;
+		var8 [style="filled"];
+	}
+	subgraph cluster_agent7 {
+		label = agent7;
+		var7 [style="filled"];
+	}
+	subgraph cluster_agent9 {
+		label = agent9;
+		var9 [style="filled"];
+	}
+	subgraph cluster_agent10 {
+		label = agent10;
+		var10 [style="filled"];
+	}
+	subgraph cluster_agent2 {
+		label = agent2;
+		var2 [style="filled"];
+	}
+	subgraph cluster_agent1 {
+		label = agent1;
+		var1 [style="filled"];
+	}
+	subgraph cluster_agent4 {
+		label = agent4;
+		var4 [style="filled"];
+	}
+	subgraph cluster_agent3 {
+		label = agent3;
+		var3 [style="filled"];
+	}
+
+
+	var9 -- var8;
+	var9 -- var7;
+	var9 -- var6;
+	var9 -- var5;
+	var9 -- var4;
+	var9 -- var3;
+	var9 -- var2;
+	var9 -- var1;
+	var8 -- var7;
+	var8 -- var5;
+	var8 -- var1;
+	var7 -- var6;
+	var7 -- var5;
+	var7 -- var4;
+	var7 -- var3;
+	var7 -- var2;
+	var7 -- var1;
+	var6 -- var5;
+	var6 -- var4;
+	var6 -- var3;
+	var6 -- var2;
+	var6 -- var1;
+	var5 -- var4;
+	var5 -- var3;
+	var5 -- var2;
+	var5 -- var1;
+	var4 -- var3;
+	var4 -- var2;
+	var4 -- var1;
+	var10 -- var1;
+	var3 -- var2;
+	var3 -- var1;
+	var2 -- var1;
+}
+
+Factor graph:
+strict graph {
+	subgraph cluster_agent6 {
+		label = agent6;
+		var_var6 [shape = "circle", label = "var6"];
+
+		func_6_gt_1_with_K=203 [shape = "square", label = "6_gt_1_with_K=203"];
+		func_6_gt_2_with_K=182 [shape = "square", label = "6_gt_2_with_K=182"];
+		func_6_eq_3_with_K=238 [shape = "square", label = "6_eq_3_with_K=238"];
+		func_6_gt_4_with_K=5 [shape = "square", label = "6_gt_4_with_K=5"];
+	}
+	subgraph cluster_agent5 {
+		label = agent5;
+		var_var5 [shape = "circle", label = "var5"];
+
+		func_5_eq_1_with_K=238 [shape = "square", label = "5_eq_1_with_K=238"];
+		func_5_eq_2_with_K=238 [shape = "square", label = "5_eq_2_with_K=238"];
+		func_5_eq_3_with_K=238 [shape = "square", label = "5_eq_3_with_K=238"];
+		func_5_gt_4_with_K=296 [shape = "square", label = "5_gt_4_with_K=296"];
+		func_5_gt_6_with_K=197 [shape = "square", label = "5_gt_6_with_K=197"];
+		func_5_eq_7_with_K=238 [shape = "square", label = "5_eq_7_with_K=238"];
+		func_5_gt_8_with_K=310 [shape = "square", label = "5_gt_8_with_K=310"];
+	}
+	subgraph cluster_agent8 {
+		label = agent8;
+		var_var8 [shape = "circle", label = "var8"];
+
+		func_8_eq_1_with_K=238 [shape = "square", label = "8_eq_1_with_K=238"];
+	}
+	subgraph cluster_agent7 {
+		label = agent7;
+		var_var7 [shape = "circle", label = "var7"];
+
+		func_7_gt_1_with_K=358 [shape = "square", label = "7_gt_1_with_K=358"];
+		func_7_eq_2_with_K=238 [shape = "square", label = "7_eq_2_with_K=238"];
+		func_7_eq_3_with_K=238 [shape = "square", label = "7_eq_3_with_K=238"];
+		func_7_gt_4_with_K=168 [shape = "square", label = "7_gt_4_with_K=168"];
+		func_7_eq_5_with_K=238 [shape = "square", label = "7_eq_5_with_K=238"];
+		func_7_gt_6_with_K=278 [shape = "square", label = "7_gt_6_with_K=278"];
+		func_7_eq_8_with_K=238 [shape = "square", label = "7_eq_8_with_K=238"];
+		func_7_eq_9_with_K=238 [shape = "square", label = "7_eq_9_with_K=238"];
+	}
+	subgraph cluster_agent9 {
+		label = agent9;
+		var_var9 [shape = "circle", label = "var9"];
+
+		func_9_eq_1_with_K=238 [shape = "square", label = "9_eq_1_with_K=238"];
+		func_9_eq_2_with_K=238 [shape = "square", label = "9_eq_2_with_K=238"];
+		func_9_gt_3_with_K=87 [shape = "square", label = "9_gt_3_with_K=87"];
+		func_9_eq_4_with_K=238 [shape = "square", label = "9_eq_4_with_K=238"];
+		func_9_eq_5_with_K=238 [shape = "square", label = "9_eq_5_with_K=238"];
+		func_9_eq_6_with_K=238 [shape = "square", label = "9_eq_6_with_K=238"];
+		func_9_gt_7_with_K=288 [shape = "square", label = "9_gt_7_with_K=288"];
+		func_9_gt_8_with_K=284 [shape = "square", label = "9_gt_8_with_K=284"];
+	}
+	subgraph cluster_agent10 {
+		label = agent10;
+		var_var10 [shape = "circle", label = "var10"];
+
+		func_10_eq_1_with_K=238 [shape = "square", label = "10_eq_1_with_K=238"];
+	}
+	subgraph cluster_agent2 {
+		label = agent2;
+		var_var2 [shape = "circle", label = "var2"];
+
+		func_2_eq_1_with_K=238 [shape = "square", label = "2_eq_1_with_K=238"];
+		func_2_gt_3_with_K=251 [shape = "square", label = "2_gt_3_with_K=251"];
+		func_2_gt_4_with_K=303 [shape = "square", label = "2_gt_4_with_K=303"];
+		func_2_eq_5_with_K=238 [shape = "square", label = "2_eq_5_with_K=238"];
+	}
+	subgraph cluster_agent1 {
+		label = agent1;
+		var_var1 [shape = "circle", label = "var1"];
+
+		func_1_gt_2_with_K=82 [shape = "square", label = "1_gt_2_with_K=82"];
+		func_1_gt_3_with_K=51 [shape = "square", label = "1_gt_3_with_K=51"];
+		func_1_gt_4_with_K=286 [shape = "square", label = "1_gt_4_with_K=286"];
+		func_1_gt_5_with_K=372 [shape = "square", label = "1_gt_5_with_K=372"];
+		func_1_eq_6_with_K=238 [shape = "square", label = "1_eq_6_with_K=238"];
+		func_1_eq_7_with_K=238 [shape = "square", label = "1_eq_7_with_K=238"];
+	}
+	subgraph cluster_agent4 {
+		label = agent4;
+		var_var4 [shape = "circle", label = "var4"];
+
+		func_4_gt_1_with_K=11 [shape = "square", label = "4_gt_1_with_K=11"];
+		func_4_gt_2_with_K=197 [shape = "square", label = "4_gt_2_with_K=197"];
+		func_4_gt_3_with_K=41 [shape = "square", label = "4_gt_3_with_K=41"];
+		func_4_gt_5_with_K=317 [shape = "square", label = "4_gt_5_with_K=317"];
+		func_4_eq_6_with_K=238 [shape = "square", label = "4_eq_6_with_K=238"];
+	}
+	subgraph cluster_agent3 {
+		label = agent3;
+		var_var3 [shape = "circle", label = "var3"];
+
+		func_3_gt_1_with_K=190 [shape = "square", label = "3_gt_1_with_K=190"];
+		func_3_gt_2_with_K=151 [shape = "square", label = "3_gt_2_with_K=151"];
+		func_3_gt_4_with_K=15 [shape = "square", label = "3_gt_4_with_K=15"];
+		func_3_eq_5_with_K=238 [shape = "square", label = "3_eq_5_with_K=238"];
+	}
+
+	func_1_gt_2_with_K=82--var_var1;
+	func_1_gt_2_with_K=82--var_var2;
+	func_1_gt_3_with_K=51--var_var1;
+	func_1_gt_3_with_K=51--var_var3;
+	func_1_gt_4_with_K=286--var_var1;
+	func_1_gt_4_with_K=286--var_var4;
+	func_1_gt_5_with_K=372--var_var1;
+	func_1_gt_5_with_K=372--var_var5;
+	func_1_eq_6_with_K=238--var_var1;
+	func_1_eq_6_with_K=238--var_var6;
+	func_1_eq_7_with_K=238--var_var1;
+	func_1_eq_7_with_K=238--var_var7;
+	func_2_eq_1_with_K=238--var_var2;
+	func_2_eq_1_with_K=238--var_var1;
+	func_2_gt_3_with_K=251--var_var2;
+	func_2_gt_3_with_K=251--var_var3;
+	func_2_gt_4_with_K=303--var_var2;
+	func_2_gt_4_with_K=303--var_var4;
+	func_2_eq_5_with_K=238--var_var2;
+	func_2_eq_5_with_K=238--var_var5;
+	func_3_gt_1_with_K=190--var_var3;
+	func_3_gt_1_with_K=190--var_var1;
+	func_3_gt_2_with_K=151--var_var3;
+	func_3_gt_2_with_K=151--var_var2;
+	func_3_gt_4_with_K=15--var_var3;
+	func_3_gt_4_with_K=15--var_var4;
+	func_3_eq_5_with_K=238--var_var3;
+	func_3_eq_5_with_K=238--var_var5;
+	func_4_gt_1_with_K=11--var_var4;
+	func_4_gt_1_with_K=11--var_var1;
+	func_4_gt_2_with_K=197--var_var4;
+	func_4_gt_2_with_K=197--var_var2;
+	func_4_gt_3_with_K=41--var_var4;
+	func_4_gt_3_with_K=41--var_var3;
+	func_4_gt_5_with_K=317--var_var4;
+	func_4_gt_5_with_K=317--var_var5;
+	func_4_eq_6_with_K=238--var_var4;
+	func_4_eq_6_with_K=238--var_var6;
+	func_5_eq_1_with_K=238--var_var5;
+	func_5_eq_1_with_K=238--var_var1;
+	func_5_eq_2_with_K=238--var_var5;
+	func_5_eq_2_with_K=238--var_var2;
+	func_5_eq_3_with_K=238--var_var5;
+	func_5_eq_3_with_K=238--var_var3;
+	func_5_gt_4_with_K=296--var_var5;
+	func_5_gt_4_with_K=296--var_var4;
+	func_5_gt_6_with_K=197--var_var5;
+	func_5_gt_6_with_K=197--var_var6;
+	func_5_eq_7_with_K=238--var_var5;
+	func_5_eq_7_with_K=238--var_var7;
+	func_5_gt_8_with_K=310--var_var5;
+	func_5_gt_8_with_K=310--var_var8;
+	func_6_gt_1_with_K=203--var_var6;
+	func_6_gt_1_with_K=203--var_var1;
+	func_6_gt_2_with_K=182--var_var6;
+	func_6_gt_2_with_K=182--var_var2;
+	func_6_eq_3_with_K=238--var_var6;
+	func_6_eq_3_with_K=238--var_var3;
+	func_6_gt_4_with_K=5--var_var6;
+	func_6_gt_4_with_K=5--var_var4;
+	func_7_gt_1_with_K=358--var_var7;
+	func_7_gt_1_with_K=358--var_var1;
+	func_7_eq_2_with_K=238--var_var7;
+	func_7_eq_2_with_K=238--var_var2;
+	func_7_eq_3_with_K=238--var_var7;
+	func_7_eq_3_with_K=238--var_var3;
+	func_7_gt_4_with_K=168--var_var7;
+	func_7_gt_4_with_K=168--var_var4;
+	func_7_eq_5_with_K=238--var_var7;
+	func_7_eq_5_with_K=238--var_var5;
+	func_7_gt_6_with_K=278--var_var7;
+	func_7_gt_6_with_K=278--var_var6;
+	func_7_eq_8_with_K=238--var_var7;
+	func_7_eq_8_with_K=238--var_var8;
+	func_7_eq_9_with_K=238--var_var7;
+	func_7_eq_9_with_K=238--var_var9;
+	func_8_eq_1_with_K=238--var_var8;
+	func_8_eq_1_with_K=238--var_var1;
+	func_9_eq_1_with_K=238--var_var9;
+	func_9_eq_1_with_K=238--var_var1;
+	func_9_eq_2_with_K=238--var_var9;
+	func_9_eq_2_with_K=238--var_var2;
+	func_9_gt_3_with_K=87--var_var9;
+	func_9_gt_3_with_K=87--var_var3;
+	func_9_eq_4_with_K=238--var_var9;
+	func_9_eq_4_with_K=238--var_var4;
+	func_9_eq_5_with_K=238--var_var9;
+	func_9_eq_5_with_K=238--var_var5;
+	func_9_eq_6_with_K=238--var_var9;
+	func_9_eq_6_with_K=238--var_var6;
+	func_9_gt_7_with_K=288--var_var9;
+	func_9_gt_7_with_K=288--var_var7;
+	func_9_gt_8_with_K=284--var_var9;
+	func_9_gt_8_with_K=284--var_var8;
+	func_10_eq_1_with_K=238--var_var10;
+	func_10_eq_1_with_K=238--var_var1;
+
+}
+
+Starting the algorithm...
+var `var4' = 523
+var `var2' = 677
+var `var3' = 107
+var `var1' = 202
+var `var5' = 76
+var `var7' = 574
+var `var6' = 76
+var `var10' = 652
+var `var9' = 86
+Algorithm finished in 657 ms (simulated time)
+Total cost of reported solution: 30
+Number of messages sent (by type): 
+	[ALL, Max-Sum, FunctionToVar]:	13
+	[ALL, Max-Sum, FunctionToVar]:	110
+	[ALL, Max-Sum, FunctionToVar]:	14
+	[ALL, Max-Sum, FunctionToVar]:	216
+	[ALL, Max-Sum, FunctionToVar]:	96
+	[ALL, Max-Sum, FunctionToVar]:	151
+	[ALL, Max-Sum, FunctionToVar]:	144
+	[ALL, Max-Sum, FunctionToVar]:	110
+	[ALL, Max-Sum, FunctionToVar]:	95
+	[ALL, Max-Sum, FunctionToVar]:	88
+	[ALL, Max-Sum, VarToFunction]:	43
+	[ALL, Max-Sum, VarToFunction]:	168
+	[ALL, Max-Sum, VarToFunction]:	260
+	[ALL, Max-Sum, VarToFunction]:	336
+	[ALL, Max-Sum, VarToFunction]:	360
+	[ALL, Max-Sum, VarToFunction]:	245
+	[ALL, Max-Sum, VarToFunction]:	273
+	[ALL, Max-Sum, VarToFunction]:	315
+	- Total:	3 037
+Number of messages sent (by agent): 
+	agent1:	517
+	agent10:	14
+	agent2:	403
+	agent3:	368
+	agent4:	355
+	agent5:	487
+	agent6:	356
+	agent7:	384
+	agent9:	153
+Number of messages received (by agent): 
+	agent1:	464
+	agent10:	40
+	agent2:	336
+	agent3:	352
+	agent4:	388
+	agent5:	378
+	agent6:	265
+	agent7:	384
+	agent8:	89
+	agent9:	341
+Amount of information sent (by type, in bytes): 
+	[ALL, Max-Sum, FunctionToVar]:	1 579
+	[ALL, Max-Sum, FunctionToVar]:	15 556
+	[ALL, Max-Sum, FunctionToVar]:	2 021
+	[ALL, Max-Sum, FunctionToVar]:	25 477
+	[ALL, Max-Sum, FunctionToVar]:	10 516
+	[ALL, Max-Sum, FunctionToVar]:	17 630
+	[ALL, Max-Sum, FunctionToVar]:	15 892
+	[ALL, Max-Sum, FunctionToVar]:	11 969
+	[ALL, Max-Sum, FunctionToVar]:	10 668
+	[ALL, Max-Sum, FunctionToVar]:	9 908
+	[ALL, Max-Sum, VarToFunction]:	3 436
+	[ALL, Max-Sum, VarToFunction]:	21 399
+	[ALL, Max-Sum, VarToFunction]:	35 365
+	[ALL, Max-Sum, VarToFunction]:	45 486
+	[ALL, Max-Sum, VarToFunction]:	44 181
+	[ALL, Max-Sum, VarToFunction]:	30 475
+	[ALL, Max-Sum, VarToFunction]:	27 031
+	[ALL, Max-Sum, VarToFunction]:	30 687
+	- Total:	359 276
+Amount of information sent (by agent, in bytes): 
+	agent1:	61 652
+	agent10:	2 021
+	agent2:	40 595
+	agent3:	37 699
+	agent4:	42 444
+	agent5:	63 116
+	agent6:	45 881
+	agent7:	46 876
+	agent9:	18 992
+Amount of information received (by agent, in bytes): 
+	agent1:	55 870
+	agent10:	4 910
+	agent2:	36 853
+	agent3:	38 242
+	agent4:	46 437
+	agent5:	46 663
+	agent6:	32 521
+	agent7:	44 636
+	agent8:	12 530
+	agent9:	40 614
+Size of the largest message sent (by type, in bytes): 
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	578
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	553
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, VarToFunction]:	538
+	[ALL, Max-Sum, VarToFunction]:	588
+	[ALL, Max-Sum, VarToFunction]:	596
+	[ALL, Max-Sum, VarToFunction]:	596
+	[ALL, Max-Sum, VarToFunction]:	581
+	[ALL, Max-Sum, VarToFunction]:	580
+	[ALL, Max-Sum, VarToFunction]:	556
+	[ALL, Max-Sum, VarToFunction]:	556
+	- Overall maximum:	596
+Algorithm finished in 657 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, Max-Sum, FunctionToVar]:	5
+	[ALL, Max-Sum, FunctionToVar]:	13
+	[ALL, Max-Sum, FunctionToVar]:	110
+	[ALL, Max-Sum, FunctionToVar]:	14
+	[ALL, Max-Sum, FunctionToVar]:	216
+	[ALL, Max-Sum, FunctionToVar]:	96
+	[ALL, Max-Sum, FunctionToVar]:	151
+	[ALL, Max-Sum, FunctionToVar]:	144
+	[ALL, Max-Sum, FunctionToVar]:	110
+	[ALL, Max-Sum, FunctionToVar]:	95
+	[ALL, Max-Sum, FunctionToVar]:	88
+	[ALL, Max-Sum, VarToFunction]:	43
+	[ALL, Max-Sum, VarToFunction]:	168
+	[ALL, Max-Sum, VarToFunction]:	260
+	[ALL, Max-Sum, VarToFunction]:	336
+	[ALL, Max-Sum, VarToFunction]:	360
+	[ALL, Max-Sum, VarToFunction]:	245
+	[ALL, Max-Sum, VarToFunction]:	273
+	[ALL, Max-Sum, VarToFunction]:	315
+	- Total:	3 042
+Number of messages sent (by agent): 
+	agent1:	517
+	agent10:	14
+	agent2:	408
+	agent3:	368
+	agent4:	355
+	agent5:	487
+	agent6:	356
+	agent7:	384
+	agent9:	153
+Number of messages received (by agent): 
+	agent1:	466
+	agent10:	40
+	agent2:	336
+	agent3:	352
+	agent4:	388
+	agent5:	381
+	agent6:	265
+	agent7:	384
+	agent8:	89
+	agent9:	341
+Amount of information sent (by type, in bytes): 
+	[ALL, Max-Sum, FunctionToVar]:	603
+	[ALL, Max-Sum, FunctionToVar]:	1 579
+	[ALL, Max-Sum, FunctionToVar]:	15 556
+	[ALL, Max-Sum, FunctionToVar]:	2 021
+	[ALL, Max-Sum, FunctionToVar]:	25 477
+	[ALL, Max-Sum, FunctionToVar]:	10 516
+	[ALL, Max-Sum, FunctionToVar]:	17 630
+	[ALL, Max-Sum, FunctionToVar]:	15 892
+	[ALL, Max-Sum, FunctionToVar]:	11 969
+	[ALL, Max-Sum, FunctionToVar]:	10 668
+	[ALL, Max-Sum, FunctionToVar]:	9 908
+	[ALL, Max-Sum, VarToFunction]:	3 436
+	[ALL, Max-Sum, VarToFunction]:	21 399
+	[ALL, Max-Sum, VarToFunction]:	35 365
+	[ALL, Max-Sum, VarToFunction]:	45 486
+	[ALL, Max-Sum, VarToFunction]:	44 181
+	[ALL, Max-Sum, VarToFunction]:	30 475
+	[ALL, Max-Sum, VarToFunction]:	27 031
+	[ALL, Max-Sum, VarToFunction]:	30 687
+	- Total:	359 879
+Amount of information sent (by agent, in bytes): 
+	agent1:	61 652
+	agent10:	2 021
+	agent2:	41 198
+	agent3:	37 699
+	agent4:	42 444
+	agent5:	63 116
+	agent6:	45 881
+	agent7:	46 876
+	agent9:	18 992
+Amount of information received (by agent, in bytes): 
+	agent1:	56 092
+	agent10:	4 910
+	agent2:	36 853
+	agent3:	38 242
+	agent4:	46 437
+	agent5:	47 044
+	agent6:	32 521
+	agent7:	44 636
+	agent8:	12 530
+	agent9:	40 614
+Size of the largest message sent (by type, in bytes): 
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	578
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	553
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, VarToFunction]:	538
+	[ALL, Max-Sum, VarToFunction]:	588
+	[ALL, Max-Sum, VarToFunction]:	596
+	[ALL, Max-Sum, VarToFunction]:	596
+	[ALL, Max-Sum, VarToFunction]:	581
+	[ALL, Max-Sum, VarToFunction]:	580
+	[ALL, Max-Sum, VarToFunction]:	556
+	[ALL, Max-Sum, VarToFunction]:	556
+	- Overall maximum:	596
+Algorithm finished in 657 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, Max-Sum, FunctionToVar]:	6
+	[ALL, Max-Sum, FunctionToVar]:	5
+	[ALL, Max-Sum, FunctionToVar]:	13
+	[ALL, Max-Sum, FunctionToVar]:	110
+	[ALL, Max-Sum, FunctionToVar]:	14
+	[ALL, Max-Sum, FunctionToVar]:	216
+	[ALL, Max-Sum, FunctionToVar]:	96
+	[ALL, Max-Sum, FunctionToVar]:	151
+	[ALL, Max-Sum, FunctionToVar]:	144
+	[ALL, Max-Sum, FunctionToVar]:	110
+	[ALL, Max-Sum, FunctionToVar]:	95
+	[ALL, Max-Sum, FunctionToVar]:	88
+	[ALL, Max-Sum, VarToFunction]:	43
+	[ALL, Max-Sum, VarToFunction]:	168
+	[ALL, Max-Sum, VarToFunction]:	260
+	[ALL, Max-Sum, VarToFunction]:	336
+	[ALL, Max-Sum, VarToFunction]:	360
+	[ALL, Max-Sum, VarToFunction]:	245
+	[ALL, Max-Sum, VarToFunction]:	273
+	[ALL, Max-Sum, VarToFunction]:	315
+	- Total:	3 048
+Number of messages sent (by agent): 
+	agent1:	517
+	agent10:	14
+	agent2:	408
+	agent3:	374
+	agent4:	355
+	agent5:	487
+	agent6:	356
+	agent7:	384
+	agent9:	153
+Number of messages received (by agent): 
+	agent1:	469
+	agent10:	40
+	agent2:	336
+	agent3:	352
+	agent4:	388
+	agent5:	384
+	agent6:	265
+	agent7:	384
+	agent8:	89
+	agent9:	341
+Amount of information sent (by type, in bytes): 
+	[ALL, Max-Sum, FunctionToVar]:	714
+	[ALL, Max-Sum, FunctionToVar]:	603
+	[ALL, Max-Sum, FunctionToVar]:	1 579
+	[ALL, Max-Sum, FunctionToVar]:	15 556
+	[ALL, Max-Sum, FunctionToVar]:	2 021
+	[ALL, Max-Sum, FunctionToVar]:	25 477
+	[ALL, Max-Sum, FunctionToVar]:	10 516
+	[ALL, Max-Sum, FunctionToVar]:	17 630
+	[ALL, Max-Sum, FunctionToVar]:	15 892
+	[ALL, Max-Sum, FunctionToVar]:	11 969
+	[ALL, Max-Sum, FunctionToVar]:	10 668
+	[ALL, Max-Sum, FunctionToVar]:	9 908
+	[ALL, Max-Sum, VarToFunction]:	3 436
+	[ALL, Max-Sum, VarToFunction]:	21 399
+	[ALL, Max-Sum, VarToFunction]:	35 365
+	[ALL, Max-Sum, VarToFunction]:	45 486
+	[ALL, Max-Sum, VarToFunction]:	44 181
+	[ALL, Max-Sum, VarToFunction]:	30 475
+	[ALL, Max-Sum, VarToFunction]:	27 031
+	[ALL, Max-Sum, VarToFunction]:	30 687
+	- Total:	360 593
+Amount of information sent (by agent, in bytes): 
+	agent1:	61 652
+	agent10:	2 021
+	agent2:	41 198
+	agent3:	38 413
+	agent4:	42 444
+	agent5:	63 116
+	agent6:	45 881
+	agent7:	46 876
+	agent9:	18 992
+Amount of information received (by agent, in bytes): 
+	agent1:	56 425
+	agent10:	4 910
+	agent2:	36 853
+	agent3:	38 242
+	agent4:	46 437
+	agent5:	47 425
+	agent6:	32 521
+	agent7:	44 636
+	agent8:	12 530
+	agent9:	40 614
+Size of the largest message sent (by type, in bytes): 
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	578
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	553
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, VarToFunction]:	538
+	[ALL, Max-Sum, VarToFunction]:	588
+	[ALL, Max-Sum, VarToFunction]:	596
+	[ALL, Max-Sum, VarToFunction]:	596
+	[ALL, Max-Sum, VarToFunction]:	581
+	[ALL, Max-Sum, VarToFunction]:	580
+	[ALL, Max-Sum, VarToFunction]:	556
+	[ALL, Max-Sum, VarToFunction]:	556
+	- Overall maximum:	596
+Algorithm finished in 657 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, Max-Sum, FunctionToVar]:	6
+	[ALL, Max-Sum, FunctionToVar]:	6
+	[ALL, Max-Sum, FunctionToVar]:	5
+	[ALL, Max-Sum, FunctionToVar]:	13
+	[ALL, Max-Sum, FunctionToVar]:	110
+	[ALL, Max-Sum, FunctionToVar]:	14
+	[ALL, Max-Sum, FunctionToVar]:	216
+	[ALL, Max-Sum, FunctionToVar]:	96
+	[ALL, Max-Sum, FunctionToVar]:	151
+	[ALL, Max-Sum, FunctionToVar]:	144
+	[ALL, Max-Sum, FunctionToVar]:	110
+	[ALL, Max-Sum, FunctionToVar]:	95
+	[ALL, Max-Sum, FunctionToVar]:	88
+	[ALL, Max-Sum, VarToFunction]:	43
+	[ALL, Max-Sum, VarToFunction]:	168
+	[ALL, Max-Sum, VarToFunction]:	260
+	[ALL, Max-Sum, VarToFunction]:	336
+	[ALL, Max-Sum, VarToFunction]:	360
+	[ALL, Max-Sum, VarToFunction]:	245
+	[ALL, Max-Sum, VarToFunction]:	273
+	[ALL, Max-Sum, VarToFunction]:	315
+	- Total:	3 054
+Number of messages sent (by agent): 
+	agent1:	517
+	agent10:	14
+	agent2:	408
+	agent3:	374
+	agent4:	355
+	agent5:	493
+	agent6:	356
+	agent7:	384
+	agent9:	153
+Number of messages received (by agent): 
+	agent1:	469
+	agent10:	40
+	agent2:	336
+	agent3:	352
+	agent4:	388
+	agent5:	384
+	agent6:	267
+	agent7:	385
+	agent8:	92
+	agent9:	341
+Amount of information sent (by type, in bytes): 
+	[ALL, Max-Sum, FunctionToVar]:	754
+	[ALL, Max-Sum, FunctionToVar]:	714
+	[ALL, Max-Sum, FunctionToVar]:	603
+	[ALL, Max-Sum, FunctionToVar]:	1 579
+	[ALL, Max-Sum, FunctionToVar]:	15 556
+	[ALL, Max-Sum, FunctionToVar]:	2 021
+	[ALL, Max-Sum, FunctionToVar]:	25 477
+	[ALL, Max-Sum, FunctionToVar]:	10 516
+	[ALL, Max-Sum, FunctionToVar]:	17 630
+	[ALL, Max-Sum, FunctionToVar]:	15 892
+	[ALL, Max-Sum, FunctionToVar]:	11 969
+	[ALL, Max-Sum, FunctionToVar]:	10 668
+	[ALL, Max-Sum, FunctionToVar]:	9 908
+	[ALL, Max-Sum, VarToFunction]:	3 436
+	[ALL, Max-Sum, VarToFunction]:	21 399
+	[ALL, Max-Sum, VarToFunction]:	35 365
+	[ALL, Max-Sum, VarToFunction]:	45 486
+	[ALL, Max-Sum, VarToFunction]:	44 181
+	[ALL, Max-Sum, VarToFunction]:	30 475
+	[ALL, Max-Sum, VarToFunction]:	27 031
+	[ALL, Max-Sum, VarToFunction]:	30 687
+	- Total:	361 347
+Amount of information sent (by agent, in bytes): 
+	agent1:	61 652
+	agent10:	2 021
+	agent2:	41 198
+	agent3:	38 413
+	agent4:	42 444
+	agent5:	63 870
+	agent6:	45 881
+	agent7:	46 876
+	agent9:	18 992
+Amount of information received (by agent, in bytes): 
+	agent1:	56 425
+	agent10:	4 910
+	agent2:	36 853
+	agent3:	38 242
+	agent4:	46 437
+	agent5:	47 425
+	agent6:	32 775
+	agent7:	44 755
+	agent8:	12 911
+	agent9:	40 614
+Size of the largest message sent (by type, in bytes): 
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	578
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	553
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, VarToFunction]:	538
+	[ALL, Max-Sum, VarToFunction]:	588
+	[ALL, Max-Sum, VarToFunction]:	596
+	[ALL, Max-Sum, VarToFunction]:	596
+	[ALL, Max-Sum, VarToFunction]:	581
+	[ALL, Max-Sum, VarToFunction]:	580
+	[ALL, Max-Sum, VarToFunction]:	556
+	[ALL, Max-Sum, VarToFunction]:	556
+	- Overall maximum:	596
+Algorithm finished in 657 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, Max-Sum, FunctionToVar]:	14
+	[ALL, Max-Sum, FunctionToVar]:	6
+	[ALL, Max-Sum, FunctionToVar]:	6
+	[ALL, Max-Sum, FunctionToVar]:	5
+	[ALL, Max-Sum, FunctionToVar]:	13
+	[ALL, Max-Sum, FunctionToVar]:	110
+	[ALL, Max-Sum, FunctionToVar]:	14
+	[ALL, Max-Sum, FunctionToVar]:	216
+	[ALL, Max-Sum, FunctionToVar]:	96
+	[ALL, Max-Sum, FunctionToVar]:	151
+	[ALL, Max-Sum, FunctionToVar]:	144
+	[ALL, Max-Sum, FunctionToVar]:	110
+	[ALL, Max-Sum, FunctionToVar]:	95
+	[ALL, Max-Sum, FunctionToVar]:	88
+	[ALL, Max-Sum, VarToFunction]:	43
+	[ALL, Max-Sum, VarToFunction]:	168
+	[ALL, Max-Sum, VarToFunction]:	260
+	[ALL, Max-Sum, VarToFunction]:	336
+	[ALL, Max-Sum, VarToFunction]:	360
+	[ALL, Max-Sum, VarToFunction]:	245
+	[ALL, Max-Sum, VarToFunction]:	273
+	[ALL, Max-Sum, VarToFunction]:	315
+	- Total:	3 068
+Number of messages sent (by agent): 
+	agent1:	517
+	agent10:	14
+	agent2:	408
+	agent3:	374
+	agent4:	369
+	agent5:	493
+	agent6:	356
+	agent7:	384
+	agent9:	153
+Number of messages received (by agent): 
+	agent1:	473
+	agent10:	40
+	agent2:	336
+	agent3:	354
+	agent4:	388
+	agent5:	387
+	agent6:	272
+	agent7:	385
+	agent8:	92
+	agent9:	341
+Amount of information sent (by type, in bytes): 
+	[ALL, Max-Sum, FunctionToVar]:	1 634
+	[ALL, Max-Sum, FunctionToVar]:	754
+	[ALL, Max-Sum, FunctionToVar]:	714
+	[ALL, Max-Sum, FunctionToVar]:	603
+	[ALL, Max-Sum, FunctionToVar]:	1 579
+	[ALL, Max-Sum, FunctionToVar]:	15 556
+	[ALL, Max-Sum, FunctionToVar]:	2 021
+	[ALL, Max-Sum, FunctionToVar]:	25 477
+	[ALL, Max-Sum, FunctionToVar]:	10 516
+	[ALL, Max-Sum, FunctionToVar]:	17 630
+	[ALL, Max-Sum, FunctionToVar]:	15 892
+	[ALL, Max-Sum, FunctionToVar]:	11 969
+	[ALL, Max-Sum, FunctionToVar]:	10 668
+	[ALL, Max-Sum, FunctionToVar]:	9 908
+	[ALL, Max-Sum, VarToFunction]:	3 436
+	[ALL, Max-Sum, VarToFunction]:	21 399
+	[ALL, Max-Sum, VarToFunction]:	35 365
+	[ALL, Max-Sum, VarToFunction]:	45 486
+	[ALL, Max-Sum, VarToFunction]:	44 181
+	[ALL, Max-Sum, VarToFunction]:	30 475
+	[ALL, Max-Sum, VarToFunction]:	27 031
+	[ALL, Max-Sum, VarToFunction]:	30 687
+	- Total:	362 981
+Amount of information sent (by agent, in bytes): 
+	agent1:	61 652
+	agent10:	2 021
+	agent2:	41 198
+	agent3:	38 413
+	agent4:	44 078
+	agent5:	63 870
+	agent6:	45 881
+	agent7:	46 876
+	agent9:	18 992
+Amount of information received (by agent, in bytes): 
+	agent1:	56 869
+	agent10:	4 910
+	agent2:	36 853
+	agent3:	38 416
+	agent4:	46 437
+	agent5:	47 806
+	agent6:	33 410
+	agent7:	44 755
+	agent8:	12 911
+	agent9:	40 614
+Size of the largest message sent (by type, in bytes): 
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	578
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	553
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, VarToFunction]:	538
+	[ALL, Max-Sum, VarToFunction]:	588
+	[ALL, Max-Sum, VarToFunction]:	596
+	[ALL, Max-Sum, VarToFunction]:	596
+	[ALL, Max-Sum, VarToFunction]:	581
+	[ALL, Max-Sum, VarToFunction]:	580
+	[ALL, Max-Sum, VarToFunction]:	556
+	[ALL, Max-Sum, VarToFunction]:	556
+	- Overall maximum:	596
+Algorithm finished in 657 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, Max-Sum, FunctionToVar]:	14
+	[ALL, Max-Sum, FunctionToVar]:	6
+	[ALL, Max-Sum, FunctionToVar]:	6
+	[ALL, Max-Sum, FunctionToVar]:	5
+	[ALL, Max-Sum, FunctionToVar]:	13
+	[ALL, Max-Sum, FunctionToVar]:	110
+	[ALL, Max-Sum, FunctionToVar]:	14
+	[ALL, Max-Sum, FunctionToVar]:	216
+	[ALL, Max-Sum, FunctionToVar]:	96
+	[ALL, Max-Sum, FunctionToVar]:	151
+	[ALL, Max-Sum, FunctionToVar]:	144
+	[ALL, Max-Sum, FunctionToVar]:	110
+	[ALL, Max-Sum, FunctionToVar]:	95
+	[ALL, Max-Sum, FunctionToVar]:	88
+	[ALL, Max-Sum, VarToFunction]:	43
+	[ALL, Max-Sum, VarToFunction]:	168
+	[ALL, Max-Sum, VarToFunction]:	260
+	[ALL, Max-Sum, VarToFunction]:	336
+	[ALL, Max-Sum, VarToFunction]:	360
+	[ALL, Max-Sum, VarToFunction]:	245
+	[ALL, Max-Sum, VarToFunction]:	273
+	[ALL, Max-Sum, VarToFunction]:	315
+	- Total:	3 068
+Number of messages sent (by agent): 
+	agent1:	517
+	agent10:	14
+	agent2:	408
+	agent3:	374
+	agent4:	369
+	agent5:	493
+	agent6:	356
+	agent7:	384
+	agent9:	153
+Number of messages received (by agent): 
+	agent1:	473
+	agent10:	40
+	agent2:	336
+	agent3:	354
+	agent4:	388
+	agent5:	387
+	agent6:	272
+	agent7:	385
+	agent8:	92
+	agent9:	341
+Amount of information sent (by type, in bytes): 
+	[ALL, Max-Sum, FunctionToVar]:	1 634
+	[ALL, Max-Sum, FunctionToVar]:	754
+	[ALL, Max-Sum, FunctionToVar]:	714
+	[ALL, Max-Sum, FunctionToVar]:	603
+	[ALL, Max-Sum, FunctionToVar]:	1 579
+	[ALL, Max-Sum, FunctionToVar]:	15 556
+	[ALL, Max-Sum, FunctionToVar]:	2 021
+	[ALL, Max-Sum, FunctionToVar]:	25 477
+	[ALL, Max-Sum, FunctionToVar]:	10 516
+	[ALL, Max-Sum, FunctionToVar]:	17 630
+	[ALL, Max-Sum, FunctionToVar]:	15 892
+	[ALL, Max-Sum, FunctionToVar]:	11 969
+	[ALL, Max-Sum, FunctionToVar]:	10 668
+	[ALL, Max-Sum, FunctionToVar]:	9 908
+	[ALL, Max-Sum, VarToFunction]:	3 436
+	[ALL, Max-Sum, VarToFunction]:	21 399
+	[ALL, Max-Sum, VarToFunction]:	35 365
+	[ALL, Max-Sum, VarToFunction]:	45 486
+	[ALL, Max-Sum, VarToFunction]:	44 181
+	[ALL, Max-Sum, VarToFunction]:	30 475
+	[ALL, Max-Sum, VarToFunction]:	27 031
+	[ALL, Max-Sum, VarToFunction]:	30 687
+	- Total:	362 981
+Amount of information sent (by agent, in bytes): 
+	agent1:	61 652
+	agent10:	2 021
+	agent2:	41 198
+	agent3:	38 413
+	agent4:	44 078
+	agent5:	63 870
+	agent6:	45 881
+	agent7:	46 876
+	agent9:	18 992
+Amount of information received (by agent, in bytes): 
+	agent1:	56 869
+	agent10:	4 910
+	agent2:	36 853
+	agent3:	38 416
+	agent4:	46 437
+	agent5:	47 806
+	agent6:	33 410
+	agent7:	44 755
+	agent8:	12 911
+	agent9:	40 614
+Size of the largest message sent (by type, in bytes): 
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	578
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	553
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, VarToFunction]:	538
+	[ALL, Max-Sum, VarToFunction]:	588
+	[ALL, Max-Sum, VarToFunction]:	596
+	[ALL, Max-Sum, VarToFunction]:	596
+	[ALL, Max-Sum, VarToFunction]:	581
+	[ALL, Max-Sum, VarToFunction]:	580
+	[ALL, Max-Sum, VarToFunction]:	556
+	[ALL, Max-Sum, VarToFunction]:	556
+	- Overall maximum:	596
+var `var8' = 746
+Total cost of reported solution: 31
+Algorithm finished in 657 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, Max-Sum, FunctionToVar]:	22
+	[ALL, Max-Sum, FunctionToVar]:	14
+	[ALL, Max-Sum, FunctionToVar]:	6
+	[ALL, Max-Sum, FunctionToVar]:	6
+	[ALL, Max-Sum, FunctionToVar]:	5
+	[ALL, Max-Sum, FunctionToVar]:	13
+	[ALL, Max-Sum, FunctionToVar]:	110
+	[ALL, Max-Sum, FunctionToVar]:	14
+	[ALL, Max-Sum, FunctionToVar]:	216
+	[ALL, Max-Sum, FunctionToVar]:	96
+	[ALL, Max-Sum, FunctionToVar]:	151
+	[ALL, Max-Sum, FunctionToVar]:	144
+	[ALL, Max-Sum, FunctionToVar]:	110
+	[ALL, Max-Sum, FunctionToVar]:	95
+	[ALL, Max-Sum, FunctionToVar]:	88
+	[ALL, Max-Sum, VarToFunction]:	57
+	[ALL, Max-Sum, VarToFunction]:	43
+	[ALL, Max-Sum, VarToFunction]:	168
+	[ALL, Max-Sum, VarToFunction]:	260
+	[ALL, Max-Sum, VarToFunction]:	336
+	[ALL, Max-Sum, VarToFunction]:	360
+	[ALL, Max-Sum, VarToFunction]:	245
+	[ALL, Max-Sum, VarToFunction]:	273
+	[ALL, Max-Sum, VarToFunction]:	315
+	- Total:	3 147
+Number of messages sent (by agent): 
+	agent1:	517
+	agent10:	14
+	agent2:	408
+	agent3:	374
+	agent4:	369
+	agent5:	493
+	agent6:	356
+	agent7:	384
+	agent8:	79
+	agent9:	153
+Number of messages received (by agent): 
+	agent1:	495
+	agent10:	40
+	agent2:	336
+	agent3:	354
+	agent4:	388
+	agent5:	406
+	agent6:	272
+	agent7:	404
+	agent8:	92
+	agent9:	360
+Amount of information sent (by type, in bytes): 
+	[ALL, Max-Sum, FunctionToVar]:	2 908
+	[ALL, Max-Sum, FunctionToVar]:	1 634
+	[ALL, Max-Sum, FunctionToVar]:	754
+	[ALL, Max-Sum, FunctionToVar]:	714
+	[ALL, Max-Sum, FunctionToVar]:	603
+	[ALL, Max-Sum, FunctionToVar]:	1 579
+	[ALL, Max-Sum, FunctionToVar]:	15 556
+	[ALL, Max-Sum, FunctionToVar]:	2 021
+	[ALL, Max-Sum, FunctionToVar]:	25 477
+	[ALL, Max-Sum, FunctionToVar]:	10 516
+	[ALL, Max-Sum, FunctionToVar]:	17 630
+	[ALL, Max-Sum, FunctionToVar]:	15 892
+	[ALL, Max-Sum, FunctionToVar]:	11 969
+	[ALL, Max-Sum, FunctionToVar]:	10 668
+	[ALL, Max-Sum, FunctionToVar]:	9 908
+	[ALL, Max-Sum, VarToFunction]:	8 646
+	[ALL, Max-Sum, VarToFunction]:	3 436
+	[ALL, Max-Sum, VarToFunction]:	21 399
+	[ALL, Max-Sum, VarToFunction]:	35 365
+	[ALL, Max-Sum, VarToFunction]:	45 486
+	[ALL, Max-Sum, VarToFunction]:	44 181
+	[ALL, Max-Sum, VarToFunction]:	30 475
+	[ALL, Max-Sum, VarToFunction]:	27 031
+	[ALL, Max-Sum, VarToFunction]:	30 687
+	- Total:	374 535
+Amount of information sent (by agent, in bytes): 
+	agent1:	61 652
+	agent10:	2 021
+	agent2:	41 198
+	agent3:	38 413
+	agent4:	44 078
+	agent5:	63 870
+	agent6:	45 881
+	agent7:	46 876
+	agent8:	11 554
+	agent9:	18 992
+Amount of information received (by agent, in bytes): 
+	agent1:	59 777
+	agent10:	4 910
+	agent2:	36 853
+	agent3:	38 416
+	agent4:	46 437
+	agent5:	50 688
+	agent6:	33 410
+	agent7:	47 637
+	agent8:	12 911
+	agent9:	43 496
+Size of the largest message sent (by type, in bytes): 
+	[ALL, Max-Sum, FunctionToVar]:	577
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	578
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	553
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, VarToFunction]:	596
+	[ALL, Max-Sum, VarToFunction]:	538
+	[ALL, Max-Sum, VarToFunction]:	588
+	[ALL, Max-Sum, VarToFunction]:	596
+	[ALL, Max-Sum, VarToFunction]:	596
+	[ALL, Max-Sum, VarToFunction]:	581
+	[ALL, Max-Sum, VarToFunction]:	580
+	[ALL, Max-Sum, VarToFunction]:	556
+	[ALL, Max-Sum, VarToFunction]:	556
+	- Overall maximum:	596
+Algorithm finished in 657 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, Max-Sum, FunctionToVar]:	22
+	[ALL, Max-Sum, FunctionToVar]:	14
+	[ALL, Max-Sum, FunctionToVar]:	6
+	[ALL, Max-Sum, FunctionToVar]:	6
+	[ALL, Max-Sum, FunctionToVar]:	5
+	[ALL, Max-Sum, FunctionToVar]:	13
+	[ALL, Max-Sum, FunctionToVar]:	110
+	[ALL, Max-Sum, FunctionToVar]:	14
+	[ALL, Max-Sum, FunctionToVar]:	216
+	[ALL, Max-Sum, FunctionToVar]:	96
+	[ALL, Max-Sum, FunctionToVar]:	151
+	[ALL, Max-Sum, FunctionToVar]:	144
+	[ALL, Max-Sum, FunctionToVar]:	110
+	[ALL, Max-Sum, FunctionToVar]:	95
+	[ALL, Max-Sum, FunctionToVar]:	88
+	[ALL, Max-Sum, VarToFunction]:	57
+	[ALL, Max-Sum, VarToFunction]:	43
+	[ALL, Max-Sum, VarToFunction]:	168
+	[ALL, Max-Sum, VarToFunction]:	260
+	[ALL, Max-Sum, VarToFunction]:	336
+	[ALL, Max-Sum, VarToFunction]:	360
+	[ALL, Max-Sum, VarToFunction]:	245
+	[ALL, Max-Sum, VarToFunction]:	273
+	[ALL, Max-Sum, VarToFunction]:	315
+	- Total:	3 147
+Number of messages sent (by agent): 
+	agent1:	517
+	agent10:	14
+	agent2:	408
+	agent3:	374
+	agent4:	369
+	agent5:	493
+	agent6:	356
+	agent7:	384
+	agent8:	79
+	agent9:	153
+Number of messages received (by agent): 
+	agent1:	495
+	agent10:	40
+	agent2:	336
+	agent3:	354
+	agent4:	388
+	agent5:	406
+	agent6:	272
+	agent7:	404
+	agent8:	92
+	agent9:	360
+Amount of information sent (by type, in bytes): 
+	[ALL, Max-Sum, FunctionToVar]:	2 908
+	[ALL, Max-Sum, FunctionToVar]:	1 634
+	[ALL, Max-Sum, FunctionToVar]:	754
+	[ALL, Max-Sum, FunctionToVar]:	714
+	[ALL, Max-Sum, FunctionToVar]:	603
+	[ALL, Max-Sum, FunctionToVar]:	1 579
+	[ALL, Max-Sum, FunctionToVar]:	15 556
+	[ALL, Max-Sum, FunctionToVar]:	2 021
+	[ALL, Max-Sum, FunctionToVar]:	25 477
+	[ALL, Max-Sum, FunctionToVar]:	10 516
+	[ALL, Max-Sum, FunctionToVar]:	17 630
+	[ALL, Max-Sum, FunctionToVar]:	15 892
+	[ALL, Max-Sum, FunctionToVar]:	11 969
+	[ALL, Max-Sum, FunctionToVar]:	10 668
+	[ALL, Max-Sum, FunctionToVar]:	9 908
+	[ALL, Max-Sum, VarToFunction]:	8 646
+	[ALL, Max-Sum, VarToFunction]:	3 436
+	[ALL, Max-Sum, VarToFunction]:	21 399
+	[ALL, Max-Sum, VarToFunction]:	35 365
+	[ALL, Max-Sum, VarToFunction]:	45 486
+	[ALL, Max-Sum, VarToFunction]:	44 181
+	[ALL, Max-Sum, VarToFunction]:	30 475
+	[ALL, Max-Sum, VarToFunction]:	27 031
+	[ALL, Max-Sum, VarToFunction]:	30 687
+	- Total:	374 535
+Amount of information sent (by agent, in bytes): 
+	agent1:	61 652
+	agent10:	2 021
+	agent2:	41 198
+	agent3:	38 413
+	agent4:	44 078
+	agent5:	63 870
+	agent6:	45 881
+	agent7:	46 876
+	agent8:	11 554
+	agent9:	18 992
+Amount of information received (by agent, in bytes): 
+	agent1:	59 777
+	agent10:	4 910
+	agent2:	36 853
+	agent3:	38 416
+	agent4:	46 437
+	agent5:	50 688
+	agent6:	33 410
+	agent7:	47 637
+	agent8:	12 911
+	agent9:	43 496
+Size of the largest message sent (by type, in bytes): 
+	[ALL, Max-Sum, FunctionToVar]:	577
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	127
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	578
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	553
+	[ALL, Max-Sum, FunctionToVar]:	593
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, FunctionToVar]:	204
+	[ALL, Max-Sum, VarToFunction]:	596
+	[ALL, Max-Sum, VarToFunction]:	538
+	[ALL, Max-Sum, VarToFunction]:	588
+	[ALL, Max-Sum, VarToFunction]:	596
+	[ALL, Max-Sum, VarToFunction]:	596
+	[ALL, Max-Sum, VarToFunction]:	581
+	[ALL, Max-Sum, VarToFunction]:	580
+	[ALL, Max-Sum, VarToFunction]:	556
+	[ALL, Max-Sum, VarToFunction]:	556
+	- Overall maximum:	596

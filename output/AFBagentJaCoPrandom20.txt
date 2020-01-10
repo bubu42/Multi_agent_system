@@ -1,0 +1,454 @@
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. Use the option -license to display the license.
+
+Parsing the input problem file: ./xml/random.xml
+Parsing the input agent configuration file: ./frodo2/agents/AFB/AFBagentJaCoP.xml
+Setting up the agents...
+Constraint graph:
+graph {
+	node [shape = "circle"];
+	subgraph cluster_agent20 {
+		label = agent20;
+		var20 [style="filled"];
+	}
+	subgraph cluster_agent12 {
+		label = agent12;
+		var12 [style="filled"];
+	}
+	subgraph cluster_agent13 {
+		label = agent13;
+		var13 [style="filled"];
+	}
+	subgraph cluster_agent10 {
+		label = agent10;
+		var10 [style="filled"];
+	}
+	subgraph cluster_agent11 {
+		label = agent11;
+		var11 [style="filled"];
+	}
+	subgraph cluster_agent16 {
+		label = agent16;
+		var16 [style="filled"];
+	}
+	subgraph cluster_agent17 {
+		label = agent17;
+		var17 [style="filled"];
+	}
+	subgraph cluster_agent14 {
+		label = agent14;
+		var14 [style="filled"];
+	}
+	subgraph cluster_agent15 {
+		label = agent15;
+		var15 [style="filled"];
+	}
+	subgraph cluster_agent2 {
+		label = agent2;
+		var2 [style="filled"];
+	}
+	subgraph cluster_agent1 {
+		label = agent1;
+		var1 [style="filled"];
+	}
+	subgraph cluster_agent4 {
+		label = agent4;
+		var4 [style="filled"];
+	}
+	subgraph cluster_agent18 {
+		label = agent18;
+		var18 [style="filled"];
+	}
+	subgraph cluster_agent3 {
+		label = agent3;
+		var3 [style="filled"];
+	}
+	subgraph cluster_agent19 {
+		label = agent19;
+		var19 [style="filled"];
+	}
+	subgraph cluster_agent6 {
+		label = agent6;
+		var6 [style="filled"];
+	}
+	subgraph cluster_agent5 {
+		label = agent5;
+		var5 [style="filled"];
+	}
+	subgraph cluster_agent8 {
+		label = agent8;
+		var8 [style="filled"];
+	}
+	subgraph cluster_agent7 {
+		label = agent7;
+		var7 [style="filled"];
+	}
+	subgraph cluster_agent9 {
+		label = agent9;
+		var9 [style="filled"];
+	}
+
+
+	var16 -- var12;
+	var16 -- var13;
+	var16 -- var14;
+	var16 -- var15;
+	var16 -- var10;
+	var16 -- var11;
+	var16 -- var1;
+	var17 -- var16;
+	var17 -- var12;
+	var17 -- var13;
+	var17 -- var14;
+	var17 -- var10;
+	var17 -- var11;
+	var17 -- var1;
+	var18 -- var16;
+	var18 -- var12;
+	var18 -- var13;
+	var18 -- var14;
+	var18 -- var10;
+	var18 -- var11;
+	var18 -- var1;
+	var19 -- var16;
+	var19 -- var12;
+	var19 -- var13;
+	var19 -- var14;
+	var19 -- var15;
+	var19 -- var10;
+	var19 -- var11;
+	var19 -- var1;
+	var12 -- var10;
+	var12 -- var11;
+	var12 -- var1;
+	var9 -- var16;
+	var9 -- var17;
+	var9 -- var18;
+	var9 -- var19;
+	var9 -- var12;
+	var9 -- var13;
+	var9 -- var8;
+	var9 -- var14;
+	var9 -- var7;
+	var9 -- var15;
+	var9 -- var20;
+	var9 -- var10;
+	var9 -- var11;
+	var9 -- var6;
+	var9 -- var5;
+	var9 -- var4;
+	var9 -- var3;
+	var9 -- var2;
+	var9 -- var1;
+	var13 -- var12;
+	var13 -- var10;
+	var13 -- var11;
+	var13 -- var1;
+	var8 -- var16;
+	var8 -- var17;
+	var8 -- var18;
+	var8 -- var19;
+	var8 -- var12;
+	var8 -- var13;
+	var8 -- var14;
+	var8 -- var7;
+	var8 -- var15;
+	var8 -- var20;
+	var8 -- var10;
+	var8 -- var11;
+	var8 -- var6;
+	var8 -- var5;
+	var8 -- var4;
+	var8 -- var3;
+	var8 -- var2;
+	var8 -- var1;
+	var14 -- var12;
+	var14 -- var13;
+	var14 -- var10;
+	var14 -- var11;
+	var14 -- var1;
+	var7 -- var16;
+	var7 -- var17;
+	var7 -- var18;
+	var7 -- var19;
+	var7 -- var12;
+	var7 -- var13;
+	var7 -- var14;
+	var7 -- var15;
+	var7 -- var20;
+	var7 -- var10;
+	var7 -- var11;
+	var7 -- var5;
+	var7 -- var2;
+	var7 -- var1;
+	var15 -- var12;
+	var15 -- var13;
+	var15 -- var14;
+	var15 -- var10;
+	var15 -- var11;
+	var15 -- var1;
+	var20 -- var12;
+	var20 -- var13;
+	var20 -- var14;
+	var20 -- var10;
+	var20 -- var11;
+	var20 -- var2;
+	var20 -- var1;
+	var10 -- var1;
+	var11 -- var10;
+	var11 -- var1;
+	var6 -- var16;
+	var6 -- var17;
+	var6 -- var18;
+	var6 -- var19;
+	var6 -- var12;
+	var6 -- var13;
+	var6 -- var14;
+	var6 -- var15;
+	var6 -- var20;
+	var6 -- var10;
+	var6 -- var11;
+	var6 -- var5;
+	var6 -- var4;
+	var6 -- var1;
+	var5 -- var16;
+	var5 -- var17;
+	var5 -- var18;
+	var5 -- var19;
+	var5 -- var12;
+	var5 -- var13;
+	var5 -- var14;
+	var5 -- var15;
+	var5 -- var20;
+	var5 -- var10;
+	var5 -- var11;
+	var5 -- var4;
+	var5 -- var3;
+	var5 -- var2;
+	var5 -- var1;
+	var4 -- var16;
+	var4 -- var17;
+	var4 -- var18;
+	var4 -- var19;
+	var4 -- var12;
+	var4 -- var13;
+	var4 -- var14;
+	var4 -- var15;
+	var4 -- var20;
+	var4 -- var10;
+	var4 -- var11;
+	var4 -- var3;
+	var4 -- var2;
+	var4 -- var1;
+	var3 -- var16;
+	var3 -- var17;
+	var3 -- var18;
+	var3 -- var19;
+	var3 -- var12;
+	var3 -- var13;
+	var3 -- var14;
+	var3 -- var15;
+	var3 -- var20;
+	var3 -- var10;
+	var3 -- var11;
+	var3 -- var2;
+	var3 -- var1;
+	var2 -- var16;
+	var2 -- var17;
+	var2 -- var18;
+	var2 -- var19;
+	var2 -- var12;
+	var2 -- var13;
+	var2 -- var14;
+	var2 -- var15;
+	var2 -- var10;
+	var2 -- var11;
+	var2 -- var1;
+}
+
+Starting the algorithm...
+Chosen linear order:
+digraph {
+	node [shape = "circle" style = "filled"];
+
+	var8 -> var1 -> var4 -> var19 -> var11 -> var14 -> var9 -> var5 -> var3 -> var2 -> var13 -> var12 -> var10 -> var16 -> var15 -> var7 -> var17 -> var6 -> var18 -> var20 [style = "dashed"];
+
+	var16 -> var17 [constraint = "false" arrowhead = "none"];
+	var16 -> var18 [constraint = "false" arrowhead = "none"];
+	var16 -> var19 [constraint = "false" arrowhead = "none"];
+	var16 -> var9 [constraint = "false" arrowhead = "none"];
+	var16 -> var8 [constraint = "false" arrowhead = "none"];
+	var16 -> var7 [constraint = "false" arrowhead = "none"];
+	var16 -> var6 [constraint = "false" arrowhead = "none"];
+	var16 -> var5 [constraint = "false" arrowhead = "none"];
+	var16 -> var4 [constraint = "false" arrowhead = "none"];
+	var16 -> var3 [constraint = "false" arrowhead = "none"];
+	var16 -> var2 [constraint = "false" arrowhead = "none"];
+	var17 -> var9 [constraint = "false" arrowhead = "none"];
+	var17 -> var8 [constraint = "false" arrowhead = "none"];
+	var17 -> var7 [constraint = "false" arrowhead = "none"];
+	var17 -> var6 [constraint = "false" arrowhead = "none"];
+	var17 -> var5 [constraint = "false" arrowhead = "none"];
+	var17 -> var4 [constraint = "false" arrowhead = "none"];
+	var17 -> var3 [constraint = "false" arrowhead = "none"];
+	var17 -> var2 [constraint = "false" arrowhead = "none"];
+	var18 -> var9 [constraint = "false" arrowhead = "none"];
+	var18 -> var8 [constraint = "false" arrowhead = "none"];
+	var18 -> var7 [constraint = "false" arrowhead = "none"];
+	var18 -> var6 [constraint = "false" arrowhead = "none"];
+	var18 -> var5 [constraint = "false" arrowhead = "none"];
+	var18 -> var4 [constraint = "false" arrowhead = "none"];
+	var18 -> var3 [constraint = "false" arrowhead = "none"];
+	var18 -> var2 [constraint = "false" arrowhead = "none"];
+	var19 -> var9 [constraint = "false" arrowhead = "none"];
+	var19 -> var8 [constraint = "false" arrowhead = "none"];
+	var19 -> var7 [constraint = "false" arrowhead = "none"];
+	var19 -> var6 [constraint = "false" arrowhead = "none"];
+	var19 -> var5 [constraint = "false" arrowhead = "none"];
+	var19 -> var4 [constraint = "false" arrowhead = "none"];
+	var19 -> var3 [constraint = "false" arrowhead = "none"];
+	var19 -> var2 [constraint = "false" arrowhead = "none"];
+	var12 -> var16 [constraint = "false" arrowhead = "none"];
+	var12 -> var17 [constraint = "false" arrowhead = "none"];
+	var12 -> var18 [constraint = "false" arrowhead = "none"];
+	var12 -> var19 [constraint = "false" arrowhead = "none"];
+	var12 -> var9 [constraint = "false" arrowhead = "none"];
+	var12 -> var13 [constraint = "false" arrowhead = "none"];
+	var12 -> var8 [constraint = "false" arrowhead = "none"];
+	var12 -> var14 [constraint = "false" arrowhead = "none"];
+	var12 -> var7 [constraint = "false" arrowhead = "none"];
+	var12 -> var15 [constraint = "false" arrowhead = "none"];
+	var12 -> var20 [constraint = "false" arrowhead = "none"];
+	var12 -> var6 [constraint = "false" arrowhead = "none"];
+	var12 -> var5 [constraint = "false" arrowhead = "none"];
+	var12 -> var4 [constraint = "false" arrowhead = "none"];
+	var12 -> var3 [constraint = "false" arrowhead = "none"];
+	var12 -> var2 [constraint = "false" arrowhead = "none"];
+	var13 -> var16 [constraint = "false" arrowhead = "none"];
+	var13 -> var17 [constraint = "false" arrowhead = "none"];
+	var13 -> var18 [constraint = "false" arrowhead = "none"];
+	var13 -> var19 [constraint = "false" arrowhead = "none"];
+	var13 -> var9 [constraint = "false" arrowhead = "none"];
+	var13 -> var8 [constraint = "false" arrowhead = "none"];
+	var13 -> var14 [constraint = "false" arrowhead = "none"];
+	var13 -> var7 [constraint = "false" arrowhead = "none"];
+	var13 -> var15 [constraint = "false" arrowhead = "none"];
+	var13 -> var20 [constraint = "false" arrowhead = "none"];
+	var13 -> var6 [constraint = "false" arrowhead = "none"];
+	var13 -> var5 [constraint = "false" arrowhead = "none"];
+	var13 -> var4 [constraint = "false" arrowhead = "none"];
+	var13 -> var3 [constraint = "false" arrowhead = "none"];
+	var13 -> var2 [constraint = "false" arrowhead = "none"];
+	var8 -> var9 [constraint = "false" arrowhead = "none"];
+	var14 -> var16 [constraint = "false" arrowhead = "none"];
+	var14 -> var17 [constraint = "false" arrowhead = "none"];
+	var14 -> var18 [constraint = "false" arrowhead = "none"];
+	var14 -> var19 [constraint = "false" arrowhead = "none"];
+	var14 -> var9 [constraint = "false" arrowhead = "none"];
+	var14 -> var8 [constraint = "false" arrowhead = "none"];
+	var14 -> var7 [constraint = "false" arrowhead = "none"];
+	var14 -> var15 [constraint = "false" arrowhead = "none"];
+	var14 -> var20 [constraint = "false" arrowhead = "none"];
+	var14 -> var6 [constraint = "false" arrowhead = "none"];
+	var14 -> var5 [constraint = "false" arrowhead = "none"];
+	var14 -> var4 [constraint = "false" arrowhead = "none"];
+	var14 -> var3 [constraint = "false" arrowhead = "none"];
+	var14 -> var2 [constraint = "false" arrowhead = "none"];
+	var7 -> var9 [constraint = "false" arrowhead = "none"];
+	var7 -> var8 [constraint = "false" arrowhead = "none"];
+	var15 -> var16 [constraint = "false" arrowhead = "none"];
+	var15 -> var19 [constraint = "false" arrowhead = "none"];
+	var15 -> var9 [constraint = "false" arrowhead = "none"];
+	var15 -> var8 [constraint = "false" arrowhead = "none"];
+	var15 -> var7 [constraint = "false" arrowhead = "none"];
+	var15 -> var6 [constraint = "false" arrowhead = "none"];
+	var15 -> var5 [constraint = "false" arrowhead = "none"];
+	var15 -> var4 [constraint = "false" arrowhead = "none"];
+	var15 -> var3 [constraint = "false" arrowhead = "none"];
+	var15 -> var2 [constraint = "false" arrowhead = "none"];
+	var20 -> var9 [constraint = "false" arrowhead = "none"];
+	var20 -> var8 [constraint = "false" arrowhead = "none"];
+	var20 -> var7 [constraint = "false" arrowhead = "none"];
+	var20 -> var6 [constraint = "false" arrowhead = "none"];
+	var20 -> var5 [constraint = "false" arrowhead = "none"];
+	var20 -> var4 [constraint = "false" arrowhead = "none"];
+	var20 -> var3 [constraint = "false" arrowhead = "none"];
+	var10 -> var16 [constraint = "false" arrowhead = "none"];
+	var10 -> var17 [constraint = "false" arrowhead = "none"];
+	var10 -> var18 [constraint = "false" arrowhead = "none"];
+	var10 -> var19 [constraint = "false" arrowhead = "none"];
+	var10 -> var12 [constraint = "false" arrowhead = "none"];
+	var10 -> var9 [constraint = "false" arrowhead = "none"];
+	var10 -> var13 [constraint = "false" arrowhead = "none"];
+	var10 -> var8 [constraint = "false" arrowhead = "none"];
+	var10 -> var14 [constraint = "false" arrowhead = "none"];
+	var10 -> var7 [constraint = "false" arrowhead = "none"];
+	var10 -> var15 [constraint = "false" arrowhead = "none"];
+	var10 -> var20 [constraint = "false" arrowhead = "none"];
+	var10 -> var11 [constraint = "false" arrowhead = "none"];
+	var10 -> var6 [constraint = "false" arrowhead = "none"];
+	var10 -> var5 [constraint = "false" arrowhead = "none"];
+	var10 -> var4 [constraint = "false" arrowhead = "none"];
+	var10 -> var3 [constraint = "false" arrowhead = "none"];
+	var10 -> var2 [constraint = "false" arrowhead = "none"];
+	var11 -> var16 [constraint = "false" arrowhead = "none"];
+	var11 -> var17 [constraint = "false" arrowhead = "none"];
+	var11 -> var18 [constraint = "false" arrowhead = "none"];
+	var11 -> var19 [constraint = "false" arrowhead = "none"];
+	var11 -> var12 [constraint = "false" arrowhead = "none"];
+	var11 -> var9 [constraint = "false" arrowhead = "none"];
+	var11 -> var13 [constraint = "false" arrowhead = "none"];
+	var11 -> var8 [constraint = "false" arrowhead = "none"];
+	var11 -> var14 [constraint = "false" arrowhead = "none"];
+	var11 -> var7 [constraint = "false" arrowhead = "none"];
+	var11 -> var15 [constraint = "false" arrowhead = "none"];
+	var11 -> var20 [constraint = "false" arrowhead = "none"];
+	var11 -> var6 [constraint = "false" arrowhead = "none"];
+	var11 -> var5 [constraint = "false" arrowhead = "none"];
+	var11 -> var4 [constraint = "false" arrowhead = "none"];
+	var11 -> var3 [constraint = "false" arrowhead = "none"];
+	var11 -> var2 [constraint = "false" arrowhead = "none"];
+	var6 -> var9 [constraint = "false" arrowhead = "none"];
+	var6 -> var8 [constraint = "false" arrowhead = "none"];
+	var5 -> var9 [constraint = "false" arrowhead = "none"];
+	var5 -> var8 [constraint = "false" arrowhead = "none"];
+	var5 -> var7 [constraint = "false" arrowhead = "none"];
+	var5 -> var6 [constraint = "false" arrowhead = "none"];
+	var4 -> var9 [constraint = "false" arrowhead = "none"];
+	var4 -> var8 [constraint = "false" arrowhead = "none"];
+	var4 -> var6 [constraint = "false" arrowhead = "none"];
+	var4 -> var5 [constraint = "false" arrowhead = "none"];
+	var3 -> var9 [constraint = "false" arrowhead = "none"];
+	var3 -> var8 [constraint = "false" arrowhead = "none"];
+	var3 -> var5 [constraint = "false" arrowhead = "none"];
+	var3 -> var4 [constraint = "false" arrowhead = "none"];
+	var2 -> var9 [constraint = "false" arrowhead = "none"];
+	var2 -> var8 [constraint = "false" arrowhead = "none"];
+	var2 -> var7 [constraint = "false" arrowhead = "none"];
+	var2 -> var20 [constraint = "false" arrowhead = "none"];
+	var2 -> var5 [constraint = "false" arrowhead = "none"];
+	var2 -> var4 [constraint = "false" arrowhead = "none"];
+	var2 -> var3 [constraint = "false" arrowhead = "none"];
+	var1 -> var16 [constraint = "false" arrowhead = "none"];
+	var1 -> var17 [constraint = "false" arrowhead = "none"];
+	var1 -> var18 [constraint = "false" arrowhead = "none"];
+	var1 -> var19 [constraint = "false" arrowhead = "none"];
+	var1 -> var12 [constraint = "false" arrowhead = "none"];
+	var1 -> var9 [constraint = "false" arrowhead = "none"];
+	var1 -> var13 [constraint = "false" arrowhead = "none"];
+	var1 -> var8 [constraint = "false" arrowhead = "none"];
+	var1 -> var14 [constraint = "false" arrowhead = "none"];
+	var1 -> var7 [constraint = "false" arrowhead = "none"];
+	var1 -> var15 [constraint = "false" arrowhead = "none"];
+	var1 -> var20 [constraint = "false" arrowhead = "none"];
+	var1 -> var10 [constraint = "false" arrowhead = "none"];
+	var1 -> var11 [constraint = "false" arrowhead = "none"];
+	var1 -> var6 [constraint = "false" arrowhead = "none"];
+	var1 -> var5 [constraint = "false" arrowhead = "none"];
+	var1 -> var4 [constraint = "false" arrowhead = "none"];
+	var1 -> var3 [constraint = "false" arrowhead = "none"];
+	var1 -> var2 [constraint = "false" arrowhead = "none"];
+}
+

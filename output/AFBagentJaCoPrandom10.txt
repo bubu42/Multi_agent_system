@@ -1,0 +1,396 @@
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. Use the option -license to display the license.
+
+Parsing the input problem file: ./xml/random.xml
+Parsing the input agent configuration file: ./frodo2/agents/AFB/AFBagentJaCoP.xml
+Setting up the agents...
+Constraint graph:
+graph {
+	node [shape = "circle"];
+	subgraph cluster_agent6 {
+		label = agent6;
+		var6 [style="filled"];
+	}
+	subgraph cluster_agent5 {
+		label = agent5;
+		var5 [style="filled"];
+	}
+	subgraph cluster_agent8 {
+		label = agent8;
+		var8 [style="filled"];
+	}
+	subgraph cluster_agent7 {
+		label = agent7;
+		var7 [style="filled"];
+	}
+	subgraph cluster_agent9 {
+		label = agent9;
+		var9 [style="filled"];
+	}
+	subgraph cluster_agent10 {
+		label = agent10;
+		var10 [style="filled"];
+	}
+	subgraph cluster_agent2 {
+		label = agent2;
+		var2 [style="filled"];
+	}
+	subgraph cluster_agent1 {
+		label = agent1;
+		var1 [style="filled"];
+	}
+	subgraph cluster_agent4 {
+		label = agent4;
+		var4 [style="filled"];
+	}
+	subgraph cluster_agent3 {
+		label = agent3;
+		var3 [style="filled"];
+	}
+
+
+	var9 -- var8;
+	var9 -- var7;
+	var9 -- var6;
+	var9 -- var5;
+	var9 -- var4;
+	var9 -- var3;
+	var9 -- var2;
+	var9 -- var1;
+	var8 -- var7;
+	var8 -- var5;
+	var8 -- var1;
+	var7 -- var6;
+	var7 -- var5;
+	var7 -- var4;
+	var7 -- var3;
+	var7 -- var2;
+	var7 -- var1;
+	var6 -- var5;
+	var6 -- var4;
+	var6 -- var3;
+	var6 -- var2;
+	var6 -- var1;
+	var5 -- var4;
+	var5 -- var3;
+	var5 -- var2;
+	var5 -- var1;
+	var4 -- var3;
+	var4 -- var2;
+	var4 -- var1;
+	var10 -- var1;
+	var3 -- var2;
+	var3 -- var1;
+	var2 -- var1;
+}
+
+Starting the algorithm...
+Chosen linear order:
+digraph {
+	node [shape = "circle" style = "filled"];
+
+	var9 -> var3 -> var2 -> var4 -> var1 -> var7 -> var6 -> var5 -> var8 -> var10 [style = "dashed"];
+
+	var8 -> var9 [constraint = "false" arrowhead = "none"];
+	var7 -> var9 [constraint = "false" arrowhead = "none"];
+	var7 -> var8 [constraint = "false" arrowhead = "none"];
+	var6 -> var9 [constraint = "false" arrowhead = "none"];
+	var6 -> var7 [constraint = "false" arrowhead = "none"];
+	var5 -> var9 [constraint = "false" arrowhead = "none"];
+	var5 -> var8 [constraint = "false" arrowhead = "none"];
+	var5 -> var7 [constraint = "false" arrowhead = "none"];
+	var5 -> var6 [constraint = "false" arrowhead = "none"];
+	var4 -> var9 [constraint = "false" arrowhead = "none"];
+	var4 -> var7 [constraint = "false" arrowhead = "none"];
+	var4 -> var6 [constraint = "false" arrowhead = "none"];
+	var4 -> var5 [constraint = "false" arrowhead = "none"];
+	var3 -> var9 [constraint = "false" arrowhead = "none"];
+	var3 -> var7 [constraint = "false" arrowhead = "none"];
+	var3 -> var6 [constraint = "false" arrowhead = "none"];
+	var3 -> var5 [constraint = "false" arrowhead = "none"];
+	var3 -> var4 [constraint = "false" arrowhead = "none"];
+	var2 -> var9 [constraint = "false" arrowhead = "none"];
+	var2 -> var7 [constraint = "false" arrowhead = "none"];
+	var2 -> var6 [constraint = "false" arrowhead = "none"];
+	var2 -> var5 [constraint = "false" arrowhead = "none"];
+	var2 -> var4 [constraint = "false" arrowhead = "none"];
+	var2 -> var3 [constraint = "false" arrowhead = "none"];
+	var1 -> var9 [constraint = "false" arrowhead = "none"];
+	var1 -> var8 [constraint = "false" arrowhead = "none"];
+	var1 -> var7 [constraint = "false" arrowhead = "none"];
+	var1 -> var6 [constraint = "false" arrowhead = "none"];
+	var1 -> var5 [constraint = "false" arrowhead = "none"];
+	var1 -> var4 [constraint = "false" arrowhead = "none"];
+	var1 -> var10 [constraint = "false" arrowhead = "none"];
+	var1 -> var3 [constraint = "false" arrowhead = "none"];
+	var1 -> var2 [constraint = "false" arrowhead = "none"];
+}
+
+var `var3' = 71
+var `var2' = 677
+var `var7' = 679
+var `var4' = 145
+var `var10' = 184
+var `var9' = 86
+var `var8' = 402
+var `var5' = 729
+var `var6' = 42
+var `var1' = 320
+Total cost of reported solution: 25
+Algorithm finished in 4 333 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, AFB, CPA]:	164
+	[ALL, AFB, CPA]:	926
+	[ALL, AFB, CPA]:	1 123
+	[ALL, AFB, CPA]:	455
+	[ALL, AFB, CPA]:	1
+	[ALL, AFB, CPA]:	4
+	[ALL, AFB, CPA]:	45
+	[ALL, AFB, CPA]:	667
+	[ALL, AFB, CPA]:	12
+	[ALL, AFB, CPA]:	157
+	[ALL, AFB, FB_CPA]:	735
+	[ALL, AFB, FB_CPA]:	2 733
+	[ALL, AFB, FB_CPA]:	1 070
+	[ALL, AFB, FB_CPA]:	192
+	[ALL, AFB, FB_CPA]:	9
+	[ALL, AFB, FB_CPA]:	24
+	[ALL, AFB, FB_CPA]:	234
+	[ALL, AFB, FB_CPA]:	2 496
+	[ALL, AFB, FB_CPA]:	63
+	[ALL, AFB, FB_ESTIMATE]:	52
+	[ALL, AFB, FB_ESTIMATE]:	795
+	[ALL, AFB, FB_ESTIMATE]:	1 656
+	[ALL, AFB, FB_ESTIMATE]:	1 939
+	[ALL, AFB, FB_ESTIMATE]:	1
+	[ALL, AFB, FB_ESTIMATE]:	13
+	[ALL, AFB, FB_ESTIMATE]:	177
+	[ALL, AFB, FB_ESTIMATE]:	4
+	[ALL, AFB, FB_ESTIMATE]:	2 096
+	[ALL, AFB, Solution]:	9
+	[ALL, AFB, UB]:	189
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	1 350
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	1 050
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	1 200
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	600
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	1 200
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	1 050
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	1 050
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	1 200
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	1 050
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	150
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	1
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	1
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	1
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	1
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	1
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	1
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	1
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	1
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	1
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	4
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	6
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	7
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	8
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	1
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	3
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	5
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	2
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	9
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	5
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	3
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	2
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	1
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	9
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	8
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	6
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	4
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	7
+	[ALL, VarOrdering, LinearOrdering, VarOrderNoSpace]:	9
+	- Total:	28 049
+Number of messages sent (by agent): 
+	agent1:	2 311
+	agent10:	2 610
+	agent2:	1 139
+	agent3:	1 089
+	agent4:	1 352
+	agent5:	5 059
+	agent6:	5 514
+	agent7:	4 550
+	agent8:	3 196
+	agent9:	1 229
+Number of messages received (by agent): 
+	agent1:	2 142
+	agent10:	2 814
+	agent2:	1 159
+	agent3:	1 112
+	agent4:	1 356
+	agent5:	4 707
+	agent6:	5 701
+	agent7:	4 066
+	agent8:	3 751
+	agent9:	1 241
+Amount of information sent (by type, in bytes): 
+	[ALL, AFB, CPA]:	21 464
+	[ALL, AFB, CPA]:	127 956
+	[ALL, AFB, CPA]:	157 326
+	[ALL, AFB, CPA]:	65 358
+	[ALL, AFB, CPA]:	391
+	[ALL, AFB, CPA]:	808
+	[ALL, AFB, CPA]:	5 946
+	[ALL, AFB, CPA]:	89 210
+	[ALL, AFB, CPA]:	1 776
+	[ALL, AFB, CPA]:	23 040
+	[ALL, AFB, FB_CPA]:	95 587
+	[ALL, AFB, FB_CPA]:	370 511
+	[ALL, AFB, FB_CPA]:	148 021
+	[ALL, AFB, FB_CPA]:	26 572
+	[ALL, AFB, FB_CPA]:	3 367
+	[ALL, AFB, FB_CPA]:	4 873
+	[ALL, AFB, FB_CPA]:	30 669
+	[ALL, AFB, FB_CPA]:	330 401
+	[ALL, AFB, FB_CPA]:	9 395
+	[ALL, AFB, FB_ESTIMATE]:	8 330
+	[ALL, AFB, FB_ESTIMATE]:	117 639
+	[ALL, AFB, FB_ESTIMATE]:	243 376
+	[ALL, AFB, FB_ESTIMATE]:	290 415
+	[ALL, AFB, FB_ESTIMATE]:	419
+	[ALL, AFB, FB_ESTIMATE]:	2 615
+	[ALL, AFB, FB_ESTIMATE]:	26 499
+	[ALL, AFB, FB_ESTIMATE]:	1 106
+	[ALL, AFB, FB_ESTIMATE]:	315 058
+	[ALL, AFB, Solution]:	1 665
+	[ALL, AFB, UB]:	20 387
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	23 418
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	18 214
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	20 816
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	10 408
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	20 688
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	18 214
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	18 214
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	20 816
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	18 214
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	2 619
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	125
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	107
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	98
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	90
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	161
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	152
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	134
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	116
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	143
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	924
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	1 386
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	1 617
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	2 772
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	231
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	693
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	1 155
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	462
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	3 943
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	375
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	687
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	381
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	306
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	904
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	1 062
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	912
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	531
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	987
+	[ALL, VarOrdering, LinearOrdering, VarOrderNoSpace]:	4 413
+	- Total:	2 736 668
+Amount of information sent (by agent, in bytes): 
+	agent1:	150 223
+	agent10:	369 460
+	agent2:	32 083
+	agent3:	25 759
+	agent4:	59 183
+	agent5:	571 635
+	agent6:	636 500
+	agent7:	468 728
+	agent8:	395 921
+	agent9:	27 176
+Amount of information received (by agent, in bytes): 
+	agent1:	136 289
+	agent10:	373 453
+	agent2:	36 163
+	agent3:	30 045
+	agent4:	63 125
+	agent5:	504 046
+	agent6:	679 779
+	agent7:	436 820
+	agent8:	447 226
+	agent9:	29 722
+Size of the largest message sent (by type, in bytes): 
+	[ALL, AFB, CPA]:	407
+	[ALL, AFB, CPA]:	415
+	[ALL, AFB, CPA]:	419
+	[ALL, AFB, CPA]:	423
+	[ALL, AFB, CPA]:	391
+	[ALL, AFB, CPA]:	395
+	[ALL, AFB, CPA]:	403
+	[ALL, AFB, CPA]:	411
+	[ALL, AFB, CPA]:	399
+	[ALL, AFB, CPA]:	264
+	[ALL, AFB, FB_CPA]:	415
+	[ALL, AFB, FB_CPA]:	423
+	[ALL, AFB, FB_CPA]:	427
+	[ALL, AFB, FB_CPA]:	214
+	[ALL, AFB, FB_CPA]:	399
+	[ALL, AFB, FB_CPA]:	403
+	[ALL, AFB, FB_CPA]:	411
+	[ALL, AFB, FB_CPA]:	419
+	[ALL, AFB, FB_CPA]:	407
+	[ALL, AFB, FB_ESTIMATE]:	433
+	[ALL, AFB, FB_ESTIMATE]:	441
+	[ALL, AFB, FB_ESTIMATE]:	445
+	[ALL, AFB, FB_ESTIMATE]:	449
+	[ALL, AFB, FB_ESTIMATE]:	419
+	[ALL, AFB, FB_ESTIMATE]:	429
+	[ALL, AFB, FB_ESTIMATE]:	437
+	[ALL, AFB, FB_ESTIMATE]:	425
+	[ALL, AFB, FB_ESTIMATE]:	344
+	[ALL, AFB, Solution]:	185
+	[ALL, AFB, UB]:	235
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	351
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	351
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	351
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	351
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	351
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	351
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	351
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	351
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	351
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	352
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	125
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	107
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	98
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	90
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	161
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	152
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	134
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	116
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	143
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	231
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	231
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	231
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	462
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	231
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	231
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	231
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	231
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	464
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	75
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	306
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	306
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	306
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	304
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	306
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	306
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	306
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	306
+	[ALL, VarOrdering, LinearOrdering, VarOrderNoSpace]:	493
+	- Overall maximum:	493

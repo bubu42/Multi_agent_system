@@ -1,0 +1,81 @@
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. Use the option -license to display the license.
+
+Parsing the input problem file: ./xml//random.xml
+Parsing the input agent configuration file: ./frodo2/agents/DSA/DSAagentJaCoP.xml
+Setting up the agents...
+Constraint graph:
+graph {
+	node [shape = "circle"];
+	subgraph cluster_agent2 {
+		label = agent2;
+		var2 [style="filled"];
+	}
+	subgraph cluster_agent1 {
+		label = agent1;
+		var1 [style="filled"];
+	}
+	subgraph cluster_agent4 {
+		label = agent4;
+		var4 [style="filled"];
+	}
+	subgraph cluster_agent3 {
+		label = agent3;
+		var3 [style="filled"];
+	}
+
+
+	var4 -- var2;
+	var4 -- var1;
+	var3 -- var2;
+	var3 -- var1;
+	var2 -- var1;
+}
+
+Starting the algorithm...
+var `var4' = 399
+var `var3' = 710
+var `var2' = 399
+var `var1' = 108
+Total cost of reported solution: 3
+Algorithm finished in 235 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	398
+	[ALL, DSA, VALUE]:	398
+	- Total:	1 990
+Number of messages sent (by agent): 
+	agent1:	597
+	agent2:	597
+	agent3:	398
+	agent4:	398
+Number of messages received (by agent): 
+	agent1:	597
+	agent2:	597
+	agent3:	398
+	agent4:	398
+Amount of information sent (by type, in bytes): 
+	[ALL, DSA, VALUE]:	12 576
+	[ALL, DSA, VALUE]:	12 576
+	[ALL, DSA, VALUE]:	8 384
+	[ALL, DSA, VALUE]:	8 404
+	- Total:	41 940
+Amount of information sent (by agent, in bytes): 
+	agent1:	12 576
+	agent2:	12 576
+	agent3:	8 404
+	agent4:	8 384
+Amount of information received (by agent, in bytes): 
+	agent1:	12 586
+	agent2:	12 586
+	agent3:	8 384
+	agent4:	8 384
+Size of the largest message sent (by type, in bytes): 
+	[ALL, DSA, VALUE]:	232
+	[ALL, DSA, VALUE]:	232
+	[ALL, DSA, VALUE]:	232
+	[ALL, DSA, VALUE]:	232
+	- Overall maximum:	232

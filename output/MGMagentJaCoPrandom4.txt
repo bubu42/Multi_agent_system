@@ -1,0 +1,93 @@
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. Use the option -license to display the license.
+
+Parsing the input problem file: ./xml//random.xml
+Parsing the input agent configuration file: ./frodo2/agents/MGM/MGMagentJaCoP.xml
+Setting up the agents...
+Constraint graph:
+graph {
+	node [shape = "circle"];
+	subgraph cluster_agent2 {
+		label = agent2;
+		var2 [style="filled"];
+	}
+	subgraph cluster_agent1 {
+		label = agent1;
+		var1 [style="filled"];
+	}
+	subgraph cluster_agent4 {
+		label = agent4;
+		var4 [style="filled"];
+	}
+	subgraph cluster_agent3 {
+		label = agent3;
+		var3 [style="filled"];
+	}
+
+
+	var4 -- var2;
+	var4 -- var1;
+	var3 -- var2;
+	var3 -- var1;
+	var2 -- var1;
+}
+
+Starting the algorithm...
+var `var4' = 71
+var `var1' = 778
+var `var3' = 647
+var `var2' = 71
+Total cost of reported solution: 3
+Algorithm finished in 277 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, MGM, improve]:	600
+	[ALL, MGM, improve]:	400
+	[ALL, MGM, improve]:	400
+	[ALL, MGM, improve]:	600
+	[ALL, MGM, ok]:	600
+	[ALL, MGM, ok]:	400
+	[ALL, MGM, ok]:	400
+	[ALL, MGM, ok]:	600
+	- Total:	4 000
+Number of messages sent (by agent): 
+	agent1:	1 200
+	agent2:	1 200
+	agent3:	800
+	agent4:	800
+Number of messages received (by agent): 
+	agent1:	1 200
+	agent2:	1 200
+	agent3:	800
+	agent4:	800
+Amount of information sent (by type, in bytes): 
+	[ALL, MGM, improve]:	24 918
+	[ALL, MGM, improve]:	16 612
+	[ALL, MGM, improve]:	16 612
+	[ALL, MGM, improve]:	24 918
+	[ALL, MGM, ok]:	12 618
+	[ALL, MGM, ok]:	8 412
+	[ALL, MGM, ok]:	8 412
+	[ALL, MGM, ok]:	12 618
+	- Total:	125 120
+Amount of information sent (by agent, in bytes): 
+	agent1:	37 536
+	agent2:	37 536
+	agent3:	25 024
+	agent4:	25 024
+Amount of information received (by agent, in bytes): 
+	agent1:	37 536
+	agent2:	37 536
+	agent3:	25 024
+	agent4:	25 024
+Size of the largest message sent (by type, in bytes): 
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, ok]:	226
+	[ALL, MGM, ok]:	226
+	[ALL, MGM, ok]:	226
+	[ALL, MGM, ok]:	226
+	- Overall maximum:	226

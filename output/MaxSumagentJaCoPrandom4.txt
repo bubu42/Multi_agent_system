@@ -1,0 +1,131 @@
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. Use the option -license to display the license.
+
+Parsing the input problem file: ./xml//random.xml
+Parsing the input agent configuration file: ./frodo2/agents/MaxSum/MaxSumagentJaCoP.xml
+Setting up the agents...
+Constraint graph:
+graph {
+	node [shape = "circle"];
+	subgraph cluster_agent2 {
+		label = agent2;
+		var2 [style="filled"];
+	}
+	subgraph cluster_agent1 {
+		label = agent1;
+		var1 [style="filled"];
+	}
+	subgraph cluster_agent4 {
+		label = agent4;
+		var4 [style="filled"];
+	}
+	subgraph cluster_agent3 {
+		label = agent3;
+		var3 [style="filled"];
+	}
+
+
+	var4 -- var2;
+	var4 -- var1;
+	var3 -- var2;
+	var3 -- var1;
+	var2 -- var1;
+}
+
+Factor graph:
+strict graph {
+	subgraph cluster_agent2 {
+		label = agent2;
+		var_var2 [shape = "circle", label = "var2"];
+
+		func_2_gt_1_with_K=384 [shape = "square", label = "2_gt_1_with_K=384"];
+	}
+	subgraph cluster_agent1 {
+		label = agent1;
+		var_var1 [shape = "circle", label = "var1"];
+
+		func_1_eq_2_with_K=238 [shape = "square", label = "1_eq_2_with_K=238"];
+	}
+	subgraph cluster_agent4 {
+		label = agent4;
+		var_var4 [shape = "circle", label = "var4"];
+
+		func_4_gt_1_with_K=214 [shape = "square", label = "4_gt_1_with_K=214"];
+		func_4_eq_2_with_K=238 [shape = "square", label = "4_eq_2_with_K=238"];
+	}
+	subgraph cluster_agent3 {
+		label = agent3;
+		var_var3 [shape = "circle", label = "var3"];
+
+		func_3_gt_1_with_K=394 [shape = "square", label = "3_gt_1_with_K=394"];
+		func_3_gt_2_with_K=304 [shape = "square", label = "3_gt_2_with_K=304"];
+	}
+
+	func_1_eq_2_with_K=238--var_var1;
+	func_1_eq_2_with_K=238--var_var2;
+	func_2_gt_1_with_K=384--var_var2;
+	func_2_gt_1_with_K=384--var_var1;
+	func_3_gt_1_with_K=394--var_var3;
+	func_3_gt_1_with_K=394--var_var1;
+	func_3_gt_2_with_K=304--var_var3;
+	func_3_gt_2_with_K=304--var_var2;
+	func_4_gt_1_with_K=214--var_var4;
+	func_4_gt_1_with_K=214--var_var1;
+	func_4_eq_2_with_K=238--var_var4;
+	func_4_eq_2_with_K=238--var_var2;
+
+}
+
+Starting the algorithm...
+var `var3' = 647
+var `var2' = 704
+var `var1' = 704
+var `var4' = 704
+Total cost of reported solution: 6
+Algorithm finished in 85 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, Max-Sum, FunctionToVar]:	7
+	[ALL, Max-Sum, FunctionToVar]:	5
+	[ALL, Max-Sum, FunctionToVar]:	3
+	[ALL, Max-Sum, FunctionToVar]:	6
+	[ALL, Max-Sum, VarToFunction]:	12
+	[ALL, Max-Sum, VarToFunction]:	12
+	- Total:	45
+Number of messages sent (by agent): 
+	agent1:	17
+	agent2:	15
+	agent3:	6
+	agent4:	7
+Number of messages received (by agent): 
+	agent1:	14
+	agent2:	15
+	agent3:	8
+	agent4:	8
+Amount of information sent (by type, in bytes): 
+	[ALL, Max-Sum, FunctionToVar]:	1 709
+	[ALL, Max-Sum, FunctionToVar]:	632
+	[ALL, Max-Sum, FunctionToVar]:	410
+	[ALL, Max-Sum, FunctionToVar]:	1 598
+	[ALL, Max-Sum, VarToFunction]:	2 739
+	[ALL, Max-Sum, VarToFunction]:	2 739
+	- Total:	9 827
+Amount of information sent (by agent, in bytes): 
+	agent1:	3 371
+	agent2:	3 149
+	agent3:	1 598
+	agent4:	1 709
+Amount of information received (by agent, in bytes): 
+	agent1:	3 032
+	agent2:	3 143
+	agent3:	1 826
+	agent4:	1 826
+Size of the largest message sent (by type, in bytes): 
+	[ALL, Max-Sum, FunctionToVar]:	577
+	[ALL, Max-Sum, FunctionToVar]:	188
+	[ALL, Max-Sum, FunctionToVar]:	188
+	[ALL, Max-Sum, FunctionToVar]:	577
+	[ALL, Max-Sum, VarToFunction]:	580
+	[ALL, Max-Sum, VarToFunction]:	580
+	- Overall maximum:	580

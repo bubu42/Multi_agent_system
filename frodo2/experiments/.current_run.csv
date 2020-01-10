@@ -1,0 +1,8 @@
+algorithm;timed out;problem instance;filename;max degree;number of colors;number of disconnected components;number of nodes;number of uncontrollable nodes;target density;target unary tightness;true average density;true average unary tightness;NCCCs;simulated time (in ms);number of messages;total message size (in bytes);maximum message size (in bytes);induced treewidth;reported cost;true cost
+DPOP;1;graphColoring_1578144391255;graphColoring.xml;5;3;1;10;0;0.4;0.0;0.4;0.0;9223372036854775807;9223372036854775807;2147483647;9223372036854775807;9223372036854775807;2147483647;NaN;NaN
+DPOP;0;graphColoring_1578144391255;graphColoring.xml;5;3;1;10;0;0.4;0.0;0.4;0.0;0;87;109;32499;1355;4;0;0
+P-DPOP;1;graphColoring_1578144391255;graphColoring.xml;5;3;1;10;0;0.4;0.0;0.4;0.0;9223372036854775807;9223372036854775807;2147483647;9223372036854775807;9223372036854775807;2147483647;NaN;NaN
+P-DPOP;0;graphColoring_1578144391255;graphColoring.xml;5;3;1;10;0;0.4;0.0;0.4;0.0;0;457;16272;2584262;1529252;10;0;0
+P3/2-DPOP;1;graphColoring_1578144391255;graphColoring.xml;5;3;1;10;0;0.4;0.0;0.4;0.0;9223372036854775807;9223372036854775807;2147483647;9223372036854775807;9223372036854775807;2147483647;NaN;NaN
+P3/2-DPOP;0;graphColoring_1578144391255;graphColoring.xml;5;3;1;10;0;0.4;0.0;0.4;0.0;0;9857;44156;61637138;211566;0;0;0
+P2-DPOP;1;graphColoring_1578144391255;graphColoring.xml;5;3;1;10;0;0.4;0.0;0.4;0.0;9223372036854775807;9223372036854775807;2147483647;9223372036854775807;9223372036854775807;2147483647;NaN;NaN

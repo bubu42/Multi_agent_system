@@ -1,0 +1,443 @@
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. Use the option -license to display the license.
+
+Parsing the input problem file: ./xml/random.xml
+Parsing the input agent configuration file: ./frodo2/agents/DSA/DSAagentJaCoP.xml
+Setting up the agents...
+Constraint graph:
+graph {
+	node [shape = "circle"];
+	subgraph cluster_agent20 {
+		label = agent20;
+		var20 [style="filled"];
+	}
+	subgraph cluster_agent12 {
+		label = agent12;
+		var12 [style="filled"];
+	}
+	subgraph cluster_agent13 {
+		label = agent13;
+		var13 [style="filled"];
+	}
+	subgraph cluster_agent10 {
+		label = agent10;
+		var10 [style="filled"];
+	}
+	subgraph cluster_agent11 {
+		label = agent11;
+		var11 [style="filled"];
+	}
+	subgraph cluster_agent16 {
+		label = agent16;
+		var16 [style="filled"];
+	}
+	subgraph cluster_agent17 {
+		label = agent17;
+		var17 [style="filled"];
+	}
+	subgraph cluster_agent14 {
+		label = agent14;
+		var14 [style="filled"];
+	}
+	subgraph cluster_agent15 {
+		label = agent15;
+		var15 [style="filled"];
+	}
+	subgraph cluster_agent2 {
+		label = agent2;
+		var2 [style="filled"];
+	}
+	subgraph cluster_agent1 {
+		label = agent1;
+		var1 [style="filled"];
+	}
+	subgraph cluster_agent4 {
+		label = agent4;
+		var4 [style="filled"];
+	}
+	subgraph cluster_agent18 {
+		label = agent18;
+		var18 [style="filled"];
+	}
+	subgraph cluster_agent3 {
+		label = agent3;
+		var3 [style="filled"];
+	}
+	subgraph cluster_agent19 {
+		label = agent19;
+		var19 [style="filled"];
+	}
+	subgraph cluster_agent6 {
+		label = agent6;
+		var6 [style="filled"];
+	}
+	subgraph cluster_agent5 {
+		label = agent5;
+		var5 [style="filled"];
+	}
+	subgraph cluster_agent8 {
+		label = agent8;
+		var8 [style="filled"];
+	}
+	subgraph cluster_agent7 {
+		label = agent7;
+		var7 [style="filled"];
+	}
+	subgraph cluster_agent9 {
+		label = agent9;
+		var9 [style="filled"];
+	}
+
+
+	var16 -- var12;
+	var16 -- var13;
+	var16 -- var14;
+	var16 -- var15;
+	var16 -- var10;
+	var16 -- var11;
+	var16 -- var1;
+	var17 -- var16;
+	var17 -- var12;
+	var17 -- var13;
+	var17 -- var14;
+	var17 -- var10;
+	var17 -- var11;
+	var17 -- var1;
+	var18 -- var16;
+	var18 -- var12;
+	var18 -- var13;
+	var18 -- var14;
+	var18 -- var10;
+	var18 -- var11;
+	var18 -- var1;
+	var19 -- var16;
+	var19 -- var12;
+	var19 -- var13;
+	var19 -- var14;
+	var19 -- var15;
+	var19 -- var10;
+	var19 -- var11;
+	var19 -- var1;
+	var12 -- var10;
+	var12 -- var11;
+	var12 -- var1;
+	var9 -- var16;
+	var9 -- var17;
+	var9 -- var18;
+	var9 -- var19;
+	var9 -- var12;
+	var9 -- var13;
+	var9 -- var8;
+	var9 -- var14;
+	var9 -- var7;
+	var9 -- var15;
+	var9 -- var20;
+	var9 -- var10;
+	var9 -- var11;
+	var9 -- var6;
+	var9 -- var5;
+	var9 -- var4;
+	var9 -- var3;
+	var9 -- var2;
+	var9 -- var1;
+	var13 -- var12;
+	var13 -- var10;
+	var13 -- var11;
+	var13 -- var1;
+	var8 -- var16;
+	var8 -- var17;
+	var8 -- var18;
+	var8 -- var19;
+	var8 -- var12;
+	var8 -- var13;
+	var8 -- var14;
+	var8 -- var7;
+	var8 -- var15;
+	var8 -- var20;
+	var8 -- var10;
+	var8 -- var11;
+	var8 -- var6;
+	var8 -- var5;
+	var8 -- var4;
+	var8 -- var3;
+	var8 -- var2;
+	var8 -- var1;
+	var14 -- var12;
+	var14 -- var13;
+	var14 -- var10;
+	var14 -- var11;
+	var14 -- var1;
+	var7 -- var16;
+	var7 -- var17;
+	var7 -- var18;
+	var7 -- var19;
+	var7 -- var12;
+	var7 -- var13;
+	var7 -- var14;
+	var7 -- var15;
+	var7 -- var20;
+	var7 -- var10;
+	var7 -- var11;
+	var7 -- var5;
+	var7 -- var2;
+	var7 -- var1;
+	var15 -- var12;
+	var15 -- var13;
+	var15 -- var14;
+	var15 -- var10;
+	var15 -- var11;
+	var15 -- var1;
+	var20 -- var12;
+	var20 -- var13;
+	var20 -- var14;
+	var20 -- var10;
+	var20 -- var11;
+	var20 -- var2;
+	var20 -- var1;
+	var10 -- var1;
+	var11 -- var10;
+	var11 -- var1;
+	var6 -- var16;
+	var6 -- var17;
+	var6 -- var18;
+	var6 -- var19;
+	var6 -- var12;
+	var6 -- var13;
+	var6 -- var14;
+	var6 -- var15;
+	var6 -- var20;
+	var6 -- var10;
+	var6 -- var11;
+	var6 -- var5;
+	var6 -- var4;
+	var6 -- var1;
+	var5 -- var16;
+	var5 -- var17;
+	var5 -- var18;
+	var5 -- var19;
+	var5 -- var12;
+	var5 -- var13;
+	var5 -- var14;
+	var5 -- var15;
+	var5 -- var20;
+	var5 -- var10;
+	var5 -- var11;
+	var5 -- var4;
+	var5 -- var3;
+	var5 -- var2;
+	var5 -- var1;
+	var4 -- var16;
+	var4 -- var17;
+	var4 -- var18;
+	var4 -- var19;
+	var4 -- var12;
+	var4 -- var13;
+	var4 -- var14;
+	var4 -- var15;
+	var4 -- var20;
+	var4 -- var10;
+	var4 -- var11;
+	var4 -- var3;
+	var4 -- var2;
+	var4 -- var1;
+	var3 -- var16;
+	var3 -- var17;
+	var3 -- var18;
+	var3 -- var19;
+	var3 -- var12;
+	var3 -- var13;
+	var3 -- var14;
+	var3 -- var15;
+	var3 -- var20;
+	var3 -- var10;
+	var3 -- var11;
+	var3 -- var2;
+	var3 -- var1;
+	var2 -- var16;
+	var2 -- var17;
+	var2 -- var18;
+	var2 -- var19;
+	var2 -- var12;
+	var2 -- var13;
+	var2 -- var14;
+	var2 -- var15;
+	var2 -- var10;
+	var2 -- var11;
+	var2 -- var1;
+}
+
+Starting the algorithm...
+var `var20' = 570
+var `var19' = 295
+var `var4' = 102
+var `var11' = 483
+var `var14' = 770
+var `var8' = 711
+var `var1' = 454
+var `var9' = 273
+var `var7' = 28
+var `var17' = 278
+var `var5' = 788
+var `var18' = 786
+var `var6' = 516
+var `var2' = 786
+var `var3' = 28
+var `var15' = 786
+var `var10' = 29
+var `var13' = 28
+var `var12' = 285
+var `var16' = 379
+Total cost of reported solution: 113
+Algorithm finished in 5 323 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, DSA, VALUE]:	3 582
+	[ALL, DSA, VALUE]:	3 781
+	[ALL, DSA, VALUE]:	3 781
+	[ALL, DSA, VALUE]:	3 781
+	[ALL, DSA, VALUE]:	3 184
+	[ALL, DSA, VALUE]:	3 383
+	[ALL, DSA, VALUE]:	3 582
+	[ALL, DSA, VALUE]:	3 184
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	3 781
+	[ALL, DSA, VALUE]:	2 985
+	[ALL, DSA, VALUE]:	3 184
+	[ALL, DSA, VALUE]:	3 781
+	[ALL, DSA, VALUE]:	3 781
+	[ALL, DSA, VALUE]:	3 781
+	[ALL, DSA, VALUE]:	3 781
+	[ALL, DSA, VALUE]:	3 781
+	[ALL, DSA, VALUE]:	3 582
+	[ALL, DSA, VALUE]:	3 184
+	[ALL, DSA, VALUE]:	2 786
+	- Total:	69 650
+Number of messages sent (by agent): 
+	agent1:	3 781
+	agent10:	3 781
+	agent11:	3 781
+	agent12:	3 781
+	agent13:	3 781
+	agent14:	3 781
+	agent15:	3 184
+	agent16:	3 582
+	agent17:	2 985
+	agent18:	2 985
+	agent19:	3 184
+	agent2:	3 582
+	agent20:	2 786
+	agent3:	3 383
+	agent4:	3 582
+	agent5:	3 781
+	agent6:	3 184
+	agent7:	3 184
+	agent8:	3 781
+	agent9:	3 781
+Number of messages received (by agent): 
+	agent1:	3 781
+	agent10:	3 781
+	agent11:	3 781
+	agent12:	3 781
+	agent13:	3 781
+	agent14:	3 781
+	agent15:	3 184
+	agent16:	3 582
+	agent17:	2 985
+	agent18:	2 985
+	agent19:	3 184
+	agent2:	3 582
+	agent20:	2 786
+	agent3:	3 383
+	agent4:	3 582
+	agent5:	3 781
+	agent6:	3 184
+	agent7:	3 184
+	agent8:	3 781
+	agent9:	3 781
+Amount of information sent (by type, in bytes): 
+	[ALL, DSA, VALUE]:	75 483
+	[ALL, DSA, VALUE]:	79 886
+	[ALL, DSA, VALUE]:	79 677
+	[ALL, DSA, VALUE]:	80 095
+	[ALL, DSA, VALUE]:	67 271
+	[ALL, DSA, VALUE]:	71 275
+	[ALL, DSA, VALUE]:	75 827
+	[ALL, DSA, VALUE]:	67 083
+	[ALL, DSA, VALUE]:	63 351
+	[ALL, DSA, VALUE]:	79 849
+	[ALL, DSA, VALUE]:	63 231
+	[ALL, DSA, VALUE]:	67 403
+	[ALL, DSA, VALUE]:	79 849
+	[ALL, DSA, VALUE]:	80 039
+	[ALL, DSA, VALUE]:	79 659
+	[ALL, DSA, VALUE]:	79 886
+	[ALL, DSA, VALUE]:	79 886
+	[ALL, DSA, VALUE]:	75 647
+	[ALL, DSA, VALUE]:	67 623
+	[ALL, DSA, VALUE]:	58 707
+	- Total:	1 471 727
+Amount of information sent (by agent, in bytes): 
+	agent1:	80 039
+	agent10:	80 095
+	agent11:	79 886
+	agent12:	79 886
+	agent13:	79 677
+	agent14:	79 886
+	agent15:	67 271
+	agent16:	75 483
+	agent17:	63 231
+	agent18:	63 351
+	agent19:	67 623
+	agent2:	75 827
+	agent20:	58 707
+	agent3:	71 275
+	agent4:	75 647
+	agent5:	79 849
+	agent6:	67 083
+	agent7:	67 403
+	agent8:	79 659
+	agent9:	79 849
+Amount of information received (by agent, in bytes): 
+	agent1:	79 880
+	agent10:	79 896
+	agent11:	79 907
+	agent12:	79 907
+	agent13:	79 918
+	agent14:	79 907
+	agent15:	67 273
+	agent16:	75 724
+	agent17:	63 046
+	agent18:	63 046
+	agent19:	67 251
+	agent2:	75 688
+	agent20:	58 852
+	agent3:	71 496
+	agent4:	75 678
+	agent5:	79 890
+	agent6:	67 284
+	agent7:	67 294
+	agent8:	79 900
+	agent9:	79 890
+Size of the largest message sent (by type, in bytes): 
+	[ALL, DSA, VALUE]:	234
+	[ALL, DSA, VALUE]:	234
+	[ALL, DSA, VALUE]:	234
+	[ALL, DSA, VALUE]:	234
+	[ALL, DSA, VALUE]:	234
+	[ALL, DSA, VALUE]:	233
+	[ALL, DSA, VALUE]:	233
+	[ALL, DSA, VALUE]:	233
+	[ALL, DSA, VALUE]:	234
+	[ALL, DSA, VALUE]:	233
+	[ALL, DSA, VALUE]:	234
+	[ALL, DSA, VALUE]:	233
+	[ALL, DSA, VALUE]:	233
+	[ALL, DSA, VALUE]:	233
+	[ALL, DSA, VALUE]:	233
+	[ALL, DSA, VALUE]:	234
+	[ALL, DSA, VALUE]:	234
+	[ALL, DSA, VALUE]:	233
+	[ALL, DSA, VALUE]:	234
+	[ALL, DSA, VALUE]:	234
+	- Overall maximum:	234

@@ -1,0 +1,160 @@
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. Use the option -license to display the license.
+
+Parsing the input problem file: ./xml//random.xml
+Parsing the input agent configuration file: ./frodo2/agents/AFB/AFBagentJaCoP.xml
+Setting up the agents...
+Constraint graph:
+graph {
+	node [shape = "circle"];
+	subgraph cluster_agent2 {
+		label = agent2;
+		var2 [style="filled"];
+	}
+	subgraph cluster_agent1 {
+		label = agent1;
+		var1 [style="filled"];
+	}
+	subgraph cluster_agent4 {
+		label = agent4;
+		var4 [style="filled"];
+	}
+	subgraph cluster_agent3 {
+		label = agent3;
+		var3 [style="filled"];
+	}
+
+
+	var4 -- var2;
+	var4 -- var1;
+	var3 -- var2;
+	var3 -- var1;
+	var2 -- var1;
+}
+
+Starting the algorithm...
+Chosen linear order:
+digraph {
+	node [shape = "circle" style = "filled"];
+
+	var4 -> var2 -> var1 -> var3 [style = "dashed"];
+
+	var2 -> var4 [constraint = "false" arrowhead = "none"];
+	var2 -> var3 [constraint = "false" arrowhead = "none"];
+	var1 -> var4 [constraint = "false" arrowhead = "none"];
+	var1 -> var3 [constraint = "false" arrowhead = "none"];
+	var1 -> var2 [constraint = "false" arrowhead = "none"];
+}
+
+var `var1' = 308
+var `var4' = 71
+var `var2' = 71
+var `var3' = 710
+Total cost of reported solution: 3
+Algorithm finished in 246 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, AFB, CPA]:	36
+	[ALL, AFB, CPA]:	46
+	[ALL, AFB, CPA]:	92
+	[ALL, AFB, CPA]:	6
+	[ALL, AFB, FB_CPA]:	60
+	[ALL, AFB, FB_CPA]:	62
+	[ALL, AFB, FB_CPA]:	18
+	[ALL, AFB, FB_ESTIMATE]:	6
+	[ALL, AFB, FB_ESTIMATE]:	82
+	[ALL, AFB, FB_ESTIMATE]:	36
+	[ALL, AFB, Solution]:	3
+	[ALL, AFB, UB]:	9
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	450
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	300
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	450
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	300
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	1
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	1
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	1
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	1
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	3
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	2
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	2
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	1
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	3
+	[ALL, VarOrdering, LinearOrdering, VarOrderNoSpace]:	3
+	- Total:	1 974
+Number of messages sent (by agent): 
+	agent1:	644
+	agent2:	556
+	agent3:	443
+	agent4:	331
+Number of messages received (by agent): 
+	agent1:	617
+	agent2:	561
+	agent3:	465
+	agent4:	331
+Amount of information sent (by type, in bytes): 
+	[ALL, AFB, CPA]:	3 268
+	[ALL, AFB, CPA]:	4 114
+	[ALL, AFB, CPA]:	8 020
+	[ALL, AFB, CPA]:	785
+	[ALL, AFB, FB_CPA]:	5 080
+	[ALL, AFB, FB_CPA]:	4 912
+	[ALL, AFB, FB_CPA]:	2 080
+	[ALL, AFB, FB_ESTIMATE]:	878
+	[ALL, AFB, FB_ESTIMATE]:	8 126
+	[ALL, AFB, FB_ESTIMATE]:	3 982
+	[ALL, AFB, Solution]:	447
+	[ALL, AFB, UB]:	893
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	7 797
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	5 230
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	7 797
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	5 172
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	97
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	88
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	106
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	231
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	924
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	462
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	150
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	75
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	454
+	[ALL, VarOrdering, LinearOrdering, VarOrderNoSpace]:	1 024
+	- Total:	72 192
+Amount of information sent (by agent, in bytes): 
+	agent1:	25 336
+	agent2:	17 501
+	agent3:	20 311
+	agent4:	9 044
+Amount of information received (by agent, in bytes): 
+	agent1:	23 355
+	agent2:	19 048
+	agent3:	20 026
+	agent4:	9 763
+Size of the largest message sent (by type, in bytes): 
+	[ALL, AFB, CPA]:	359
+	[ALL, AFB, CPA]:	204
+	[ALL, AFB, CPA]:	363
+	[ALL, AFB, CPA]:	355
+	[ALL, AFB, FB_CPA]:	366
+	[ALL, AFB, FB_CPA]:	154
+	[ALL, AFB, FB_CPA]:	362
+	[ALL, AFB, FB_ESTIMATE]:	383
+	[ALL, AFB, FB_ESTIMATE]:	284
+	[ALL, AFB, FB_ESTIMATE]:	389
+	[ALL, AFB, Solution]:	149
+	[ALL, AFB, UB]:	199
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	351
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	351
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	351
+	[ALL, VarOrdering, LeaderElectionMaxID, ELECT]:	351
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	97
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	88
+	[ALL, VarOrdering, LinearOrdering, NextVarChosen]:	106
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	231
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	462
+	[ALL, VarOrdering, LinearOrdering, NextVarProposal]:	231
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	75
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	75
+	[ALL, VarOrdering, LinearOrdering, NextVarRequest]:	304
+	[ALL, VarOrdering, LinearOrdering, VarOrderNoSpace]:	342
+	- Overall maximum:	462

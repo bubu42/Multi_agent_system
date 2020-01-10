@@ -35,12 +35,30 @@ Mais, pour cela vous devez importer ce projet dans votre drive et à partir de g
     - [rep] venv lié à Pycharm
     - [rep] xml comprenant tout les fichiers xml créé.
     - [file] README.md fichier d'explication
+    - [file] Projet_MAS_BRAHIMI_CITAK.pdf rapport du proejt
 - Une fois avoir vérifié que vous possédez bien tout (logiciel + projet). Vous pouvez lancer le projet avec l'IDE ou via ligne de commande en faisant :
             
       python3.7 [PATH/main.py]
     Vous pourrez tester notre créateur de fichier Random.
     Ou bien lancer le test avec une scen donné dans CELAR.
-    Respectez bien les paths. Donc pour ne pas avoir de problème. Je vous conseille d'utiliser PyCharm CE gratuite et qui permet de visualiser le code en même-temps.
+    Respectez bien les paths. Donc pour ne pas avoir de problème. 
+    Je vous conseille d'utiliser PyCharm CE gratuite et qui permet 
+    de visualiser le code en même-temps.
+    
+
+
+##Exemple de lancement de code 
+
+    CreateRandomAndPlotOrDisplay('./pre/', nbVar=20, nbDom=7)
+    
+    CreateCelarAndPlotOrDisplay('fichier/FullRLFAP/CELAR/scen01','scen01')
+    
+Voici les valeurs par défaut:
+            
+    plot=True #Si False alors pas de plot
+    algo=['MGM', 'DSA', 'AFB', 'DPOP', 'ADOPT', 'MaxSum'] # Pour les grosses scen il est conseillez de mettre juste MGM et DSA
+    pathResult='./output/' # ni touchez pas, sauf si vous voule zun chemin spécifique sur votre machine
+    pathXml='./xml/' # l'endroit où on va stocker et lire les xml
 
 ---
 ###Copyright © BRAHIMI-CITAK M2-DSC UJM 2019/20 

@@ -1,0 +1,211 @@
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. Use the option -license to display the license.
+
+Parsing the input problem file: ./xml/random.xml
+Parsing the input agent configuration file: ./frodo2/agents/MGM/MGMagentJaCoP.xml
+Setting up the agents...
+Constraint graph:
+graph {
+	node [shape = "circle"];
+	subgraph cluster_agent6 {
+		label = agent6;
+		var6 [style="filled"];
+	}
+	subgraph cluster_agent5 {
+		label = agent5;
+		var5 [style="filled"];
+	}
+	subgraph cluster_agent8 {
+		label = agent8;
+		var8 [style="filled"];
+	}
+	subgraph cluster_agent7 {
+		label = agent7;
+		var7 [style="filled"];
+	}
+	subgraph cluster_agent9 {
+		label = agent9;
+		var9 [style="filled"];
+	}
+	subgraph cluster_agent10 {
+		label = agent10;
+		var10 [style="filled"];
+	}
+	subgraph cluster_agent2 {
+		label = agent2;
+		var2 [style="filled"];
+	}
+	subgraph cluster_agent1 {
+		label = agent1;
+		var1 [style="filled"];
+	}
+	subgraph cluster_agent4 {
+		label = agent4;
+		var4 [style="filled"];
+	}
+	subgraph cluster_agent3 {
+		label = agent3;
+		var3 [style="filled"];
+	}
+
+
+	var9 -- var8;
+	var9 -- var7;
+	var9 -- var6;
+	var9 -- var5;
+	var9 -- var4;
+	var9 -- var3;
+	var9 -- var2;
+	var9 -- var1;
+	var8 -- var7;
+	var8 -- var5;
+	var8 -- var1;
+	var7 -- var6;
+	var7 -- var5;
+	var7 -- var4;
+	var7 -- var3;
+	var7 -- var2;
+	var7 -- var1;
+	var6 -- var5;
+	var6 -- var4;
+	var6 -- var3;
+	var6 -- var2;
+	var6 -- var1;
+	var5 -- var4;
+	var5 -- var3;
+	var5 -- var2;
+	var5 -- var1;
+	var4 -- var3;
+	var4 -- var2;
+	var4 -- var1;
+	var10 -- var1;
+	var3 -- var2;
+	var3 -- var1;
+	var2 -- var1;
+}
+
+Starting the algorithm...
+var `var10' = 697
+var `var8' = 402
+var `var7' = 560
+var `var6' = 42
+var `var4' = 49
+var `var3' = 107
+var `var2' = 677
+var `var1' = 523
+var `var5' = 729
+var `var9' = 86
+Total cost of reported solution: 26
+Algorithm finished in 723 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, MGM, improve]:	1 600
+	[ALL, MGM, improve]:	1 600
+	[ALL, MGM, improve]:	1 400
+	[ALL, MGM, improve]:	1 800
+	[ALL, MGM, improve]:	800
+	[ALL, MGM, improve]:	1 600
+	[ALL, MGM, improve]:	1 400
+	[ALL, MGM, improve]:	1 400
+	[ALL, MGM, improve]:	1 400
+	[ALL, MGM, improve]:	200
+	[ALL, MGM, ok]:	1 600
+	[ALL, MGM, ok]:	1 600
+	[ALL, MGM, ok]:	1 400
+	[ALL, MGM, ok]:	1 800
+	[ALL, MGM, ok]:	800
+	[ALL, MGM, ok]:	1 600
+	[ALL, MGM, ok]:	1 400
+	[ALL, MGM, ok]:	1 400
+	[ALL, MGM, ok]:	1 400
+	[ALL, MGM, ok]:	200
+	- Total:	26 400
+Number of messages sent (by agent): 
+	agent1:	3 600
+	agent10:	400
+	agent2:	2 800
+	agent3:	2 800
+	agent4:	2 800
+	agent5:	3 200
+	agent6:	2 800
+	agent7:	3 200
+	agent8:	1 600
+	agent9:	3 200
+Number of messages received (by agent): 
+	agent1:	3 600
+	agent10:	400
+	agent2:	2 800
+	agent3:	2 800
+	agent4:	2 800
+	agent5:	3 200
+	agent6:	2 800
+	agent7:	3 200
+	agent8:	1 600
+	agent9:	3 200
+Amount of information sent (by type, in bytes): 
+	[ALL, MGM, improve]:	33 528
+	[ALL, MGM, improve]:	66 448
+	[ALL, MGM, improve]:	58 142
+	[ALL, MGM, improve]:	74 754
+	[ALL, MGM, improve]:	33 224
+	[ALL, MGM, improve]:	66 448
+	[ALL, MGM, improve]:	58 142
+	[ALL, MGM, improve]:	58 142
+	[ALL, MGM, improve]:	58 142
+	[ALL, MGM, improve]:	8 306
+	[ALL, MGM, ok]:	33 648
+	[ALL, MGM, ok]:	33 648
+	[ALL, MGM, ok]:	29 498
+	[ALL, MGM, ok]:	37 855
+	[ALL, MGM, ok]:	16 824
+	[ALL, MGM, ok]:	33 648
+	[ALL, MGM, ok]:	29 442
+	[ALL, MGM, ok]:	29 498
+	[ALL, MGM, ok]:	29 442
+	[ALL, MGM, ok]:	4 207
+	- Total:	792 986
+Amount of information sent (by agent, in bytes): 
+	agent1:	112 609
+	agent10:	12 513
+	agent2:	87 640
+	agent3:	87 584
+	agent4:	87 584
+	agent5:	100 096
+	agent6:	87 640
+	agent7:	100 096
+	agent8:	50 048
+	agent9:	67 176
+Amount of information received (by agent, in bytes): 
+	agent1:	108 510
+	agent10:	12 513
+	agent2:	83 477
+	agent3:	83 485
+	agent4:	83 485
+	agent5:	95 997
+	agent6:	83 477
+	agent7:	95 997
+	agent8:	45 933
+	agent9:	100 112
+Size of the largest message sent (by type, in bytes): 
+	[ALL, MGM, improve]:	211
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, ok]:	226
+	[ALL, MGM, ok]:	226
+	[ALL, MGM, ok]:	226
+	[ALL, MGM, ok]:	227
+	[ALL, MGM, ok]:	226
+	[ALL, MGM, ok]:	226
+	[ALL, MGM, ok]:	226
+	[ALL, MGM, ok]:	226
+	[ALL, MGM, ok]:	226
+	[ALL, MGM, ok]:	227
+	- Overall maximum:	227

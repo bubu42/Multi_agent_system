@@ -1,0 +1,356 @@
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. Use the option -license to display the license.
+
+Parsing the input problem file: ./xml/random.xml
+Parsing the input agent configuration file: ./frodo2/agents/DPOP/DPOPagentJaCoP.xml
+Setting up the agents...
+Constraint graph:
+graph {
+	node [shape = "circle"];
+	subgraph cluster_agent6 {
+		label = agent6;
+		var6 [style="filled"];
+	}
+	subgraph cluster_agent5 {
+		label = agent5;
+		var5 [style="filled"];
+	}
+	subgraph cluster_agent8 {
+		label = agent8;
+		var8 [style="filled"];
+	}
+	subgraph cluster_agent7 {
+		label = agent7;
+		var7 [style="filled"];
+	}
+	subgraph cluster_agent9 {
+		label = agent9;
+		var9 [style="filled"];
+	}
+	subgraph cluster_agent10 {
+		label = agent10;
+		var10 [style="filled"];
+	}
+	subgraph cluster_agent2 {
+		label = agent2;
+		var2 [style="filled"];
+	}
+	subgraph cluster_agent1 {
+		label = agent1;
+		var1 [style="filled"];
+	}
+	subgraph cluster_agent4 {
+		label = agent4;
+		var4 [style="filled"];
+	}
+	subgraph cluster_agent3 {
+		label = agent3;
+		var3 [style="filled"];
+	}
+
+
+	var9 -- var8;
+	var9 -- var7;
+	var9 -- var6;
+	var9 -- var5;
+	var9 -- var4;
+	var9 -- var3;
+	var9 -- var2;
+	var9 -- var1;
+	var8 -- var7;
+	var8 -- var5;
+	var8 -- var1;
+	var7 -- var6;
+	var7 -- var5;
+	var7 -- var4;
+	var7 -- var3;
+	var7 -- var2;
+	var7 -- var1;
+	var6 -- var5;
+	var6 -- var4;
+	var6 -- var3;
+	var6 -- var2;
+	var6 -- var1;
+	var5 -- var4;
+	var5 -- var3;
+	var5 -- var2;
+	var5 -- var1;
+	var4 -- var3;
+	var4 -- var2;
+	var4 -- var1;
+	var10 -- var1;
+	var3 -- var2;
+	var3 -- var1;
+	var2 -- var1;
+}
+
+Starting the algorithm...
+Chosen DFS tree:
+digraph {
+	node [shape = "circle"];
+
+	var9 [style="filled"];
+	var1 -> var9;
+
+	var8 [style="filled"];
+	var5 -> var8;
+	var1 -> var8 [style = "dashed" arrowhead = "none" weight="0.5"];
+	var9 -> var8 [style = "dashed" arrowhead = "none" weight="0.5"];
+	var7 -> var8 [style = "dashed" arrowhead = "none" weight="0.5"];
+
+	var7 [style="filled"];
+	var9 -> var7;
+	var1 -> var7 [style = "dashed" arrowhead = "none" weight="0.5"];
+
+	var6 [style="filled"];
+	var4 -> var6;
+	var1 -> var6 [style = "dashed" arrowhead = "none" weight="0.5"];
+	var9 -> var6 [style = "dashed" arrowhead = "none" weight="0.5"];
+	var7 -> var6 [style = "dashed" arrowhead = "none" weight="0.5"];
+	var5 -> var6 [style = "dashed" arrowhead = "none" weight="0.5"];
+	var3 -> var6 [style = "dashed" arrowhead = "none" weight="0.5"];
+	var2 -> var6 [style = "dashed" arrowhead = "none" weight="0.5"];
+
+	var5 [style="filled"];
+	var7 -> var5;
+	var1 -> var5 [style = "dashed" arrowhead = "none" weight="0.5"];
+	var9 -> var5 [style = "dashed" arrowhead = "none" weight="0.5"];
+
+	var10 [style="filled"];
+	var1 -> var10;
+
+	var4 [style="filled"];
+	var2 -> var4;
+	var1 -> var4 [style = "dashed" arrowhead = "none" weight="0.5"];
+	var9 -> var4 [style = "dashed" arrowhead = "none" weight="0.5"];
+	var7 -> var4 [style = "dashed" arrowhead = "none" weight="0.5"];
+	var5 -> var4 [style = "dashed" arrowhead = "none" weight="0.5"];
+	var3 -> var4 [style = "dashed" arrowhead = "none" weight="0.5"];
+
+	var3 [style="filled"];
+	var5 -> var3;
+	var1 -> var3 [style = "dashed" arrowhead = "none" weight="0.5"];
+	var9 -> var3 [style = "dashed" arrowhead = "none" weight="0.5"];
+	var7 -> var3 [style = "dashed" arrowhead = "none" weight="0.5"];
+
+	var2 [style="filled"];
+	var3 -> var2;
+	var1 -> var2 [style = "dashed" arrowhead = "none" weight="0.5"];
+	var9 -> var2 [style = "dashed" arrowhead = "none" weight="0.5"];
+	var7 -> var2 [style = "dashed" arrowhead = "none" weight="0.5"];
+	var5 -> var2 [style = "dashed" arrowhead = "none" weight="0.5"];
+
+	var1 [style="filled"];
+
+}
+var `var1' = 202
+var `var9' = 86
+var `var7' = 574
+var `var5' = 42
+var `var3' = 677
+var `var10' = 184
+var `var2' = 71
+var `var8' = 402
+var `var4' = 748
+var `var6' = 729
+Total cost of reported solution: 25
+Algorithm finished in 2 183 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, DPOP, UTILpropagation, UTIL]:	1
+	[ALL, DPOP, UTILpropagation, UTIL]:	1
+	[ALL, DPOP, UTILpropagation, UTIL]:	1
+	[ALL, DPOP, UTILpropagation, UTIL]:	1
+	[ALL, DPOP, UTILpropagation, UTIL]:	1
+	[ALL, DPOP, UTILpropagation, UTIL]:	1
+	[ALL, DPOP, UTILpropagation, UTIL]:	1
+	[ALL, DPOP, UTILpropagation, UTIL]:	1
+	[ALL, DPOP, UTILpropagation, UTIL]:	1
+	[ALL, DPOP, VALUEpropagation, VALUE]:	1
+	[ALL, DPOP, VALUEpropagation, VALUE]:	1
+	[ALL, DPOP, VALUEpropagation, VALUE]:	1
+	[ALL, DPOP, VALUEpropagation, VALUE]:	2
+	[ALL, DPOP, VALUEpropagation, VALUE]:	1
+	[ALL, DPOP, VALUEpropagation, VALUE]:	1
+	[ALL, DPOP, VALUEpropagation, VALUE]:	2
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	8
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	8
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	5
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	7
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	2
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	6
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	6
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	4
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	3
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	2
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	1
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	2
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	3
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	5
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	6
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	7
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	7
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	7
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	4
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	7
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	1
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	7
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	8
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	8
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	8
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	9
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	1
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	1
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	1
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	2
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	1
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	1
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	2
+	- Total:	168
+Number of messages sent (by agent): 
+	agent1:	22
+	agent10:	4
+	agent2:	18
+	agent3:	18
+	agent4:	18
+	agent5:	22
+	agent6:	16
+	agent7:	20
+	agent8:	10
+	agent9:	20
+Number of messages received (by agent): 
+	agent1:	29
+	agent10:	4
+	agent2:	17
+	agent3:	17
+	agent4:	17
+	agent5:	20
+	agent6:	16
+	agent7:	19
+	agent8:	10
+	agent9:	19
+Amount of information sent (by type, in bytes): 
+	[ALL, DPOP, UTILpropagation, UTIL]:	236 393
+	[ALL, DPOP, UTILpropagation, UTIL]:	39 800
+	[ALL, DPOP, UTILpropagation, UTIL]:	4 816
+	[ALL, DPOP, UTILpropagation, UTIL]:	13 571
+	[ALL, DPOP, UTILpropagation, UTIL]:	436
+	[ALL, DPOP, UTILpropagation, UTIL]:	4 814
+	[ALL, DPOP, UTILpropagation, UTIL]:	953
+	[ALL, DPOP, UTILpropagation, UTIL]:	446
+	[ALL, DPOP, UTILpropagation, UTIL]:	435
+	[ALL, DPOP, VALUEpropagation, VALUE]:	344
+	[ALL, DPOP, VALUEpropagation, VALUE]:	324
+	[ALL, DPOP, VALUEpropagation, VALUE]:	304
+	[ALL, DPOP, VALUEpropagation, VALUE]:	568
+	[ALL, DPOP, VALUEpropagation, VALUE]:	264
+	[ALL, DPOP, VALUEpropagation, VALUE]:	244
+	[ALL, DPOP, VALUEpropagation, VALUE]:	448
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	1 300
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	1 279
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	766
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	1 122
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	231
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	944
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	944
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	588
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	408
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	337
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	342
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	684
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	1 026
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	1 710
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	2 052
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	2 338
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	2 933
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	2 933
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	1 676
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	2 933
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	420
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	2 933
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	3 352
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	3 352
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	3 352
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	3 771
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	83
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	83
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	83
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	166
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	83
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	83
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	166
+	- Total:	348 633
+Amount of information sent (by agent, in bytes): 
+	agent1:	7 060
+	agent10:	1 087
+	agent2:	18 375
+	agent3:	9 762
+	agent4:	44 439
+	agent5:	7 009
+	agent6:	240 626
+	agent7:	6 443
+	agent8:	7 258
+	agent9:	6 574
+Amount of information received (by agent, in bytes): 
+	agent1:	6 725
+	agent10:	895
+	agent2:	45 011
+	agent3:	18 598
+	agent4:	241 791
+	agent5:	15 070
+	agent6:	5 579
+	agent7:	6 209
+	agent8:	3 239
+	agent9:	5 516
+Size of the largest message sent (by type, in bytes): 
+	[ALL, DPOP, UTILpropagation, UTIL]:	236 393
+	[ALL, DPOP, UTILpropagation, UTIL]:	39 800
+	[ALL, DPOP, UTILpropagation, UTIL]:	4 816
+	[ALL, DPOP, UTILpropagation, UTIL]:	13 571
+	[ALL, DPOP, UTILpropagation, UTIL]:	436
+	[ALL, DPOP, UTILpropagation, UTIL]:	4 814
+	[ALL, DPOP, UTILpropagation, UTIL]:	953
+	[ALL, DPOP, UTILpropagation, UTIL]:	446
+	[ALL, DPOP, UTILpropagation, UTIL]:	435
+	[ALL, DPOP, VALUEpropagation, VALUE]:	344
+	[ALL, DPOP, VALUEpropagation, VALUE]:	324
+	[ALL, DPOP, VALUEpropagation, VALUE]:	304
+	[ALL, DPOP, VALUEpropagation, VALUE]:	284
+	[ALL, DPOP, VALUEpropagation, VALUE]:	264
+	[ALL, DPOP, VALUEpropagation, VALUE]:	244
+	[ALL, DPOP, VALUEpropagation, VALUE]:	224
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	178
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	175
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	178
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	178
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	168
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	178
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	178
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	178
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	178
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	169
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	342
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	342
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	342
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	342
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	342
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Pseudo]:	334
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	419
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	419
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	419
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	419
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	420
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	419
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	419
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	419
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	419
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	419
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	83
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	83
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	83
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	83
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	83
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	83
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	83
+	- Overall maximum:	236 393
